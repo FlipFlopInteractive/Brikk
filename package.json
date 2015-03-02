@@ -4,7 +4,7 @@
   "description": "Portfolio website for Brikk Animation och Film AB",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt acceptance"
   },
   "repository": {
     "type": "git",
