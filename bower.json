@@ -1,0 +1,24 @@
+{
+  "name": "Brikk.se",
+  "version": "1.0.0",
+  "authors": [
+    "Koen Dirk van Esterik <koen@flipflopinteractive.com>"
+  ],
+  "description": "Portfolio website for Brikk Animation och Film AB",
+  "main": "Gruntfile.js",
+  "keywords": [
+    "Brikk",
+    "Animation",
+    "Film",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.flipflopinteractive.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
