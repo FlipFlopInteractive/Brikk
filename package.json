@@ -1,0 +1,25 @@
+{
+  "name": "Brikk.se",
+  "version": "1.0.0",
+  "description": "Portfolio website for Brikk Animation och Film AB",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlipFlopInteractive/Brikk.git"
+  },
+  "keywords": [
+    "Brikk",
+    "animation",
+    "film",
+    "portfolio"
+  ],
+  "author": "Koen Dirk van Esterik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlipFlopInteractive/Brikk/issues"
+  },
+  "homepage": "https://github.com/FlipFlopInteractive/Brikk"
+}
