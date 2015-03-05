@@ -41,10 +41,10 @@ module.exports = function(grunt) {
 			},
 		},
 
-		less: {
+		sass: {
 			development: {
 				files: {
-					'<%= package.dist %>/style.css': '<%= package.src %>/styles/style.less'
+					'<%= package.dist %>/style.css': '<%= package.src %>/styles/style.scss'
 				}
 			},
 			production: {
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
 					cleancss: true,
 				},
 				files: {
-					'<%= package.dist %>/style.css': '<%= package.src %>/styles/style.less'
+					'<%= package.dist %>/style.css': '<%= package.src %>/styles/style.scss'
 				}
 			}
 		},
@@ -86,7 +86,7 @@ module.exports = function(grunt) {
 				options: {
 					engine: 'node',
 					font: 'icons',
-					stylesheet: 'less',
+					stylesheet: 'sass',
 					relativeFontPath: './fonts/',
 					destHtml: '<%= package.src %>/icons/'
 				}
@@ -96,7 +96,7 @@ module.exports = function(grunt) {
 		rename: {
 			development: {
 				files: [
-					{ src: [ '<%= package.src %>/styles/icons.less' ], dest: [ '<%= package.src %>/styles/_icons.less' ] },
+					{ src: [ '<%= package.src %>/styles/icons.scss' ], dest: [ '<%= package.src %>/styles/_icons.scss' ] },
 				]
 			}
 		},
@@ -127,7 +127,7 @@ module.exports = function(grunt) {
 				files: [
 					'Gruntfile.js',
 					'<%= package.src %>/**/*.*',
-					'!<%= package.src %>/styles/_icons.less',
+					'!<%= package.src %>/styles/_icons.sass',
 				],
 				tasks: [ 
 					'prepare:development'
@@ -168,7 +168,7 @@ module.exports = function(grunt) {
 
 		'clean:development',
 		'copy:development',
-		'less:development',
+		'sass:development',
 		'autoprefixer:development',
 		'prepare:icons',
 		'jshint:development',

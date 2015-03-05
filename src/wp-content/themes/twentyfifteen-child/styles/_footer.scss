@@ -1,0 +1,38 @@
+.logoCases{
+		
+		width: 67%;
+		margin: auto;
+		display: block;
+		margin-bottom: 40px;
+}
+
+.footer{
+
+	background-color: #ADADAC;
+
+	.social{
+			width: 18%;
+	}
+
+	.social_logos{
+		padding-top: 20px;
+		width: 150px;
+		margin:auto;
+		height: 50px;
+	}
+
+
+	p{
+		color: white;
+		font-size: 0.7em;
+		width: 300px;
+		margin: auto;
+		margin-top: 5px;
+		text-align: center;
+		font-family: 'brandon_grotesquelight';
+	}
+
+	p:nth-child(3){
+		padding-bottom: 20px;
+	}
+}

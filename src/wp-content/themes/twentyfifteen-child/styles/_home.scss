@@ -1,0 +1,49 @@
+.ImageHeader{
+
+	background-image: url("images/Screens/dubstep_cat.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 30% 40%;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 40px;
+
+	h1{
+
+		font-family: 'brandon_grotesqueblack_italic';
+		color: white;
+		font-size: 5em;
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		overflow-y:hidden;
+		padding-top: 150px;
+		-webkit-user-select:none;
+		-ms-user-select:none;
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	}
+}
+
+.homepage{
+
+	p{
+		color: $font-color;
+		font-size: 1.6em;
+		text-align: center;	
+		font-family: 'brandon_grotesquelight';
+		-webkit-user-select:none;
+		-ms-user-select:none;
+	}
+
+	.quote h2{
+		text-align:center;
+		color: $font-color;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		font-size: 0.8em;
+		font-family: 'brandon_grotesquelight';
+		-webkit-user-select:none;
+		-ms-user-select:none;
+	}
+}

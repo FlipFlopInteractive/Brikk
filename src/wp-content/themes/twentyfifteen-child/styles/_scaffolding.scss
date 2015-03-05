@@ -1,0 +1,29 @@
+html{
+	color:transparant;
+}
+
+body {
+	
+	background: #ffffff;
+
+	&:before {
+
+		width: auto;
+	}
+
+
+}
+
+.entry-content{
+	box-shadow: 0;
+}
+
+.site-content {
+
+	margin-left: 0;
+	width: auto;
+}
+
+.site-main {
+	padding: 0;
+}
