@@ -99,8 +99,8 @@
 		width: 12% !important;
 		position: absolute;
 		cursor:pointer;
-		margin-left: 100px;
-		margin-top: 220px;
+		margin-left: 45%;
+		margin-top: 95%;
 		display: none;
 		z-index: 99999999999;
 		opacity: 0.9;
@@ -128,26 +128,52 @@
 			font-size: 1em;
 			position: absolute;
 			z-index: 99999999;
-			padding-top: 0;
-			text-align: center;
-			margin-top: 70px;
+			text-align: left;
+			margin-top: -10%;
 			font-family: 'brandon_grotesquelight';
+			margin-left: 25%;
+	    }
+
+	    .name{
+	    	text-align: left;
+	    	width: 100%;
+
 	    }
 
 	    .job_function{
-	    	font-size: 1.2em;
+	    	font-size: 1.1em;
 	    	font-family: 'brandon_grotesquebold';
+	    	
 	    }
 
 	    .job_2functions{
 	    	font-size: 1.2em;
 	    	font-family: 'brandon_grotesquebold';
+	    	padding-bottom: 10px;
 	    }
 
-	    .info_contact{
+	    .info_phone{
 	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.7em;
+	    	font-size: 0.9em;
+	    	text-align: left;
+	    	width: 100%;
+	  
 	    }
+
+	    .info_mail{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.9em;
+	    	text-align: left;
+	    	width: 100%;
+	    	
+	    }
+
+	    img{
+	    	width: 4%;
+	    	margin-right: 5%;
+	    	
+	    }
+
 
 	    a{
 	    	text-decoration: none;

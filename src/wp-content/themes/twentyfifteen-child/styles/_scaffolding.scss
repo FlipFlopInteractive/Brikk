@@ -4,7 +4,7 @@ html{
 
 body {
 	
-	background: #ffffff;
+	background: #fafaf9;
 
 	&:before {
 
@@ -14,8 +14,17 @@ body {
 
 }
 
+#post-21{
+	padding:0;
+	background-color: none;
+	box-shadow:none;
+	margin: 0;
+	background: #fafaf9;
+}
+
 .entry-content{
 	box-shadow: 0;
+	padding:0;
 }
 
 .site-content {

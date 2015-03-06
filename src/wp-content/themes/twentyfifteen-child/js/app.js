@@ -24,9 +24,11 @@
 
 				$(".close_icon").on("click", function(){
 
-					$(".contact_overlay", member).css({"bottom":"450px"});
-					$(".info_icon", member).css({"display":"inherit"});
-					$(".close_icon", member).css({"display":"none"});
+					var memberClose = $( this ).parent().parent();
+
+					$(".contact_overlay", memberClose).css({"bottom":"450px"});
+					$(".info_icon", memberClose).css({"display":"inherit"});
+					$(".close_icon", memberClose).css({"display":"none"});
 				});
 
 		});

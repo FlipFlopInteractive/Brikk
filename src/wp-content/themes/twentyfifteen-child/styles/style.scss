@@ -579,7 +579,7 @@ body{
 
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
 
-@media (max-width: 439px) {
+@media (max-width: 453px) {
 
 	header{
 
@@ -922,6 +922,81 @@ body{
 			margin: auto;
 		}
 
+
+	.member{
+		width: 47%;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		margin-left: 1%;
+		box-sizing:border-box;
+
+		/*&:hover .contact_overlay{
+			bottom: 0px;
+		}*/
+	}
+
+	.contact_overlay{
+
+	    p{
+			color: #ffffff;
+			width: 80%;
+			height: 80%;
+			font-size: 0.4em;
+			position: absolute;
+			z-index: 99999999;
+			text-align: left;
+			margin-top: -70%;
+			font-family: 'brandon_grotesquelight';
+			margin-left: 20%;
+	    }
+
+	    .name{
+	    	text-align: left;
+	    	width: 100%;
+
+	    }
+
+	    .job_function{
+	    	font-size: 0.6em;
+	    	font-family: 'brandon_grotesquebold';
+	    	
+	    }
+
+	    .job_2functions{
+	    	font-size: 0.6em;
+	    	font-family: 'brandon_grotesquebold';
+	    	
+	    }
+
+	    .info_phone{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.4em;
+	    	text-align: left;
+	    	width: 100%;
+	  
+	    }
+
+	    .info_mail{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.4em;
+	    	text-align: left;
+	    	width: 100%;
+	    	
+	    }
+
+	    img{
+	    	width: 4%;
+	    	margin-right: 5%;
+	    	
+	    }
+
+	    a{
+	    	text-decoration: none;
+	    	color: white;
+	    }
+	}
+
 	}
 
 	.about{
@@ -938,6 +1013,35 @@ body{
 			}
 		}
 
+		#map-canvas{
+			margin-left: 0;
+			margin-top: 50px;
+
+			height: 300px;
+			width: 375px; 
+		}
+
+		#map_wrapper {
+			width: 375px;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+
+			&:hover .map_overlay {
+
+				left:0;
+			}
+			
+		}
+
+		.map_overlay{
+			position: absolute;
+			background-color: black;
+			width: 250px;
+			height: 300px;
+			left: -250px;
+		}
+	
 		p{
 			width: 70%;
 			font-size: 1em;
