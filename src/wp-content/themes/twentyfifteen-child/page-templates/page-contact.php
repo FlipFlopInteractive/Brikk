@@ -34,6 +34,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/1.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/1_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Edward Moulder</p> -->
     	</div><!--	
 
 		--><div class="member">
@@ -46,6 +47,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/2.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/2_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Bjorn Johansson</p> -->
     	</div><!--	
 
 		--><div class="member">
@@ -58,6 +60,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/3.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/3_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Fredrik Nilsson</p> -->
     	</div><!--	
 
 		--><div class="member">
@@ -70,6 +73,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/4.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/4_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Gustaf Ohrnell</p> -->
     	</div><!--
 
 		--><div class="member">
@@ -82,6 +86,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/5.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/5_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Jonas Mosesson</p> -->
     	</div><!--	
 
 		--><div class="member">
@@ -94,6 +99,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/6.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/6_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Jonathan Dahl</p> -->
     	</div><!--	
 
 		--><div class="member">
@@ -106,6 +112,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/7.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/7_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Josef Andersson</p> -->
     	</div><!--	
 
     	--><div class="member">
@@ -118,6 +125,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/8.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/8	_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Kristian Andersson</p> -->
     	</div><!--	
 
 		--><div class="member">
@@ -130,6 +138,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/9.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/9_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Nicola Smanio</p> -->
     	</div><!--	
 
 		--><div class="member">
@@ -142,6 +151,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/10.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/10_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Samuel Fast</p> -->
     	</div><!--	
 
 		--><div class="member">
@@ -154,6 +164,33 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/11.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/11_static.jpg" alt=""/>
 	      	</div>
+	      	<!-- <p class="name">Viktor Khan</p> -->
+    	</div><!--
+
+    	--><div class="member">
+			<div class="contact_overlay">
+				<p class="name">Gun intern</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76 021 85 58</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:gun@brikk.se">gun@brikk.se</a></p>
+			</div>	
+	      	<div>
+	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
+	      		<img class="close_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/close_btn.png" />	
+		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/13.gif"/>
+		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/13_static.jpg" alt=""/>
+	      	</div>
+	      	<!-- <p class="name">Viktor Khan</p> -->
+    	</div><!--
+
+    	--><div class="member">
+			<div class="contact_overlay">
+				<p class="name">Ruben Intern</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76 021 85 58</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:ruben@brikk.se">ruben@brikk.se</a></p>
+			</div>	
+	      	<div>
+	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
+	      		<img class="close_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/close_btn.png" />	
+		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/14.gif"/>
+		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/14_static.jpg" alt=""/>
+	      	</div>
+	      	<!-- <p class="name">Viktor Khan</p> -->
     	</div>
 
 	</article>
