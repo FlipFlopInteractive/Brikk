@@ -53,12 +53,12 @@
     <div id="responsive_menu">
       <img id="menu_icon"src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/menu_icon.png"/>
         <ul>
-          <li><a href="http://local.brikk.se/showreel/">showreel</a></li>
-          <li><a href="http://local.brikk.se/work">work</a></li>
-          <li><a href="http://local.brikk.se/contact/">contact</a></li>
-          <li><a href="http://local.brikk.se/about/">about</a></li>
+          <li><a href="./showreel/">showreel</a></li>
+          <li><a href="./work/">work</a></li>
+          <li><a href="./contact/">contact</a></li>
+          <li><a href="./about/">about</a></li>
           <li><a href="http://brikkblogg.tumblr.com/">blog</a></li>
-          <li><a href="http://local.brikk.se/directors/">directors</a></li>
+          <li><a href="./directors/">directors</a></li>
       </ul>
     </div>
 
