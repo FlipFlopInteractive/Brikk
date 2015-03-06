@@ -26,12 +26,17 @@
 
 <body <?php body_class(); ?>>
 
-  <div id="container">
+    <div id="preloaderAnimation">
+      <img class="logo" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/preloader/preloader_animation.gif"/>
+      <p>loading</p>
+    </div>
+
+  <div id="container" class="preloader">
     
     <header id="header" class="clearfix">
 
       <div id="wrapper_logo">
-          <a href="http://local.brikk.se"><img class="logo" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animate.svg"/></a>
+          <a href="./home"><img class="logo" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animate.svg"/></a>
       </div>
     
     <div id="navigation">

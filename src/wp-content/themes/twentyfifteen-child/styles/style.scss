@@ -63,7 +63,7 @@ body{
 }
 
 #preloaderAnimation{
-	display: none;
+	display: block;
 	width: 158px;
 	margin: auto;
 	margin-top: 270px;
@@ -80,7 +80,7 @@ body{
 
 .preloader{
 
-	opacity: 1;
+	opacity: 0;
 
 }
 

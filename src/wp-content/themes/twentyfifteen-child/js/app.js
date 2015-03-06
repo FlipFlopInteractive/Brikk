@@ -8,10 +8,10 @@
 
 	function init(){
 
-	/*if($("#container")[0] != undefined) {
+	if($("#container")[0] != undefined) {
 
 		window.onload = function (){preloadCompleteHandler();};
-	}*/
+	}
 
 
 		$( ".info_icon" ).on( "click", function(){
@@ -125,7 +125,7 @@
 			var lastRow = cases.children('.row').last();
 			var biggestPicture = selectBiggestPicture(value);
 			//lastRow.append("<div><a href='http://local.brikk.se/detailCase&videolink=" +encodeURIComponent(value.link) + "'><img class='Brikk_cases' src='"+ biggestPicture +"' /></a></div>");
-			lastRow.append("<div><a href='http://local.brikk.se/detailCase'><img class='Brikk_cases' src='"+ biggestPicture +"' /></a></div>");
+			lastRow.append("<div><a href='./detailCase'><img class='Brikk_cases' src='"+ biggestPicture +"' /></a></div>");
 		}); 
 
 		currentPage++;
