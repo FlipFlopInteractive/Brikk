@@ -26,7 +26,7 @@
 
 					var memberClose = $( this ).parent().parent();
 
-					$(".contact_overlay", memberClose).css({"bottom":"450px"});
+					$(".contact_overlay", memberClose).css({"bottom":"500px"});
 					$(".info_icon", memberClose).css({"display":"inherit"});
 					$(".close_icon", memberClose).css({"display":"none"});
 				});
