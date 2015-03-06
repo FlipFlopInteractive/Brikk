@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 					'*.png', 
 					'fonts/*.*', 
 					'js/*.*', 
-					'images/*.*', 
+					'images/**/*.*', 
 					'videos/*.*' 
 				]
 			},
