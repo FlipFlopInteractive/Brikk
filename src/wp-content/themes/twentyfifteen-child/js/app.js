@@ -8,10 +8,10 @@
 
 	function init(){
 
-	if($("#container")[0] != undefined) {
+	/*if($("#container")[0] != undefined) {
 
 		window.onload = function (){preloadCompleteHandler();};
-	}
+	}*/
 
 
 		$( ".info_icon" ).on( "click", function(){
