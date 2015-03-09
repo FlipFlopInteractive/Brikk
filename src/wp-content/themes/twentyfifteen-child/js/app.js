@@ -39,7 +39,7 @@
 		});
 
 
-		$(window).scroll(function (event) {
+		/*$(window).scroll(function (event) {
     		
     		var scroll = $(window).scrollTop();
 
@@ -58,7 +58,7 @@
 				$("#header").css({"position":"relative"});
     		}
 			
-		});
+		});*/
 		
 
 
