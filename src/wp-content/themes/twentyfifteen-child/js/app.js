@@ -38,15 +38,27 @@
 
 		});
 
-		window.onscroll = function (e) {  
-		// called when the window is scrolled.  
 
-			$("#header").css({"height":"60px"});
-			$(".logo").css({"bottom":"0"});
-			$("#header").css({"position":"fixed"});
+		$(window).scroll(function (event) {
+    		
+    		var scroll = $(window).scrollTop();
+
+    		if(scroll > 0){		
+    		console.log(scroll);	
+				$("#header").css({"height":"60px"});
+				$(".logo").css({"bottom":"0"});
+				$("#header").css({"position":"fixed"});
+    		}
+
+    		else if(scroll <= 0){
+
+    			console.log(scroll);
+    			$("#header").css({"height":"80px"});
+				$(".logo").css({"top":"0"});
+				$("#header").css({"position":"relative"});
+    		}
 			
-		} 
-
+		});
 		
 
 

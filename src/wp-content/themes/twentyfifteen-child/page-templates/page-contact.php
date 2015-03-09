@@ -18,7 +18,7 @@
         <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
       </article>  
 
-    <p>Brikk is a Stockholm-based animation & interactive production company.</br> 
+    <p class="text_contact">Brikk is a Stockholm-based animation & interactive production company.</br> 
 Our team of animators, designers, developers and directors work together with our clients</br>
  world-class creative work brimming with character. Brikk is a Stockholm-based animation & interactive</p>
 

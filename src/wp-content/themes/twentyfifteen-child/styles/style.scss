@@ -84,188 +84,7 @@ body{
 
 }
 
-
-
-
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
-@media(min-width: 2500px){
-
-
-.contact{
-
-		#members {
-		width: 66%;
-		height: 100%;
-		margin: auto;
-		margin-top: 100px;
-		overflow: hidden;
-
-		-webkit-transition: left 0.5s ease-in-out;
-		-moz-transition: left 0.5s ease-in-out;
-		 -ms-transition: left 0.5s ease-in-out;
-	 	  -o-transition: left 0.5s ease-in-out;
-	        transition: left 0.5s ease-in-out;
-	}
-
-	.member{
-		width: 24%;
-		display: inline-block;
-		position: relative;
-		overflow: hidden;
-		margin-left: 1%;
-		box-sizing:border-box;
-
-		/*&:hover .contact_overlay{
-			bottom: 0px;
-		}*/
-	}
-
-	.member img {
-		width: 100%;
-		/*border: 10px solid #fff;*/
-	}
-
-	.Brikk_members {
-		display: none;
-	}
-
-	.member:hover .Brikk_members {
-		display: inline-block;
-	}
-
-	.member:hover .info_icon {
-		opacity: 1;
-	}
-
-	.member:hover .static_members {
-		display: none;
-	}
-
-	p{
-		text-align: center;
-		margin-top: 100px;
-		font-size: 1.6em;
-		font-family: 'brandon_grotesquelight';
-		line-height: 1.3em;
-		color: $font-color;
-	}
-
-	.info_icon{
-		width: 12% !important;
-		position: absolute;
-		margin-top: 10px;
-		margin-left: 10px;
-		opacity: 0;
-		cursor:pointer;
-		display: block;
-	}
-
-	.close_icon{	
-		width: 12% !important;
-		position: absolute;
-		cursor:pointer;
-		margin-left: 45%;
-		margin-top: 95%;
-		display: none;
-		z-index: 99999999999;
-		opacity: 0.9;
-	}
-
-	.contact_overlay{
-		position: absolute;
-		background-color: black;
-		width: 100%;
-		height: 100%;
-		z-index: 9999;
-		opacity: 0.8;	
-		bottom: 500px;
-
-		-webkit-transition: bottom 0.5s ease-in-out;
-		-moz-transition: bottom 0.5s ease-in-out;
-		 -ms-transition: bottom  0.5s ease-in-out;
-		  -o-transition: bottom 0.5s ease-in-out;
-		     transition: bottom 0.5s ease-in-out;
-
-		.information{
-
-			margin-top: 40%;
-			
-
-		}
-
-	    p{
-			color: #ffffff;
-			width: 100%;
-			height: 100%;
-			font-size: 1.6em;
-			text-align: left;
-			font-family: 'brandon_grotesquelight';
-
-	    }
-
-	    br{
-	    	line-height: 40px;
-	    }
-		
-
-	    .name{
-	    	text-align: left;
-	    	width: 100%;
-	    	margin-bottom: 200px;
-
-
-	    }
-
-	    .job_function{
-	    	font-size: 2em;
-	    	margin-bottom: 20px;
-	    	font-family: 'brandon_grotesquebold';
-	    	margin-bottom: 200px;
-	    	
-	    }
-
-	    .job_2functions{
-	    	font-size: 2em;
-	    	
-	    	font-family: 'brandon_grotesquebold';
-	    }
-
-	    .info_phone{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 1.4em;
-	    	text-align: left;
-	    	width: 100%;
-	  
-	    }
-
-	    .info_mail{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 1.4em;
-	    	text-align: left;
-	    	width: 100%;
-	    	
-	    }
-
-	    img{
-	    	width: 4%;
-	    	margin-right: 5%;
-	    	
-	    }
-
-
-	    a{
-	    	text-decoration: none;
-	    	color: white;
-	    }
-	}
-
-
-	}
-
-}
-
-/*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
-
 
 @media(max-width: 1254px){
 
@@ -284,9 +103,16 @@ body{
 
 	}
 
+	.about{
+		.about_social_icons{
+			width: 30%;
+			margin: auto;
+			display: block;
+			margin-top: 20px;
+		}
+	}
+
 }
-
-
 
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
 
@@ -408,6 +234,97 @@ body{
 			}
 		}
 
+					#members {
+		width: 66%;
+		height: 100%;
+		margin: auto;
+		margin-top: 100px;
+		overflow: hidden;
+
+		-webkit-transition: left 0.5s ease-in-out;
+		-moz-transition: left 0.5s ease-in-out;
+		 -ms-transition: left 0.5s ease-in-out;
+	 	  -o-transition: left 0.5s ease-in-out;
+	        transition: left 0.5s ease-in-out;
+	}
+
+	.member{
+		width: 30%;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		margin-left: 2%;
+		margin-bottom: 1%;
+		box-sizing:border-box;
+	}
+
+
+	.contact_overlay{
+
+	    p{
+			color: #ffffff;
+			width: 100%;
+			height: 100%;
+			font-size: 1em;
+			position: absolute;
+			z-index: 99999999;
+			text-align: left;
+			font-family: 'brandon_grotesquelight';
+			width: 80%;
+	    }
+
+	   .information{
+			
+			margin-top: 30%;
+			margin-left: 20%;
+			width: 80%;
+		}
+
+	    .name{
+	    	text-align: left;
+
+	    }
+
+	    .job_function{
+	    	font-size: 1.1em;
+	    	font-family: 'brandon_grotesquebold';
+	    	
+	    }
+
+	    .job_2functions{
+	    	font-size: 1.2em;
+	    	font-family: 'brandon_grotesquebold';
+	    }
+
+	    .info_phone{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.9em;
+	    	text-align: left;
+	    	
+	  
+	    }
+
+	    .info_mail{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.9em;
+	    	text-align: left;
+	    	
+	    	
+	    }
+
+	    img{
+	    	width: 4%;
+	    	margin-right: 5%;
+	    	
+	    }
+
+
+	    a{
+	    	text-decoration: none;
+	    	color: white;
+	    }
+	}
+
 	}
 
 	.about{
@@ -421,6 +338,13 @@ body{
 				font-size: 4em;
 				padding-top: 80px;
 			}
+		}
+
+			.about_social_icons{
+			width: 35%;
+			margin: auto;
+			display: block;
+			margin-top: 20px;
 		}
 
 	}
@@ -441,7 +365,6 @@ body{
 	}
 }
 
-
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
 
 @media(max-width: 900px){
@@ -461,6 +384,100 @@ body{
 
 		}
 
+	.contact{
+
+	#members {
+		width: 66%;
+		height: 100%;
+		margin: auto;
+		margin-top: 100px;
+		overflow: hidden;
+
+		-webkit-transition: left 0.5s ease-in-out;
+		-moz-transition: left 0.5s ease-in-out;
+		 -ms-transition: left 0.5s ease-in-out;
+	 	  -o-transition: left 0.5s ease-in-out;
+	        transition: left 0.5s ease-in-out;
+	}
+
+	.member{
+		width: 30%;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		margin-left: 2%;
+		margin-bottom: 1%;
+		box-sizing:border-box;
+	}
+
+
+	.contact_overlay{
+
+	    p{
+			color: #ffffff;
+			width: 100%;
+			height: 100%;
+			font-size: 0.8em;
+			position: absolute;
+			z-index: 99999999;
+			text-align: left;
+			font-family: 'brandon_grotesquelight';
+			width: 80%;
+	    }
+
+	   .information{
+			
+			margin-top: 30%;
+			margin-left: 20%;
+			width: 80%;
+		}
+
+	    .name{
+	    	text-align: left;
+
+	    }
+
+	    .job_function{
+	    	font-size: 0.9em;
+	    	font-family: 'brandon_grotesquebold';
+	    	
+	    }
+
+	    .job_2functions{
+	    	font-size: 0.9em;
+	    	font-family: 'brandon_grotesquebold';
+	    }
+
+	    .info_phone{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.6em;
+	    	text-align: left;
+	    	
+	  
+	    }
+
+	    .info_mail{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.6em;
+	    	text-align: left;
+	    	
+	    	
+	    }
+
+	    img{
+	    	width: 4%;
+	    	margin-right: 5%;
+	    	
+	    }
+
+
+	    a{
+	    	text-decoration: none;
+	    	color: white;
+	    }
+	}
+	}	
+
 	.directors{
 
 		.directorsHeader{
@@ -478,6 +495,16 @@ body{
 			width: 70%;
 		}
 
+	}
+
+	.about{
+
+		.about_social_icons{
+			width: 40%;
+			margin: auto;
+			display: block;
+			margin-top: 20px;
+		}
 	}
 
 }
@@ -616,13 +643,96 @@ body{
 			margin: auto;
 		}
 
+		#members {
+		width: 66%;
+		height: 100%;
+		margin: auto;
+		margin-top: 100px;
+		overflow: hidden;
 
-		.information{
+		-webkit-transition: left 0.5s ease-in-out;
+		-moz-transition: left 0.5s ease-in-out;
+		 -ms-transition: left 0.5s ease-in-out;
+	 	  -o-transition: left 0.5s ease-in-out;
+	        transition: left 0.5s ease-in-out;
+	}
 
-			margin-top: 40%;
+	.member{
+		width: 46%;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		margin-left: 2%;
+		margin-bottom: 1%;
+		box-sizing:border-box;
+	}
+
+
+	.contact_overlay{
+
+	    p{
+			color: #ffffff;
+			width: 100%;
+			height: 100%;
+			font-size: 1em;
+			position: absolute;
+			z-index: 99999999;
+			text-align: left;
+			font-family: 'brandon_grotesquelight';
+			width: 80%;
+	    }
+
+	   .information{
 			
-
+			margin-top: 30%;
+			margin-left: 20%;
+			width: 80%;
 		}
+
+	    .name{
+	    	text-align: left;
+
+	    }
+
+	    .job_function{
+	    	font-size: 1em;
+	    	font-family: 'brandon_grotesquebold';
+	    	
+	    }
+
+	    .job_2functions{
+	    	font-size: 1em;
+	    	font-family: 'brandon_grotesquebold';
+	    }
+
+	    .info_phone{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.8em;
+	    	text-align: left;
+	    	
+	  
+	    }
+
+	    .info_mail{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.8em;
+	    	text-align: left;
+	    	
+	    	
+	    }
+
+	    img{
+	    	width: 4%;
+	    	margin-right: 5%;
+	    	
+	    }
+
+
+	    a{
+	    	text-decoration: none;
+	    	color: white;
+	    }
+	}
 
 	}
 
@@ -642,6 +752,13 @@ body{
 		p{
 			width: 70%;
 			margin: auto;
+		}
+
+			.about_social_icons{
+			width: 45%;
+			margin: auto;
+			display: block;
+			margin-top: 20px;
 		}
 
 	}
@@ -664,6 +781,114 @@ body{
 		}
 
 	}
+
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 530px) {
+
+.contact{
+	#members {
+		width: 66%;
+		height: 100%;
+		margin: auto;
+		margin-top: 100px;
+		overflow: hidden;
+
+		-webkit-transition: left 0.5s ease-in-out;
+		-moz-transition: left 0.5s ease-in-out;
+		 -ms-transition: left 0.5s ease-in-out;
+	 	  -o-transition: left 0.5s ease-in-out;
+	        transition: left 0.5s ease-in-out;
+	}
+
+	.member{
+		width: 30%;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		margin-left: 2%;
+		margin-bottom: 1%;
+		box-sizing:border-box;
+	}
+
+
+	.contact_overlay{
+
+	    p{
+			color: #ffffff;
+			width: 100%;
+			height: 100%;
+			font-size: 0.9em;
+			position: absolute;
+			z-index: 99999999;
+			text-align: left;
+			font-family: 'brandon_grotesquelight';
+			width: 80%;
+	    }
+
+	   .information{
+			
+			margin-top: 30%;
+			margin-left: 20%;
+			width: 80%;
+		}
+
+	    .name{
+	    	text-align: left;
+
+	    }
+
+	    .job_function{
+	    	font-size: 0.8em;
+	    	font-family: 'brandon_grotesquebold';
+	    	
+	    }
+
+	    .job_2functions{
+	    	font-size: 0.8em;
+	    	font-family: 'brandon_grotesquebold';
+	    }
+
+	    .info_phone{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.5em;
+	    	text-align: left;
+	    	
+	  
+	    }
+
+	    .info_mail{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.5em;
+	    	text-align: left;
+	    	
+	    	
+	    }
+
+	    img{
+	    	width: 4%;
+	    	margin-right: 5%;
+	    	
+	    }
+
+
+	    a{
+	    	text-decoration: none;
+	    	color: white;
+	    }
+	}
+
+	.about{
+			.about_social_icons{
+			width: 100%;
+			margin: auto;
+			display: block;
+			margin-top: 20px;
+		}
+	}
+
+}
 
 }
 
@@ -814,6 +1039,9 @@ body{
 			font-size: 1em;
 			margin: auto;
 		}
+
+
+
 
 	}
 
@@ -1014,13 +1242,12 @@ body{
 
 
 	.member{
-		width:90%;
+		width:100%;
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
 		margin-left: 1%;
 		box-sizing:border-box;
-		margin-bottom: 10px;
 
 		/*&:hover .contact_overlay{
 			bottom: 0px;
@@ -1029,30 +1256,26 @@ body{
 
 	.contact_overlay{
 
-
 		.information{
-
-			margin-top: 40%;
-			
-
+			margin-left: 20%;
 		}
+
 
 	    p{
 			color: #ffffff;
-			width: 80%;
-			height: 80%;
 			font-size: 1em;
 			position: absolute;
 			z-index: 99999999;
 			text-align: left;
-			margin-top: -30px;
 			font-family: 'brandon_grotesquelight';
-			margin-left: 25%;
+	    }
+	    br{
+	    	line-height: 20px;
 	    }
 
 	    .name{
 	    	text-align: left;
-	    	width: 100%;
+	    
 
 	    }
 
@@ -1072,7 +1295,7 @@ body{
 	    	font-family: 'brandon_grotesquelight';
 	    	font-size: 0.9em;
 	    	text-align: left;
-	    	width: 100%;
+	    	
 	  
 	    }
 
@@ -1080,19 +1303,8 @@ body{
 	    	font-family: 'brandon_grotesquelight';
 	    	font-size: 0.9em;
 	    	text-align: left;
-	    	width: 100%;
-	    	
-	    }
 
-	    img{
-	    	width: 4%;
-	    	margin-right: 5%;
 	    	
-	    }
-
-	    a{
-	    	text-decoration: none;
-	    	color: white;
 	    }
 	}
 
@@ -1197,6 +1409,82 @@ body{
 			margin-top: 30px;
 		}
 	}
+
+}
+
+@media (max-width: 418px) {
+
+
+	.contact{
+
+		.member{
+		width:100%;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		margin-left: 1%;
+		box-sizing:border-box;
+
+		/*&:hover .contact_overlay{
+			bottom: 0px;
+		}*/
+	}
+
+	.contact_overlay{
+
+		.information{
+			margin-left: 25%;
+		}
+
+
+	    p{
+			color: #ffffff;
+			font-size: 1.1em;
+			position: absolute;
+			z-index: 99999999;
+			text-align: left;
+			font-family: 'brandon_grotesquelight';
+	    }
+	    br{
+	    	line-height: 20px;
+	    }
+
+	    .name{
+	    	text-align: left;
+	    
+
+	    }
+
+	    .job_function{
+	    	font-size: 1.3em;
+	    	font-family: 'brandon_grotesquebold';
+	    	
+	    }
+
+	    .job_2functions{
+	    	font-size: 1.3em;
+	    	font-family: 'brandon_grotesquebold';
+	    	
+	    }
+
+	    .info_phone{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 1em;
+	    	text-align: left;
+	    	
+	  
+	    }
+
+	    .info_mail{
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 1em;
+	    	text-align: left;
+
+	    	
+	    }
+	}
+	}
+
 
 }
 
@@ -1294,7 +1582,7 @@ body{
 		margin: auto;
 	}
 
-		.work{
+	.work{
 
 		.workHeader{
 			
@@ -1351,7 +1639,7 @@ body{
 
 
 	.member{
-		width:90%;
+		width:100%;
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
@@ -1365,70 +1653,55 @@ body{
 
 	.contact_overlay{
 
-		
 		.information{
-
-			margin-top: 40%;
-			
-
+			margin-left: 20%;
 		}
+
 
 	    p{
 			color: #ffffff;
-			width: 80%;
-			height: 80%;
-			font-size: 0.9em;
+			font-size: 1em;
 			position: absolute;
 			z-index: 99999999;
 			text-align: left;
-			margin-top: -40px;
 			font-family: 'brandon_grotesquelight';
-			margin-left: 20%;
+	    }
+	    br{
+	    	line-height: 20px;
 	    }
 
 	    .name{
 	    	text-align: left;
-	    	width: 100%;
+	    
 
 	    }
 
 	    .job_function{
-	    	font-size: 1em;
+	    	font-size: 1.1em;
 	    	font-family: 'brandon_grotesquebold';
 	    	
 	    }
 
 	    .job_2functions{
-	    	font-size: 1em;
+	    	font-size: 1.1em;
 	    	font-family: 'brandon_grotesquebold';
 	    	
 	    }
 
 	    .info_phone{
 	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.8em;
+	    	font-size: 0.9em;
 	    	text-align: left;
-	    	width: 100%;
+	    	
 	  
 	    }
 
 	    .info_mail{
 	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.8em;
+	    	font-size: 0.9em;
 	    	text-align: left;
-	    	width: 100%;
-	    	
-	    }
 
-	    img{
-	    	width: 4%;
-	    	margin-right: 5%;
 	    	
-	    }
-
-	    a{
-	    	text-decoration: none;
-	    	color: white;
 	    }
 	}
 
@@ -1535,133 +1808,3 @@ body{
 	}
 
 }
-
-/*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
-
-/*@media (max-width: 800px) {
-
-	header{
-
-		height: 40px;
-
-		#wrapper_logo{
-			
-			height: 50px;
-			overflow: hidden;
-			position: relative;
-			margin-top: -20px;
-			width: 122px;
-			margin-left: 280px;
-			
-		}
-	}
-
-	.ImageHeader{
-			background-position: 30% 20%;
-			width: 100%;
-			height: 200px;
-			margin-bottom: 40px;
-
-		h1{
-			font-size: 3em;
-			padding-top: 25px;
-		}
-	}
-	
-	.homepage p{
-		font-size: 1.3em;
-		width: 85%;
-		margin: auto;
-	}
-
-	.showreel{
-		p{
-			font-size: 1.3em;
-		}
-	}
-
-	.work{
-
-		.workHeader{
-			
-			width: 100%;
-			height: 200px;
-		}
-
-		h1{
-			font-size: 3em;
-			padding-top: 25px;
-		}
-
-		p{
-			text-align: center;
-			margin-bottom: 50px;
-			margin-top: 50px;
-			font-size: 1.3em;
-		}
-	}
-
-	.contact{
-
-		.contactHeader{
-			
-			width: 100%;
-			height: 200px;
-
-			h1{
-				font-size: 3em;
-				padding-top: 20px;
-			}
-		}
-
-		p{
-			font-size: 1.3em;
-			width: 80%;
-			margin: auto;
-		}
-
-	}
-
-	.about{
-
-		.aboutHeader{
-			
-			width: 100%;
-			height: 200px;
-
-			h1{
-				font-size: 3em;
-				padding-top: 20px;
-			}
-		}
-
-		p{
-			font-size: 1.3em;
-			width: 80%;
-			margin: auto;
-		}
-
-	}
-
-	.directors{
-
-		.directorsHeader{
-			
-			width: 100%;
-			height: 200px;
-
-			h1{
-				font-size: 3em;
-				padding-top: 0px;
-			}
-		}
-
-		p{
-			font-size: 1.3em;
-			width: 80%;
-			margin: auto;
-		}
-
-	}
-}
-*/
