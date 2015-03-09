@@ -33,7 +33,7 @@
 
   <div id="container" class="preloader">
     
-    <header id="header" class="clearfix">
+    <header id="header">
 
       <div id="wrapper_logo">
           <a href="./home"><img class="logo" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animate.svg"/></a>
@@ -50,11 +50,6 @@
           <li class="language">SWE</li>
           <li class="language">ENG</li>
       </ul>
-    </div>
-    
-    <div id="languageChanger">
-     <!-- <p>SWE</p>-->
-      <!--<p>ENG</p>-->
     </div>
 
     <div id="responsive_menu">
