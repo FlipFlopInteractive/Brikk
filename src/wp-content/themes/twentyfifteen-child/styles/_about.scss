@@ -1,6 +1,5 @@
 .about {
 
-
 	.aboutHeader{
 
 	background-image: url("images/Screens/office.jpg");
@@ -20,15 +19,124 @@
 			text-align: center;
 			overflow-y:hidden;
 			padding-top: 140px;
-			-webkit-user-select:none;
-			-ms-user-select:none;
 			text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 		}
 	}
+
+	.about_social_icons{
+	width: 13%;
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+}
+
+.hide_text{
+	display:none;
+}
+
+.facebook{
+
+	transition: all 0.5s ease-in-out;
+	background-image: url("images/social/about_facebook.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 44px;
+	background-position: top;
+
+
+	&:hover{
+	
+		background-position: bottom;
+		transition: all 0.5s ease-in-out;
+		
+	}
+
+}
+
+.vimeo{
+
+	transition: all 0.5s ease-in-out;
+	background-image: url("images/social/about_vimeo.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 44px;
+	background-position: top;
+
+
+	&:hover{
+	
+		background-position: bottom;
+		transition: all 0.5s ease-in-out;
+		
+	}
+
+}
+
+.dribbble{
+
+	transition: all 0.5s ease-in-out;
+	background-image: url("images/social/about_dribbble.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 44px;
+	background-position: top;
+
+
+	&:hover{
+	
+		background-position: bottom;
+		transition: all 0.5s ease-in-out;
+		
+	}
+
+}
+
+.twitter{
+
+	transition: all 0.5s ease-in-out;
+	background-image: url("images/social/about_twitter.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 44px;
+	background-position: top;
+
+
+	&:hover{
+	
+		background-position: bottom;
+		transition: all 0.5s ease-in-out;
+		
+	}
+
+}
+
+.social_icons{
+	display: inline-block;
+	margin-left:10px;
+}
+
+.linkedIn{
+
+	transition: all 0.5s ease-in-out;
+	background-image: url("images/social/about_linkedIn.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 44px;
+	background-position: top;
+
+
+	&:hover{
+	
+		background-position: bottom;
+		transition: all 0.5s ease-in-out;
+		
+	}
+
+}
 	
 	#map-canvas{
 		margin: auto;
-		margin-top: 50px;
+		margin-top: 100px;
 		height: 300px;
 		width: 950px; 
 	}
@@ -38,7 +146,7 @@
 		text-align: center;
 		padding-top: 100px;
 
-		font-size: 1.3em;
+		font-size: 1.6em;
 		font-family: 'brandon_grotesquelight';
 		line-height: 1.3em;
 		color: $font-color;
@@ -72,7 +180,7 @@
 	width: 250px;
 	height: 300px;
 	left: -250px;
-	top: 50px;
+	top: 100px;
 	z-index: 9999;
 	opacity: 0.65;
 	-webkit-transition: left 0.5s ease-in-out;
@@ -108,4 +216,7 @@
 			margin-top: 15px;
 		}
 	}
+
+
+	
 }

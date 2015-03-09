@@ -31,8 +31,7 @@
 		width: 66%;
 		height: 100%;
 		margin: auto;
-		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-top: 100px;
 		overflow: hidden;
 
 		-webkit-transition: left 0.5s ease-in-out;
@@ -78,8 +77,8 @@
 
 	p{
 		text-align: center;
-		padding-top: 100px;
-		font-size: 1.3em;
+		margin-top: 100px;
+		font-size: 1.6em;
 		font-family: 'brandon_grotesquelight';
 		line-height: 1.3em;
 		color: $font-color;

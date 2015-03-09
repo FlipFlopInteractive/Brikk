@@ -24,7 +24,7 @@
 the motion piece we are creating together with you.</br></br>
 
 Brikk's foundation is built upon directors, Björn Johansson, Josef Andersson and Samuel Fast.</br>
-Masters of storytelling, whether commercial broadcast, web, infographic or music video, </br>
+Masters of storytelling, whether commercial broadcast, web, infographic or music video,
 Brikk has developed a unique style combining traditional craftsmanship and modern digital techniques.</br></br>
 
 If you have a Brief that you want us to write a treatment for contacts Samuel Fast</p>

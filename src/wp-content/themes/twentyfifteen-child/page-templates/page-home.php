@@ -14,14 +14,20 @@
       
       <article class="ImageHeader">
 
-        <h1>we love do Animation,</br>let us help you!</h1>
+        <h1>We love motion in all forms.</h1>
         <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
       </article>  
 
-      <p>Brikk is a Stockholm-based design driven production company and animation studio.</br>
-We have a versatile mix of directors, animators, designers, and illustrators from al over the</br> 
-world and together with our clients we always strive to create worldclass animations </br>
-with alot of creativty and love.</p>
+      <p>Brikk is a Stockholm-based design
+driven production company and animation studio.</br>
+
+We have a versatile mix of
+directors, animators, designers, and illustrators from all over
+the</br>
+
+world and together with our clients we always strive to create
+world class 
+motion graphics.</p>
 
       <article class="quote"><h2>Brikk always deliver what they promise!  - Jenny Vinterqvist MINDSHARE</h2></article> 
 

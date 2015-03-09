@@ -50,12 +50,13 @@ header{
 	.language{
 		padding-left: 60px;	
 		font-family: 'brandon_grotesquebold';
+		margin-left: -70px;
 
 	}
 
 	#navigation{
 		li:last-of-type{
-			padding-left: 0px;	
+			margin-left: -40px;
 		}
 	}
 
@@ -88,6 +89,6 @@ header{
 
 	}
 
-	/*position: fixed;
-	z-index:30000;*/
+	/*position: fixed;*/
+	z-index:30000;
 }

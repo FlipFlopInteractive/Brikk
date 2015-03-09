@@ -16,12 +16,12 @@
     <section class="footer">
 	
 	<div class="social_logos">
-		<a href="https://vimeo.com/brikk"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/vimeo.svg"/></a>
-		<a href="#"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/facebook.svg"/></a>
-		<a href="https://dribbble.com/BRIKK"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/dribble.svg"/></a>
-		<a href="https://www.linkedin.com/company/2818774?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A2994728381425290837835%2CVSRPtargetId%3A2818774%2CVSRPcmpt%3Acompanies_cluster"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/linkedin.svg"/></a>
-		<a href="https://www.behance.net/brikk"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/behance.svg"/></a>
-		<a href="#"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/twitter.svg"/></a>
+		<a href="https://vimeo.com/brikk" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/vimeo.svg"/></a>
+		<a href="https://www.facebook.com/brikk.se" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/facebook.svg"/></a>
+		<a href="https://dribbble.com/BRIKK" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/dribble.svg"/></a>
+		<a href="https://www.linkedin.com/company/2818774?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A2994728381425290837835%2CVSRPtargetId%3A2818774%2CVSRPcmpt%3Acompanies_cluster" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/linkedin.svg"/></a>
+		<a href="https://www.behance.net/brikk" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/behance.svg"/></a>
+		<a href="https://twitter.com/BRIKKSTUDIO" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/twitter.svg"/></a>
 	</div>
 
       <p>samuel@brikk.se   +46 (0)8 400 211 2    +46 (0)73 612 06 04</p>

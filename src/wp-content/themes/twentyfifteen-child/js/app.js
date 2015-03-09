@@ -13,25 +13,8 @@
 		window.onload = function (){preloadCompleteHandler();};
 	}*/
 
-
-		$( ".info_icon" ).on( "click", function(){
-
-			var member = $( this ).parent().parent();
-
-			$( ".contact_overlay", member ).css({"bottom":"0"});
-			$( ".info_icon", member ).css({"display":"none"});
-			$( ".close_icon", member ).css({"display":"inherit"});
-
-				$(".close_icon").on("click", function(){
-
-					var memberClose = $( this ).parent().parent();
-
-					$(".contact_overlay", memberClose).css({"bottom":"500px"});
-					$(".info_icon", memberClose).css({"display":"inherit"});
-					$(".close_icon", memberClose).css({"display":"none"});
-				});
-
-		});
+	$(".Brikk_members").on("click", info_clickHandler);
+	$(".info_icon").on("click", info_clickHandler);
 
 		$('#menu_icon').on("click",function(){
 
@@ -54,6 +37,15 @@
 			}
 
 		});
+
+		window.onscroll = function (e) {  
+		// called when the window is scrolled.  
+
+			$("#header").css({"height":"60px"});
+			$(".logo").css({"bottom":"0"});
+			$("#header").css({"position":"fixed"});
+			
+		} 
 
 		
 
@@ -163,6 +155,27 @@
 		$("#preloaderAnimation").css({"display":"none"});
 
 	}
+
+	function info_clickHandler(){
+		console.log("in info_clickHandler");
+
+		var member = $( this ).parent().parent();
+
+		$( ".contact_overlay", member ).css({"bottom":"0"});
+		$( ".info_icon", member ).css({"display":"none"});
+		$( ".close_icon", member ).css({"display":"inherit"});
+
+			$(".close_icon").on("click", function(){
+
+				var memberClose = $( this ).parent().parent();
+
+				$(".contact_overlay", memberClose).css({"bottom":"500px"});
+				$(".info_icon", memberClose).css({"display":"inherit"});
+				$(".close_icon", memberClose).css({"display":"none"});
+			});
+
+	}
+
 
 init();
 

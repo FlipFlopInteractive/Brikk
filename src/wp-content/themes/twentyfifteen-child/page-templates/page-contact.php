@@ -26,7 +26,7 @@ Our team of animators, designers, developers and directors work together with ou
 	<article id="members" class="clearfix">
 		<div class="member">
 			<div class="contact_overlay">
-				<p class="name">Edward Moulder</p></br><p class="job_function">CEL ANIMATOR</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+44 7740457737</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:edward@brikk.se">edward@brikk.se</a></p>
+				<div class="information"><p class="name">Edward Moulder</p></br><p class="job_function">CEL ANIMATOR</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+44 7740457737</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:edward@brikk.se">edward@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -36,10 +36,9 @@ Our team of animators, designers, developers and directors work together with ou
 	      	</div>
 	      	<!-- <p class="name">Edward Moulder</p> -->
     	</div><!--	
-
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Bjorn Johansson</p></br><p class="job_function">DIRECTOR / MOTION DESIGNER</p></br></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46 (0)72 304 66 46</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:bjorn@brikk.se">bjorn@brikk.se</a></p>
+			<div class="information"><p class="name">Bjorn Johansson</p></br><p class="job_function">DIRECTOR / MOTION DESIGNER</p></br></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46 (0)72 304 66 46</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:bjorn@brikk.se">bjorn@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -52,7 +51,7 @@ Our team of animators, designers, developers and directors work together with ou
 
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Fredrik Nilsson</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)70 931 99 57</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:fredrik@brikk.se">fredrik@brikk.se</a></p>
+			<div class="information"><p class="name">Fredrik Nilsson</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)70 931 99 57</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:fredrik@brikk.se">fredrik@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -65,7 +64,7 @@ Our team of animators, designers, developers and directors work together with ou
 
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Gustaf Ohrnell</p></br><p class="job_function">ILLUSTRATOR</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)73 646 29 21</span></p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:gustaf@brikk.se">gustaf@brikk.se</a></p>
+			<div class="information"><p class="name">Gustaf Ohrnell</p></br><p class="job_function">ILLUSTRATOR</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)73 646 29 21</span></p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:gustaf@brikk.se">gustaf@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -78,7 +77,7 @@ Our team of animators, designers, developers and directors work together with ou
 
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Jonas Mosesson</p></br><p class="job_function">ART DIRECTOR</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)73 924 54 73</span></p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:jonas@brikk.se">jonas@brikk.se</a></p>
+				<div class="information"><p class="name">Jonas Mosesson</p></br><p class="job_function">ART DIRECTOR</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)73 924 54 73</span></p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:jonas@brikk.se">jonas@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -91,7 +90,7 @@ Our team of animators, designers, developers and directors work together with ou
 
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Jonathan Dahl</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)70 552 65 68</span></p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:jonathan@brikk.se">jonathan@brikk.se</a></span></p>
+				<div class="information"><p class="name">Jonathan Dahl</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)70 552 65 68</span></p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:jonathan@brikk.se">jonathan@brikk.se</a></span></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -104,7 +103,7 @@ Our team of animators, designers, developers and directors work together with ou
 
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Josef Andersson</p></br><p class="job_function">DIRECTOR / MOTION DESIGNER</p></br></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/phone_icon.png">+46 (0)8 400 211 29</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46 (0)76 861 11 86</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:josef@brikk.se">josef@brikk.se</a></p>
+				<div class="information"><p class="name">Josef Andersson</p></br><p class="job_function">DIRECTOR / MOTION DESIGNER</p></br></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/phone_icon.png">+46 (0)8 400 211 29</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46 (0)76 861 11 86</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:josef@brikk.se">josef@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -117,7 +116,7 @@ Our team of animators, designers, developers and directors work together with ou
 
     	--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Kristian Andersson</p></br><p class="job_function">MOTION DESIGN</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76285 14 71</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:kristian@brikk.se">kristian@brikk.se</a></p>
+				<div class="information"><p class="name">Kristian Andersson</p></br><p class="job_function">MOTION DESIGN</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76285 14 71</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:kristian@brikk.se">kristian@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -130,7 +129,7 @@ Our team of animators, designers, developers and directors work together with ou
 
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Nicola Smanio</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46 (0) 72 015 50 07</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:nicola@brikk.se">nicola@brikk.se</a></p>
+				<div class="information"><p class="name">Nicola Smanio</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46 (0) 72 015 50 07</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:nicola@brikk.se">nicola@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -143,7 +142,7 @@ Our team of animators, designers, developers and directors work together with ou
 
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Samuel Fast</p></br><p class="job_function">CREATIVE DIRECTOR</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/phone_icon.png">+46 (0)8 400 211 28</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46 (0)73 612 06 04</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:samuel@brikk.se">samuel@brikk.se</a></p>
+				<div class="information"><p class="name">Samuel Fast</p></br><p class="job_function">CREATIVE DIRECTOR</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/phone_icon.png">+46 (0)8 400 211 28</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46 (0)73 612 06 04</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:samuel@brikk.se">samuel@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -156,7 +155,7 @@ Our team of animators, designers, developers and directors work together with ou
 
 		--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Viktor Khan</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76 021 85 58</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:viktor@brikk.se">viktor@brikk.se</a></p>
+				<div class="information"><p class="name">Viktor Khan</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76 021 85 58</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:viktor@brikk.se">viktor@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -169,7 +168,7 @@ Our team of animators, designers, developers and directors work together with ou
 
     	--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Gun intern</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76 021 85 58</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:gun@brikk.se">gun@brikk.se</a></p>
+				<div class="information"><p class="name">Gun intern</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76 021 85 58</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:gun@brikk.se">gun@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />
@@ -182,7 +181,7 @@ Our team of animators, designers, developers and directors work together with ou
 
     	--><div class="member">
 			<div class="contact_overlay">
-				<p class="name">Ruben Intern</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76 021 85 58</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:ruben@brikk.se">ruben@brikk.se</a></p>
+				<div class="information"><p class="name">Ruben Intern</p></br><p class="job_function">MOTION DESIGNER</p></br><p class="info_phone"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/iphone_icon.png">+46(0)76 021 85 58</p></br><p class="info_mail"><img src="<?php echo get_child_template_directory_uri(); ?>/images/icons/mail_icon.png"/><a href="mailto:ruben@brikk.se">ruben@brikk.se</a></p></div>
 			</div>	
 	      	<div>
 	      		<img class="info_icon" src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/info_btn.png" />

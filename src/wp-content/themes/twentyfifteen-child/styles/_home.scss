@@ -17,31 +17,30 @@
 		margin: auto;
 		text-align: center;
 		overflow-y:hidden;
-		padding-top: 150px;
-		-webkit-user-select:none;
-		-ms-user-select:none;
+		padding-top: 170px;
 		text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 	}
 }
 
 .homepage{
 
+	height: 100%;
+
 	p{
 		color: $font-color;
 		font-size: 1.6em;
 		text-align: center;	
 		font-family: 'brandon_grotesquelight';
-		-webkit-user-select:none;
-		-ms-user-select:none;
+		margin-top: 100px;
 	}
 
 	.quote h2{
 		text-align:center;
 		color: $font-color;
 		margin: auto;
-		margin-top: 50px;
+		margin-top: 100px;
 		margin-bottom: 50px;
-		font-size: 0.8em;
+		font-size: 1em;
 		font-family: 'brandon_grotesquelight';
 		-webkit-user-select:none;
 		-ms-user-select:none;
