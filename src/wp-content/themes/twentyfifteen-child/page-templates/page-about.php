@@ -14,7 +14,7 @@
       
       <article class="aboutHeader">
 		
-        <h1>we like to work, we like our</br>co-workers, we like you to contact us!</h1>
+        <h1>We love new challenges,</br> and we love to make good motion.</h1>
         <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
       </article>  
 
@@ -41,19 +41,23 @@
 	</div>
 
     <p class="about_text">Brikk Is a social company, please follow us for updates: </p>
-
-    <article class="about_social_icons">
-    	
-	  <!-- <div id="wrapper_social_about"> -->
-          <a href="https://www.linkedin.com/company/2818774?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A2994728381425290837835%2CVSRPtargetId%3A2818774%2CVSRPcmpt%3Acompanies_cluster" target="_blank"><p class="linkedIn social_icons" target="_blank"><span class="hide_text">linkedin</span></p></a>
-          <a href="https://www.facebook.com/brikk.se" target="_blank"><p class="facebook social_icons"><span class="hide_text">facebook</span></p></a>
-          <a href="https://vimeo.com/brikk" target="_blank"><p class="vimeo social_icons"><span class="hide_text">vimeo</span></p></a>
-          <a href="https://dribbble.com/BRIKK" target="_blank"><p class="dribbble social_icons"><span class="hide_text">dribbble</span></p></a>
-          <a href="https://twitter.com/BRIKKSTUDIO" target="_blank"><p class="twitter social_icons"><span class="hide_text">twitter</span></p></a>
-          <!-- <img class="about_social_icons_img" alt="about_social" title="about_social" src="<?php echo get_child_template_directory_uri(); ?>/images/social/about_facebook.png"/> -->
-      <!-- </div>	 -->
 	
-    </article>
+	<div id="icons">
+
+	    <article class="about_social_icons">
+	    	
+		  <!-- <div id="wrapper_social_about"> -->
+	          <a href="https://www.linkedin.com/company/2818774?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A2994728381425290837835%2CVSRPtargetId%3A2818774%2CVSRPcmpt%3Acompanies_cluster" target="_blank"><p class="linkedIn social_icons" target="_blank"><span class="hide_text">linkedin</span></p></a>
+	          <a href="https://www.facebook.com/brikk.se" target="_blank"><p class="facebook social_icons"><span class="hide_text">facebook</span></p></a>
+	          <a href="https://vimeo.com/brikk" target="_blank"><p class="vimeo social_icons"><span class="hide_text">vimeo</span></p></a>
+	          <a href="https://dribbble.com/BRIKK" target="_blank"><p class="dribbble social_icons"><span class="hide_text">dribbble</span></p></a>
+	          <a href="https://twitter.com/BRIKKSTUDIO" target="_blank"><p class="twitter social_icons"><span class="hide_text">twitter</span></p></a>
+	          <!-- <img class="about_social_icons_img" alt="about_social" title="about_social" src="<?php echo get_child_template_directory_uri(); ?>/images/social/about_facebook.png"/> -->
+	      <!-- </div>	 -->
+		
+	    </article>
+
+    </div>
 
 </section> 
 

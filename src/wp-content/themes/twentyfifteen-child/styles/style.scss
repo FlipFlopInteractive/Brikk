@@ -60,6 +60,7 @@ body{
 	margin: auto;
 	width: 100%;
 	overflow-x:hidden;
+	position: relative;
 }
 
 #preloaderAnimation{
@@ -154,16 +155,6 @@ body{
 				width: 80%;
 			}
 		}
-	}
-
-	.about{
-			.about_social_icons{
-			width: 13%;
-			margin: auto;
-			display: block;
-			margin-top: 20px;
-		}
-
 	}
 
 	.logoCases{
@@ -307,15 +298,6 @@ body{
 			padding-top: 80px;
 		}
 
-	}
-
-	.about{
-		.about_social_icons{
-			width: 30%;
-			margin: auto;
-			display: block;
-			margin-top: 20px;
-		}
 	}
 
 }
@@ -545,14 +527,6 @@ body{
 				padding-top: 80px;
 			}
 		}
-
-			.about_social_icons{
-			width: 35%;
-			margin: auto;
-			display: block;
-			margin-top: 20px;
-		}
-
 		.about_text{
 			width: 80%;
 			margin: auto;
@@ -706,16 +680,6 @@ body{
 			width: 70%;
 		}
 
-	}
-
-	.about{
-
-		.about_social_icons{
-			width: 40%;
-			margin: auto;
-			display: block;
-			margin-top: 20px;
-		}
 	}
 
 }
@@ -965,13 +929,6 @@ body{
 			margin: auto;
 		}
 
-			.about_social_icons{
-			width: 45%;
-			margin: auto;
-			display: block;
-			margin-top: 20px;
-		}
-
 	}
 
 	.directors{
@@ -1097,15 +1054,6 @@ body{
 	    	text-decoration: none;
 	    	color: white;
 	    }
-	}
-
-	.about{
-			.about_social_icons{
-			width: 100%;
-			margin: auto;
-			display: block;
-			margin-top: 20px;
-		}
 	}
 
 }

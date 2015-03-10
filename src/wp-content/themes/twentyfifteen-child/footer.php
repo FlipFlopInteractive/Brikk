@@ -24,17 +24,18 @@
 		<a href="https://twitter.com/BRIKKSTUDIO" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/twitter.svg"/></a>
 	</div>
 
-      <p>samuel@brikk.se   +46 (0)8 400 211 2    +46 (0)73 612 06 04</p>
+      <a href="mailto:post@brikk.se"><p>post@brikk.se</p></a>
       <p>Brikk Animation och Film AB   Pryssgränd 10B   118 20 Stockholm</p>
+      <p>Copyright © 2015 Brikk Animation och Film AB. All rights reserved.</p>
 
     </section>
 </div>
 
 <!--<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/vendor/jquery-1.8.1.min.js"></script>-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKy45RzdHPBl29dsl1iAlWEeiImfBE_4"></script>
-<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/app.js"></script>
-<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/map.js"></script>
+<script async type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/app.js"></script>
+<script async type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/map.js"></script>
 
 </body>
 </html>

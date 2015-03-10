@@ -14,7 +14,7 @@
       
       <article class="contactHeader">
 		
-        <h1>ah, so you are looking for our</br>email adresses? well you find them here.</h1>
+        <h1>Looking to get started? Write us and lets</br>create some magic.</h1>
         <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
       </article>  
 
@@ -34,7 +34,8 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/1.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/1_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Edward Moulder</p> -->
+	      	<p class="name">Edward Moulder</p>
+	      	
     	</div><!--	
 		--><div class="member">
 			<div class="contact_overlay">
@@ -46,7 +47,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/2.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/2_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Bjorn Johansson</p> -->
+	      	<p class="name">Bjorn Johansson</p>
     	</div><!--	
 
 		--><div class="member">
@@ -59,7 +60,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/3.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/3_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Fredrik Nilsson</p> -->
+	      	<p class="name">Fredrik Nilsson</p>
     	</div><!--	
 
 		--><div class="member">
@@ -72,7 +73,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/4.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/4_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Gustaf Ohrnell</p> -->
+	      	<p class="name">Gustaf Ohrnell</p>
     	</div><!--
 
 		--><div class="member">
@@ -85,7 +86,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/5.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/5_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Jonas Mosesson</p> -->
+	      	<p class="name">Jonas Mosesson</p>
     	</div><!--	
 
 		--><div class="member">
@@ -98,7 +99,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/6.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/6_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Jonathan Dahl</p> -->
+	      	<p class="name">Jonathan Dahl</p>
     	</div><!--	
 
 		--><div class="member">
@@ -111,7 +112,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/7.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/7_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Josef Andersson</p> -->
+	      	<p class="name">Josef Andersson</p>
     	</div><!--	
 
     	--><div class="member">
@@ -124,7 +125,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/8.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/8	_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Kristian Andersson</p> -->
+	      	<p class="name">Kristian Andersson</p>
     	</div><!--	
 
 		--><div class="member">
@@ -137,7 +138,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/9.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/9_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Nicola Smanio</p> -->
+	      	<p class="name">Nicola Smanio</p>
     	</div><!--	
 
 		--><div class="member">
@@ -150,7 +151,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/10.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/10_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Samuel Fast</p> -->
+	      	<p class="name">Samuel Fast</p>
     	</div><!--	
 
 		--><div class="member">
@@ -163,7 +164,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/11.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/11_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Viktor Khan</p> -->
+	      	<p class="name">Viktor Khan</p>
     	</div><!--
 
     	--><div class="member">
@@ -176,7 +177,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/13.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/13_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Viktor Khan</p> -->
+	      	<p class="name">Gun</p>
     	</div><!--
 
     	--><div class="member">
@@ -189,7 +190,7 @@ Our team of animators, designers, developers and directors work together with ou
 		      	<img class="Brikk_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/14.gif"/>
 		  	    <img class="static_members" src="<?php echo get_child_template_directory_uri(); ?>/images/contact_faces/14_static.jpg" alt=""/>
 	      	</div>
-	      	<!-- <p class="name">Viktor Khan</p> -->
+	      	<p class="name">Ruben</p>
     	</div>
 
 	</article>

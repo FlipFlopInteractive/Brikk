@@ -19,7 +19,7 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
-	<script>(function(){document.documentElement.className='js'})();</script>
+	<!--<script>(function(){document.documentElement.className='js'})();</script>-->
 
 	<?php wp_head(); ?>
 </head>
@@ -36,6 +36,8 @@
 
       <div id="wrapper_logo">
           <a href="./home"><img class="logo" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animate.svg"/></a>
+          <!-- <a href="./home"><img class="logo_animate" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animation_home.gif"/></a> -->
+
       </div>
     
     <div id="navigation">

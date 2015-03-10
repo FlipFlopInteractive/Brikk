@@ -14,7 +14,7 @@
       
       <article class="workHeader">
 
-        <h1>have a look at our animations</br>you just might find something you like!</h1>
+        <h1>Have a look at our animations</br>you just might find something you like!</h1>
         <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
       </article>
 
