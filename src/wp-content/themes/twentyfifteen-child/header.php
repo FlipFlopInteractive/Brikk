@@ -27,7 +27,7 @@
 <body <?php body_class(); ?>>
 
     <div id="preloaderAnimation">
-      <img class="logo" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/preloader/preloader_animation.gif"/>
+      <img class="logo" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/preloader/logo_animation.gif"/>
       <p>loading</p>
     </div>
 
