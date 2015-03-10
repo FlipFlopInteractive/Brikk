@@ -1602,7 +1602,7 @@ body{
 
 			h1{
 				font-size: 1.5em;
-				padding-top: 15px;
+				padding-top: 40px;
 				width: 80%;
 			}
 		}
@@ -1610,6 +1610,7 @@ body{
 		p{
 			width: 70%;
 			font-size: 1.2em;
+			margin-top: -20px;
 		}
 
 	}
@@ -1815,6 +1816,10 @@ body{
 		margin: auto;
 	}
 
+	.homepage h2{
+		width: 80%;
+	}
+
 	.work{
 
 		.workHeader{
@@ -1833,7 +1838,7 @@ body{
 		p{
 			width: 70%;
 			margin: auto;
-			font-size: 1em;
+			font-size: 1.2em;
 			margin-top: 40px;
 			margin-bottom: 40px;
 		}
@@ -1844,8 +1849,9 @@ body{
 
 		p{
 			width: 70%;
-			font-size: 1em;
+			font-size: 1.2em;
 			margin: auto;
+			margin-top: 50px;
 		}
 
 	}
@@ -2009,7 +2015,7 @@ body{
 
 			h1{
 				font-size: 1.5em;
-				padding-top: 15px;
+				padding-top: 30px;
 				width: 80%;
 			}
 		}
@@ -2017,6 +2023,7 @@ body{
 		p{
 			width: 70%;
 			font-size: 1.2em;
+			margin-top: -20px;
 		}
 
 	}
@@ -2036,7 +2043,7 @@ body{
 		p{
 			text-align: center;
 			font-family: 'brandon_grotesquelight';
-			font-size: 1em;
+			font-size: 1.2em;
 			margin-bottom: 70px;
 			width: 80%;
 			margin: auto;
