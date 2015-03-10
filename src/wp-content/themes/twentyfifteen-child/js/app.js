@@ -12,7 +12,7 @@
 
 		window.onload = function (){preloadCompleteHandler();};
 	}
-
+/*
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
 				console.log("mobile");
@@ -43,7 +43,7 @@
 			
 		});
 		
-	}
+	}*/
 
 
 	$(".Brikk_members").on("click", info_clickHandler);
