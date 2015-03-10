@@ -14,11 +14,10 @@
 	}
 
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- 		console.log("we have mobile!");
 
-
-
-
+    			$("#header").css({"height":"80px"});
+				$(".logo").css({"top":"0"});
+				$("#header").css({"position":"relative"});
 	}
 
 
@@ -48,7 +47,7 @@
 		});
 
 
-		/*$(window).scroll(function (event) {
+		$(window).scroll(function (event) {
     		
     		var scroll = $(window).scrollTop();
 
@@ -67,7 +66,7 @@
 				$("#header").css({"position":"relative"});
     		}
 			
-		});*/
+		});
 		
 
 
