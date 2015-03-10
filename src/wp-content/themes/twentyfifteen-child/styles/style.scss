@@ -172,6 +172,11 @@ body{
 
 	.contact{
 
+	.member{
+
+		margin-bottom: 10px;
+	}
+
 	.contact_overlay{
 
 	    p{
@@ -1325,7 +1330,7 @@ body{
 			
 
 			img{
-				width: 60%;
+				width: 72%;
 				margin: auto;
 			}
 			
@@ -1719,10 +1724,11 @@ body{
 			overflow: hidden;
 			position: relative;
 			width: 100%;
+
 			
 
 			img{
-				width: 60%;
+				width: 70%;
 				margin: auto;
 			}
 			
@@ -1791,7 +1797,7 @@ body{
 	}
 	
 	.homepage p{
-		font-size: 1em;
+		font-size: 1.2em;
 		width: 80%;
 
 		margin: auto;
@@ -1848,10 +1854,14 @@ body{
 
 		.text_contact{
 			width: 70%;
-			font-size: 1em;
+			font-size: 1.2em;
 			margin: auto;
+			margin-top: 50px;
 		}
-
+	
+	#members{
+		margin-top: 50px;
+	}
 
 	.member{
 		width:100%;
@@ -1860,6 +1870,7 @@ body{
 		overflow: hidden;
 		margin-left: 1%;
 		box-sizing:border-box;
+		margin-bottom: 5px;
 
 		/*&:hover .contact_overlay{
 			bottom: 0px;
@@ -1972,7 +1983,7 @@ body{
 		}
 
 		.about_text{
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 	}
@@ -1993,7 +2004,7 @@ body{
 
 		p{
 			width: 70%;
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 	}
