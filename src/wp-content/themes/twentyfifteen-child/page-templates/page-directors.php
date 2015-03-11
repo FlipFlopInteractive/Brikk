@@ -21,9 +21,9 @@
       </article>  
 
 	<p class="directors_text">At brikk we dont only prodcue and animate, we also write treatments and servs as a directing partner in</br>
-the motion piece we are creating together with you.</br></br>
+the motion piece we are creating together with you.</br>
 
-Brikk's foundation is built upon directors, Björn Johansson, Josef Andersson and Samuel Fast.</br>
+Brikk's foundation is built upon directors, Björn Johansson, Josef Andersson and Samuel Fast.
 Masters of storytelling, whether commercial broadcast, web, infographic or music video,
 Brikk has developed a unique style combining traditional craftsmanship and modern digital techniques.</br></br>
 

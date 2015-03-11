@@ -13,7 +13,7 @@
 		window.onload = function (){preloadCompleteHandler();};
 	}*/
 
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	/*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
 				console.log("mobile");
 
@@ -33,6 +33,8 @@
 				$("#header").css({"height":"60px"});
 				$(".logo").css({"bottom":"0"});
 				$("#header").css({"position":"fixed"});
+
+				console.log("bottom");
     		}
 
     		else if(scroll <= 10){
@@ -40,11 +42,13 @@
     			$("#header").css({"height":"80px"});
 				$(".logo").css({"top":"0"});
 				$("#header").css({"position":"static"});
+
+				console.log("top");
     		}
 			
 		});
 		
-	}
+	}*/
 
 
 	$(".Brikk_members").on("click", info_clickHandler);
