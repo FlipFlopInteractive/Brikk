@@ -16,10 +16,14 @@
 		
         <h1>We love new challenges,</br> and we love to make good motion.</h1>
 
-		<!-- <li class="image1"><span>Image 01</span></li> -->
-		<!-- 	<li class="image2"><span>Image 02</span></li>
-			<li class="image3"><span>Image 03</span></li> -->
-        <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
+		<ul class="cb-slideshow">
+			<li><span>Image 01</span></li>
+			<li><span>Image 02</span></li>
+			<li><span>Image 03</span></li>
+			<li><span>Image 04</span></li>
+	        <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
+	    </ul>    
+
       </article>  
 
 	<p class="about_text">Brikk is a Stockholm-based design driven Production company and animation studio. </br>

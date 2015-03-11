@@ -25,18 +25,17 @@
 			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_4.jpg",
 			// )
 
+	/*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
+		$(".aboutHeader").css({"background-image":"url(/wp-content/themes/twentyfifteen-child/images/Screens/about_1.jpg)"});			
+
+	}
+	else{
 		var timer = setInterval(imageSlideShow, 3000);	
+	}
 
 
 	function imageSlideShow(){
-
-		// $('').fadeTo('slow', 0.3, function()
-		// {
-		   
-		//    $(this).css('background-image', 'url(' + $img + ')');
-		// }).delay(1000).fadeTo('slow', 1);
-
 
 
 		$(".aboutHeader").css({"background-image":"url(/wp-content/themes/twentyfifteen-child/images/Screens/about_"+ count +".jpg)"});	
@@ -52,9 +51,7 @@
 
 		}	
 
-	}		
-
-
+	}*/
 
 	// function imageSlideShow(){
 
