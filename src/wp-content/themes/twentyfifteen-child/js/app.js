@@ -6,7 +6,66 @@
 	var currentPage;
 	var menuClicked = false;
 
+	var count = 1 ;
+
 	function init(){
+
+			// var images = new Array()
+			
+			// function preload() {
+			// 	for (i = 0; i < preload.arguments.length; i++) {
+			// 		images[i] = new Image()
+			// 		images[i].src = preload.arguments[i]
+			// 	}
+			// }
+			// preload(
+			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_1.jpg",
+			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_2.jpg",
+			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_3.jpg",
+			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_4.jpg",
+			// )
+
+
+		var timer = setInterval(imageSlideShow, 3000);	
+
+
+	function imageSlideShow(){
+
+		// $('').fadeTo('slow', 0.3, function()
+		// {
+		   
+		//    $(this).css('background-image', 'url(' + $img + ')');
+		// }).delay(1000).fadeTo('slow', 1);
+
+
+
+		$(".aboutHeader").css({"background-image":"url(/wp-content/themes/twentyfifteen-child/images/Screens/about_"+ count +".jpg)"});	
+
+
+		if(count >= 4){
+
+			count = 1;
+
+		}else{
+
+			count++;
+
+		}	
+
+	}		
+
+
+
+	// function imageSlideShow(){
+
+	// 	console.log("in check");
+
+	// 	$(".aboutHeader").css({"background-image":"url(/wp-content/themes/twentyfifteen-child/images/Screens/about_" + count + ".jpg"});
+	// 		console.log($(".aboutHeader"));
+
+	// 	count++;
+
+	// }
 
 	/*if($("#container")[0] != undefined) {
 
@@ -20,35 +79,35 @@
     			$("#header").css({"height":"80px"});
 				$(".logo").css({"top":"0"});
 				$("#header").css({"position":"static"});
-	}else{
+	}else{*/
 
-		$(window).scroll(function (event) {
+	/*	$(window).scroll(function (event) {
     		
     		var scroll = $(window).scrollTop();
 
     		console.log(scroll);
 
-    		if(scroll > 15){		
+    		if(scroll > 0){		
     		
-				$("#header").css({"height":"60px"});
-				$(".logo").css({"bottom":"0"});
-				$("#header").css({"position":"fixed"});
+				// $("#header").css({"height":"60px"});
+				// $(".logo").css({"bottom":"0"});
+				 $("#header").css({"position":"fixed"});
 
 				console.log("bottom");
     		}
 
-    		else if(scroll <= 10){
+    		else if(scroll <= 0){
 
-    			$("#header").css({"height":"80px"});
-				$(".logo").css({"top":"0"});
+    			// $("#header").css({"height":"80px"});
+				// $(".logo").css({"top":"0"});
 				$("#header").css({"position":"static"});
 
 				console.log("top");
     		}
 			
-		});
+		});*/
 		
-	}*/
+	/*}*/
 
 
 	$(".Brikk_members").on("click", info_clickHandler);

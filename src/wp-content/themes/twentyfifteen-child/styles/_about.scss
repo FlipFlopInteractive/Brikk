@@ -2,7 +2,7 @@
 
 	.aboutHeader{
 
-	background-image: url("images/Screens/brikk-motesrum.jpg");
+	background-image: url("images/Screens/about_1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 30% 60%;
@@ -22,7 +22,55 @@
 			text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 			height:100%;
 		}
+
+
+	.image1{
+
+		background-image: url("images/Screens/brikk-motesrum.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 30% 60%;
+		width: 100%;
+		height: 400px;
+
+		li{
+			text-decoration: none;
+
+
+		}
+
+		span{
+			display: none;
+		}
+
 	}
+
+	.image2{
+
+		background-image: url("images/Screens/brikk-motesrum.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 30% 60%;
+		width: 100%;
+		height: 400px;
+		position: absolute;
+		
+	}
+
+	.image3{
+
+		background-image: url("images/Screens/brikk-motesrum.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 30% 60%;
+		width: 100%;
+		height: 400px;
+		position: absolute;
+		
+	}
+
+	}
+
 
 
 .about_social_icons{
