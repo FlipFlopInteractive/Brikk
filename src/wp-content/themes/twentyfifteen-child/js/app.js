@@ -47,7 +47,7 @@
     			$("#header").css({"height":"80px"});
 				$(".logo_static").css({"display":"block"}); 
 				$(".logo_brikk_fixed").css({"display":"none"});
-				$("#header").css({"position":"block"});
+				$("#header").css({"position":"inherit"});
 
 				console.log("top");
     		}

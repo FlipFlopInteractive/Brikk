@@ -43,6 +43,7 @@
     
     <div id="navigation">
         <ul>
+          <li><a href="./home/">home</a></li>
           <li><a href="./showreel/">showreel</a></li>
           <li><a href="./work">work</a></li>
           <li><a href="./contact/">contact</a></li>
@@ -57,6 +58,7 @@
     <div id="responsive_menu">
       <img id="menu_icon"src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/menu_icon.png"/>
         <ul>
+          <li><a href="./home/">home</a></li>
           <li><a href="./showreel/">showreel</a></li>
           <li><a href="./work/">work</a></li>
           <li><a href="./contact/">contact</a></li>

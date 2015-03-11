@@ -81,70 +81,7 @@ body{
 
 @media(min-width: 2000px){
 
-#header{
-	#wrapper_logo{
-		
-		margin-left: 23%;
 
-	}
-
-	.logo{
-		
-		height: 100px;
-		position: absolute;			
-
-		&:hover{
-			bottom: 0px;
-		}
-	}
-
-	#navigation ul{
-		margin-top: -30px;
-		float: left;
-		margin-left: 36%;
-		margin-right: 10%;
-		width: 100%;
-		
-	}
-
-	#navigation li{
-
-		display: inline-block;
-		margin-left: 50px;
-		text-transform: uppercase;
-		font-size: 0.9em;
-		list-style: none;
-	}
-
-	.language{
-		padding-left: 60px;	
-		font-family: 'brandon_grotesquebold';
-		margin-left: -70px;
-
-	}
-
-	#navigation{
-		li:last-of-type{
-			margin-left: -40px;
-		}
-	}
-
-	#navigation a{
-		text-decoration: none;
-		color: $font-color;
-
-		&:hover{
-		
-			font-family: 'brandon_grotesquebold';
-
-		}
-	}
-
-	#languageChanger{
-		float: left;
-	}
-
-}
 
 	.directors{
 		
@@ -308,22 +245,9 @@ body{
 
 	header{
 
-		height: 70px;
-
 		#wrapper_logo{
 			
-			margin-top: 15	px;
-			height: 50px;
-			overflow: hidden;
-			position: relative;
-			width: 100%;
-			
-
-			img{
-				width: 60%;
-				margin: auto;
-			}
-			
+			margin: auto;
 		}
 
 		#navigation{
@@ -334,7 +258,7 @@ body{
 
 		#responsive_menu{
 			display: block;
-			position: relative;
+			
 
 			ul{
 				position: absolute;
@@ -343,7 +267,8 @@ body{
 				background-color: $background-color;
 				display: none;
 				margin-left: 0;
-				margin-top: 10px;
+
+				
 			}
 
 			li{
@@ -366,10 +291,10 @@ body{
 			}
 
 			img{
-				width: 3.5%;
+				width: 35px;
 				float: right;
 				margin-right: 7%;
-				margin-top: -43px;
+				margin-top: -55px;
 				cursor:pointer;
 			}
 		}
@@ -554,6 +479,7 @@ body{
 
 @media(max-width: 900px){
 
+
 		.work{
 
 			.workHeader{
@@ -692,24 +618,6 @@ body{
 
 	header{
 
-		height: 60px;
-
-		#wrapper_logo{
-			
-			margin-top: 5px;
-			height: 50px;
-			overflow: hidden;
-			position: relative;
-			width: 100%;
-			
-
-			img{
-				width: 60%;
-				margin: auto;
-			}
-			
-		}
-
 		#navigation{
 			
 			display: none;
@@ -718,7 +626,7 @@ body{
 
 		#responsive_menu{
 			display: block;
-			position: relative;
+			
 
 			ul{
 				position: absolute;
@@ -727,7 +635,7 @@ body{
 				background-color: $background-color;
 				display: none;
 				margin-left: 0;
-				margin-top: 10px;
+				
 			}
 
 			li{
@@ -750,10 +658,10 @@ body{
 			}
 
 			img{
-				width: 4%;
+				
 				float: right;
 				margin-right: 7%;
-				margin-top: -37px;
+				margin-top: -55px;
 				cursor:pointer;
 			}
 		}
@@ -955,6 +863,8 @@ body{
 
 @media (max-width: 530px) {
 
+
+
 		.ImageHeader{
 
 		h1{
@@ -1066,23 +976,7 @@ body{
 
 	header{
 
-		height: 60px;
-
-		#wrapper_logo{
-			
-			margin-top: 5px;
-			height: 50px;
-			overflow: hidden;
-			position: relative;
-			width: 100%;
-			
-
-			img{
-				width: 60%;
-				margin: auto;
-			}
-			
-		}
+		
 
 		#navigation{
 			
@@ -1090,18 +984,16 @@ body{
 		}
 
 
-		#responsive_menu{
+			#responsive_menu{
 			display: block;
-			position: relative;
+			
 
 			ul{
 				position: absolute;
 				z-index: 99999999;
-				width: 100%;
 				background-color: $background-color;
 				display: none;
 				margin-left: 0;
-				margin-top: 10px;
 			}
 
 			li{
@@ -1124,10 +1016,10 @@ body{
 			}
 
 			img{
-				width: 7%;
+				
 				float: right;
 				margin-right: 7%;
-				margin-top: -33px;
+				margin-top: -55px;
 				cursor:pointer;
 			}
 		}
@@ -1272,23 +1164,7 @@ body{
 
 	header{
 
-		height: 60px;
 
-		#wrapper_logo{
-			
-			margin-top: 5px;
-			height: 50px;
-			overflow: hidden;
-			position: relative;
-			width: 100%;
-			
-
-			img{
-				width: 72%;
-				margin: auto;
-			}
-			
-		}
 
 		#navigation{
 			
@@ -1298,7 +1174,7 @@ body{
 
 		#responsive_menu{
 			display: block;
-			position: relative;
+			
 
 			ul{
 				position: absolute;
@@ -1307,7 +1183,7 @@ body{
 				background-color: $background-color;
 				display: none;
 				margin-left: 0;
-				margin-top: 10px;
+
 			}
 
 			li{
@@ -1330,10 +1206,10 @@ body{
 			}
 
 			img{
-				width: 7%;
+				
 				float: right;
 				margin-right: 7%;
-				margin-top: -33px;
+				margin-top: -55px;
 				cursor:pointer;
 			}
 		}
@@ -1676,24 +1552,6 @@ body{
 
 	header{
 
-		height: 60px;
-
-		#wrapper_logo{
-			
-			margin-top: 5px;
-			height: 50px;
-			overflow: hidden;
-			position: relative;
-			width: 100%;
-
-			
-
-			img{
-				width: 70%;
-				margin: auto;
-			}
-			
-		}
 
 		#navigation{
 			
@@ -1703,16 +1561,15 @@ body{
 
 		#responsive_menu{
 			display: block;
-			position: relative;
+			
 
 			ul{
 				position: absolute;
 				z-index: 99999999;
-				width: 100%;
+				
 				background-color: $background-color;
 				display: none;
 				margin-left: 0;
-				margin-top: 10px;
 			}
 
 			li{
@@ -1735,10 +1592,10 @@ body{
 			}
 
 			img{
-				width: 7%;
+				
 				float: right;
 				margin-right: 7%;
-				margin-top: -33px;
+				margin-top: -55px;
 				cursor:pointer;
 			}
 		}
