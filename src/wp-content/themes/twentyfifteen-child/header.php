@@ -35,9 +35,10 @@
     <header id="header">
 
       <div id="wrapper_logo">
-          <a href="./home"><img class="logo" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animate.svg"/></a>
+          <a href="./home"><img class="logo_static" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animatie_logo_static.jpg"/></a>
+          <a href="./home"><img class="logo_animation" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animate_logo.gif"/></a>
+          <a href="./home"><img class="logo_brikk_fixed" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikk_logo_fixed.jpg"/></a>
           <!-- <a href="./home"><img class="logo_animate" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animation_home.gif"/></a> -->
-
       </div>
     
     <div id="navigation">
@@ -47,7 +48,7 @@
           <li><a href="./contact/">contact</a></li>
           <li><a href="./about/">about</a></li>
           <li><a href="./directors/">directors</a></li>
-          <li><a href="http://brikkblogg.tumblr.com/">blog</a></li>
+          <li><a href="http://brikkblog.tumblr.com/">blog</a></li>
           <li class="language">SWE</li>
           <li class="language">ENG</li>
       </ul>
@@ -60,7 +61,7 @@
           <li><a href="./work/">work</a></li>
           <li><a href="./contact/">contact</a></li>
           <li><a href="./about/">about</a></li>
-          <li><a href="http://brikkblogg.tumblr.com/">blog</a></li>
+          <li><a href="http://brikkblog.tumblr.com/">blog</a></li>
           <li><a href="./directors/">directors</a></li>
       </ul>
     </div>

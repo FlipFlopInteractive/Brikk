@@ -2,7 +2,7 @@
 
 	.contactHeader{
 
-	background-image: url("images/Screens/office.jpg");
+	background-image: url("images/Screens/contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 30% 60%;
@@ -61,6 +61,7 @@
 
 	.member:hover .Brikk_members {
 		display: inline-block;
+		cursor:pointer;
 	}
 
 	.member:hover .info_icon {
@@ -181,6 +182,8 @@
 		padding-bottom: 20px;
 		text-align: center;
 		font-size: 1.3em;
+		
+
 	
 	}
 

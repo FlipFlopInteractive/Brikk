@@ -10,101 +10,51 @@
 
 	function init(){
 
-			// var images = new Array()
-			
-			// function preload() {
-			// 	for (i = 0; i < preload.arguments.length; i++) {
-			// 		images[i] = new Image()
-			// 		images[i].src = preload.arguments[i]
-			// 	}
-			// }
-			// preload(
-			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_1.jpg",
-			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_2.jpg",
-			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_3.jpg",
-			// 	"/wp-content/themes/twentyfifteen-child/images/Screens/about_4.jpg",
-			// )
-
-	/*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-
-		$(".aboutHeader").css({"background-image":"url(/wp-content/themes/twentyfifteen-child/images/Screens/about_1.jpg)"});			
-
-	}
-	else{
-		var timer = setInterval(imageSlideShow, 3000);	
-	}
-
-
-	function imageSlideShow(){
-
-
-		$(".aboutHeader").css({"background-image":"url(/wp-content/themes/twentyfifteen-child/images/Screens/about_"+ count +".jpg)"});	
-
-
-		if(count >= 4){
-
-			count = 1;
-
-		}else{
-
-			count++;
-
-		}	
-
-	}*/
-
-	// function imageSlideShow(){
-
-	// 	console.log("in check");
-
-	// 	$(".aboutHeader").css({"background-image":"url(/wp-content/themes/twentyfifteen-child/images/Screens/about_" + count + ".jpg"});
-	// 		console.log($(".aboutHeader"));
-
-	// 	count++;
-
-	// }
 
 	/*if($("#container")[0] != undefined) {
 
 		window.onload = function (){preloadCompleteHandler();};
 	}*/
 
-	/*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
 				console.log("mobile");
 
     			$("#header").css({"height":"80px"});
 				$(".logo").css({"top":"0"});
 				$("#header").css({"position":"static"});
-	}else{*/
+	}else{
 
-	/*	$(window).scroll(function (event) {
+		$(window).scroll(function (event) {
     		
     		var scroll = $(window).scrollTop();
 
     		console.log(scroll);
 
     		if(scroll > 0){		
-    		
-				// $("#header").css({"height":"60px"});
-				// $(".logo").css({"bottom":"0"});
-				 $("#header").css({"position":"fixed"});
+    	
+				$("#header").css({"height":"80px"});
+				$("#header").css({"position":"fixed"});
+				$(".logo_brikk_fixed").css({"display":"block"}); 
+				$(".logo_static").css({"display":"none"}); 
+				$(".logo_animation").css({"display":"none"}); 
 
 				console.log("bottom");
     		}
 
     		else if(scroll <= 0){
 
-    			// $("#header").css({"height":"80px"});
-				// $(".logo").css({"top":"0"});
-				$("#header").css({"position":"static"});
+    			$("#header").css({"height":"80px"});
+				$(".logo_static").css({"display":"block"}); 
+				$(".logo_brikk_fixed").css({"display":"none"});
+				$("#header").css({"position":"block"});
 
 				console.log("top");
     		}
 			
-		});*/
+		});
 		
-	/*}*/
+	}
 
 
 	$(".Brikk_members").on("click", info_clickHandler);

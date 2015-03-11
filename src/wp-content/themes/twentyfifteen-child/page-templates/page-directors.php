@@ -17,6 +17,7 @@
         <h1>We direct commercials, infomercials,
 			musicvideos and content for al sorts
 			of social and media platforms!</h1>
+
         <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
       </article>  
 
