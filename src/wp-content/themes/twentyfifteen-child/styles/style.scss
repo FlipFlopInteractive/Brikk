@@ -621,6 +621,49 @@ body{
 
 }
 
+@media (max-width: 768px) {
+
+	.contact{
+
+		.text_contact{
+			width: 80%;
+			margin: auto;
+			margin-top: 100px;
+		}
+
+
+	}
+
+	.detailCase{
+
+		h2{
+			margin-top: 50px;
+		}
+
+		p{
+			width: 80%;
+			margin: auto;
+			margin-bottom: 100px;
+			margin-top: -20px;
+		}
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
@@ -1416,17 +1459,44 @@ body{
 			width: 375px; 
 		}
 
-		#map_wrapper {
-			width: 375px;
-			margin: 0 auto;
-			position: relative;
-			overflow: hidden;
+		#information_map{
 
-			&:hover .map_overlay {
+				margin-top: 100px;
 
-				left:0;
+			p{
+				
+				text-align: center;
+				color: $font-color;
+				font-size: 1.1em;
+				font-family: 'brandon_grotesquelight';
+				margin: auto;
+				margin-bottom: 20px;
+				width: 80%;
+				margin-left: 25px;
+
 			}
-			
+
+			a{
+				text-decoration: none;
+				text-align: center;
+				color: $font-color;
+				margin: auto;
+				width: 80%;
+			}
+
+			h2{
+				
+				color: $font-color;
+				font-size: 1.3em;
+				line-height: 1.3em;
+				font-family: 'brandon_grotesquebold';
+				margin-bottom: 3px;
+				margin-top: 15px;
+				width: 80%;
+				text-align: center;
+				margin: auto;
+				margin-left: 25px;
+			}
 		}
 	}
 
@@ -1813,19 +1883,46 @@ body{
 			
 		}
 
-		/*.map_overlay{
-			position: absolute;
-			background-color: black;
-			width: 250px;
-			height: 300px;
-			left: -250px;
-		}
-	
+		#information_map{
+
+			margin-top: 100px;
+
 		p{
-			width: 70%;
-			font-size: 1em;
+			
+			text-align: center;
+			color: $font-color;
+			font-size: 1.1em;
+			font-family: 'brandon_grotesquelight';
 			margin: auto;
-		}*/
+			margin-bottom: 20px;
+			width: 70%;
+			margin-left: 30px;
+
+		}
+
+		a{
+			text-decoration: none;
+			text-align: center;
+			color: $font-color;
+			margin: auto;
+			width: 80%;
+		}
+
+		h2{
+			
+			color: $font-color;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-family: 'brandon_grotesquebold';
+			margin-bottom: 3px;
+			margin-top: 15px;
+			width: 70%;
+			text-align: center;
+			margin: auto;
+			margin-left: 30px;
+		}
+	}
+
 
 		.about_text{
 			font-size: 1.2em;
