@@ -19,11 +19,11 @@
       </article>  
 
       <p>Brikk is a Stockholm-based design
-driven production company and animation studio.</br>
+driven production company and animation studio.
 
 We have a versatile mix of
 directors, animators, designers, and illustrators from all over
-the</br>
+the
 
 world and together with our clients we always strive to create
 world class 

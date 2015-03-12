@@ -512,12 +512,14 @@ body{
 
 			h1{
 				padding-top: 60px;
+				width: 60%;
+
 			}
 
 		}
 
 		.text_contact{
-			width: 80%;
+			width: 82%;
 			margin: auto;
 			margin-top: 100px;
 		}
@@ -654,12 +656,22 @@ body{
 
 @media (max-width: 768px) {
 
+	.home{
+
+		p{
+
+			
+		}
+
+	}
+
 	.contact{
 
 		.contactHeader{
 
 			h1{
 				padding-top: 60px;
+				width: 80%;
 			}
 
 		}
