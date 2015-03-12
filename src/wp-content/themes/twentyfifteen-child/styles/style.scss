@@ -508,6 +508,20 @@ body{
 
 	.contact{
 
+		.contactHeader{
+
+			h1{
+				padding-top: 60px;
+			}
+
+		}
+
+		.text_contact{
+			width: 80%;
+			margin: auto;
+			margin-top: 100px;
+		}
+
 	#members {
 		width: 66%;
 		height: 100%;
@@ -619,11 +633,36 @@ body{
 
 	}
 
+
+	.detailCase{
+
+		h2{
+			margin-top: 50px;
+		}
+
+		p{
+			width: 80%;
+			margin: auto;
+			margin-bottom: 100px;
+			margin-top: -20px;
+		}
+
+
+	}
+
 }
 
 @media (max-width: 768px) {
 
 	.contact{
+
+		.contactHeader{
+
+			h1{
+				padding-top: 60px;
+			}
+
+		}
 
 		.text_contact{
 			width: 80%;
@@ -649,17 +688,6 @@ body{
 
 
 	}
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
