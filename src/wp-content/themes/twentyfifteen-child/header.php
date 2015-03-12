@@ -63,8 +63,9 @@
           <li><a href="./work/">work</a></li>
           <li><a href="./contact/">contact</a></li>
           <li><a href="./about/">about</a></li>
-          <li><a href="http://brikkblog.tumblr.com/">blog</a></li>
           <li><a href="./directors/">directors</a></li>
+          <li><a href="http://brikkblog.tumblr.com/">blog</a></li>
+          
       </ul>
     </div>
 
