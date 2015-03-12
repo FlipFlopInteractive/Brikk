@@ -41,31 +41,58 @@
           <!-- <a href="./home"><img class="logo_animate" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animation_home.gif"/></a> -->
       </div>
     
-    <div id="navigation">
-        <ul>
-          <li><a href="./home/">home</a></li>
-          <li><a href="./showreel/">showreel</a></li>
-          <li><a href="./work">work</a></li>
-          <li><a href="./contact/">contact</a></li>
-          <li><a href="./about/">about</a></li>
-          <li><a href="./directors/">directors</a></li>
-          <li><a href="http://brikkblog.tumblr.com/">blog</a></li>
-          <li class="language">SWE</li>
-          <li class="language">ENG</li>
-      </ul>
-    </div>
+      <div id="navigation">
+          <ul>
+            <!-- <li><a href="./home/">home</a></li> -->
+            <!-- <li><a href="./showreel/">showreel</a></li> -->
+            <!-- <li><a href="./work">work</a></li> -->
+            <!-- <li><a href="./contact/">contact</a></li> -->
+            <!-- <li><a href="./about/">about</a></li> -->
+            <!-- <li><a href="./directors/">directors</a></li> -->
+            <!-- <li><a href="http://brikkblog.tumblr.com/">blog</a></li> -->
 
-    <div id="responsive_menu">
-      <img id="menu_icon"src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/menu_icon.png"/>
-        <ul>
-          <li><a href="./home/">home</a></li>
-          <li><a href="./showreel/">showreel</a></li>
-          <li><a href="./work/">work</a></li>
-          <li><a href="./contact/">contact</a></li>
-          <li><a href="./about/">about</a></li>
-          <li><a href="http://brikkblog.tumblr.com/">blog</a></li>
-          <li><a href="./directors/">directors</a></li>
-      </ul>
-    </div>
+            <?php
+              $args = array(
+                'theme_location'  => '',
+                'menu'            => 'Navigation',
+                'container'       => '',
+                'container_class' => '',
+                'container_id'    => '',
+                'menu_class'      => 'menu',
+                'menu_id'         => '',
+                'echo'            => true,
+                'fallback_cb'     => '',
+                'before'          => '',
+                'after'           => '',
+                'link_before'     => '',
+                'link_after'      => '',
+                'items_wrap'      => '%3$s',
+                'depth'           => 1,
+                'walker'          => ''
+              );
+            ?>
+
+            <?php wp_nav_menu( $args ); ?> 
+
+            <li class="language">SWE</li>
+            <li class="language">ENG</li>
+        </ul>
+      </div>
+
+      <div id="responsive_menu">
+        <img id="menu_icon"src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/menu_icon.png"/>
+          <ul>
+            <!-- <li><a href="./home/">home</a></li> -->
+            <!-- <li><a href="./showreel/">showreel</a></li> -->
+            <!-- <li><a href="./work/">work</a></li> -->
+            <!-- <li><a href="./contact/">contact</a></li> -->
+            <!-- <li><a href="./about/">about</a></li> -->
+            <!-- <li><a href="http://brikkblog.tumblr.com/">blog</a></li> -->
+            <!-- <li><a href="./directors/">directors</a></li> -->
+
+            <?php wp_nav_menu( $args ); ?> 
+            
+        </ul>
+      </div>
 
     </header>

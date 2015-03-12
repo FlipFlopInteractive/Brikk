@@ -1,7 +1,17 @@
 .work{
+
+	p{
+		color: $font-color;
+		font-size: 1.6em;
+		text-align: center;	
+		font-family: 'brandon_grotesquelight';
+		padding-top: 50px;
+		width: 80%;
+		margin: auto;
+	}
 	
 	.workHeader{
-		background-image: url("images/Screens/western.gif");
+		// background-image: url("images/Screens/western.gif");
 		background-repeat: no-repeat;
 		background-size: cover;
 		

@@ -102,6 +102,35 @@ function twentyfifteen_child_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_child_scripts' );
 
+
+function change_post_menu_label() {
+	
+	global $menu;
+	global $submenu;
+	$menu[ 5 ][ 0 ] = 'Cases';
+	$submenu[ 'edit.php' ][ 5 ][ 0 ] = 'Cases';
+	$submenu[ 'edit.php' ][ 10 ][ 0 ] = 'Add cases';
+}
+add_action( 'admin_init', 'change_post_menu_label' );
+
+function change_post_object_label() {
+	
+	global $wp_post_types;
+	$labels = &$wp_post_types[ 'post' ]->labels;
+	$labels->name = 'Cases';
+	$labels->singular_name = 'Case';
+	$labels->add_new = 'Add case';
+	$labels->add_new_item = 'Add case';
+	$labels->edit_item = 'Edit case';
+	$labels->new_item = 'Case';
+	$labels->view_item = 'View case';
+	$labels->search_items = 'Search cases';
+	$labels->not_found = 'No cases found';
+	$labels->not_found_in_trash = 'No cases found in trash';
+}
+add_action( 'admin_init', 'change_post_object_label' );
+
+
 /**
  * enable livereload on localhost
  */
@@ -109,11 +138,110 @@ function livereload() {
 
 	if( in_array( $_SERVER[ 'REMOTE_ADDR' ], array( '127.0.0.1', '::1' ))){
 
-		if( gethostname() != 'monarch.local' ){
-
-			wp_register_script( 'livereload', 'http://localhost:35729/livereload.js?snipver=1', NULL, FALSE, TRUE );
-			wp_enqueue_script( 'livereload' );
-		}
+		wp_register_script( 'livereload', 'http://localhost:35729/livereload.js?snipver=1', NULL, FALSE, TRUE );
+		wp_enqueue_script( 'livereload' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'livereload' );
+
+
+
+function get_page_heading( $post_id ){
+
+	$html = '<article class="ImageHeader">';
+
+	if( has_post_thumbnail( $post_id )){
+
+		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'single-post-thumbnail' );
+		$html = '<article class="ImageHeader" style="background-image: url(' . $image[ 0 ] . ');">';
+	}
+
+	if( simple_fields_fieldgroup( 'heading_title', $post_id )){
+
+		$html .= '<h1>' . simple_fields_fieldgroup( 'heading_title', $post_id ) . '</h1>';
+	}
+
+	$html .= '</article>';
+
+	return $html;
+}
+
+
+function get_all_cases( $classes ){
+
+	$html  = '';
+	$html .= '<div class="container-fluid">';
+	$html .= '<div class="row">';
+		
+	$args = array(
+		'posts_per_page'   => 0,
+		'offset'           => 0,
+		'category'         => '',
+		'category_name'    => '',
+		'orderby'          => 'post_date',
+		'order'            => 'DESC',
+		'include'          => '',
+		'exclude'          => '',
+		'meta_key'         => '',
+		'meta_value'       => '',
+		'post_type'        => 'post',
+		'post_mime_type'   => '',
+		'post_parent'      => '',
+		'post_status'      => 'publish',
+		'suppress_filters' => true 
+	);
+
+	$cases = get_posts( $args );
+
+	foreach( $cases as $case ){
+
+		if( has_post_thumbnail( $case->ID )){
+
+			$html .= '<div class="' . $classes . '">';
+			$html .= '<a href="' . get_permalink( $case->ID ) . '">';
+			$html .= get_the_post_thumbnail( $case->ID );
+			$html .= '</a>';
+			$html .= '</div>';
+		}
+	}
+
+	$html .= '</div>';
+	$html .= '</div>';
+
+	return $html;
+}
+
+
+function get_case_vimeo( $case_id ){
+
+	$html = '';
+
+	if( simple_fields_fieldgroup( 'case_vimeo', $post_id )){
+
+		$html .= '<div class="embed-responsive embed-responsive-16by9">';
+		$html .= '<iframe class="embed-responsive-item" src="//player.vimeo.com/video/' . substr( parse_url( simple_fields_fieldgroup( 'case_vimeo', $post_id ), PHP_URL_PATH ), 1 ) . '?title=0&amp;byline=0&amp;portrait=0&amp;color=00D8D8&amp;autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+		$html .= '</div>';
+	}
+
+	return $html;
+}
+
+
+function get_case_stills( $case_id, $classes ){
+
+	$html = '';
+
+	$stills = simple_fields_fieldgroup( 'case_stills', $case_id );
+
+	if( $stills ){
+
+		foreach( $stills as $still ){
+
+			$html .= '<div class="' . $classes . '">';
+			$html .= $still[ 'image' ][ 'full' ];
+			$html .= '</div>';
+		}
+	}
+
+	return $html;
+}
