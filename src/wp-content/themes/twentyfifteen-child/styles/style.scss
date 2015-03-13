@@ -90,24 +90,47 @@ body{
 	color: $font-color;
 }
 
-p{
+.row p{
 	text-align: center;
 	font-family: 'brandon_grotesquelight';
 	font-size: 1.6em;
 	margin-bottom: 50px;
 	color: $font-color;
+	margin-top: -30px;
 }
 
 .information_detail p{
-	font-family:'brandon_grotesquelight';
+	font-family: 'brandon_grotesquelight';
 	color: $font-color;
+	font-size: 1.2em;
 }
 
 .information_detail strong{
 			
 	font-family: 'brandon_grotesquebold';
 	color: $font-color;
+	font-size: 1.2em;
+	font-weight: normal;
+
 }
+
+.row img{
+	margin-bottom: 30px;
+}
+
+.row p{
+	
+	margin-top: 50px;
+	margin-bottom: 20px;
+
+}
+	iframe{
+		width: 1140px;
+		height: 640px;
+		margin-left: 15px;
+	}
+
+
 
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
 

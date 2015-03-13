@@ -174,7 +174,7 @@ function get_all_cases( $classes ){
 	$html .= '<div class="row">';
 		
 	$args = array(
-		'posts_per_page'   => 0,
+		'posts_per_page'   => 1000,
 		'offset'           => 0,
 		'category'         => '',
 		'category_name'    => '',
@@ -275,9 +275,9 @@ function get_case_extra_movies($case_extra_movies_id){
 			$html .= '<p>';
 			$html .= $case_extra_movie['Case_extra_vimeo_link_title'];
 			$html .= '</p>';
-			$html .= '<div class="extraMovies">';
-			$html .= '<iframe class="embed-responsive-item" src="//player.vimeo.com/video/' . substr( parse_url( $case_extra_movie['case_extra_vimeo_link'], PHP_URL_PATH ), 1 ) . '?title=0&amp;byline=0&amp;portrait=0&amp;color=00D8D8&amp;autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
-			$html .= '</div>';
+			// $html .= '<div class="extraMovies">';
+			$html .= '<iframe class="extraMovies" src="//player.vimeo.com/video/' . substr( parse_url( $case_extra_movie['case_extra_vimeo_link'], PHP_URL_PATH ), 1 ) . '?title=0&amp;byline=0&amp;portrait=0&amp;color=00D8D8&amp;autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+			// $html .= '</div>';
 		}
 	}
 

@@ -30,13 +30,13 @@ get_header(); ?>
 
 							<?php echo get_case_detail_information($case_detail_id->ID); ?>
 
-							<h2>stills from project</h2>
+							<h2 class="text_single">stills from project</h2>
 					</div>
 				</div>
 			</div>
 
 			<div class="container">
-				<div class="row">
+				<div class="row detailStills">
 					<?php echo get_case_stills( $post->ID, 'col-lg-6 col-md-6' ); ?>
 				</div>
 			</div>
