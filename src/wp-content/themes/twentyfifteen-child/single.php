@@ -23,8 +23,14 @@ get_header(); ?>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
-						<h1><?php the_title(); ?></h1>
-						<?php the_content(); ?>
+						<h2 class="text_single"><?php the_title(); ?></h2>
+							<p>
+								<?php the_content(); ?>
+							</p>
+
+							<?php echo get_case_detail_information($case_detail_id->ID); ?>
+
+							<h2>stills from project</h2>
 					</div>
 				</div>
 			</div>
@@ -32,6 +38,12 @@ get_header(); ?>
 			<div class="container">
 				<div class="row">
 					<?php echo get_case_stills( $post->ID, 'col-lg-6 col-md-6' ); ?>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<?php echo get_case_extra_movies( $post_id->ID ); ?>
 				</div>
 			</div>
 			

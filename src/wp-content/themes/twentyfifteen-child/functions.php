@@ -226,6 +226,21 @@ function get_case_vimeo( $case_id ){
 	return $html;
 }
 
+function get_showreel_vimeo($showreel_id){
+
+	$html = '';
+
+	if( simple_fields_fieldgroup( 'showreel_vimeo', $post_id )){
+
+		$html .= '<div class="embed-responsive embed-responsive-16by9">';
+		$html .= '<iframe class="embed-responsive-item" src="//player.vimeo.com/video/' . substr( parse_url( simple_fields_fieldgroup( 'showreel_vimeo', $post_id ), PHP_URL_PATH ), 1 ) . '?title=0&amp;byline=0&amp;portrait=0&amp;color=00D8D8&amp;autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+		$html .= '</div>';
+	}
+
+	return $html;
+
+}
+
 
 function get_case_stills( $case_id, $classes ){
 
@@ -245,3 +260,54 @@ function get_case_stills( $case_id, $classes ){
 
 	return $html;
 }
+
+function get_case_extra_movies($case_extra_movies_id){
+
+
+	$html = '';
+
+	$case_extra_movies = simple_fields_fieldgroup( 'case_extra_movies', $post_id);
+
+	if( $case_extra_movies ){
+
+		foreach( $case_extra_movies as $case_extra_movie ){
+
+			$html .= '<p>';
+			$html .= $case_extra_movie['Case_extra_vimeo_link_title'];
+			$html .= '</p>';
+			$html .= '<div class="extraMovies">';
+			$html .= '<iframe class="embed-responsive-item" src="//player.vimeo.com/video/' . substr( parse_url( $case_extra_movie['case_extra_vimeo_link'], PHP_URL_PATH ), 1 ) . '?title=0&amp;byline=0&amp;portrait=0&amp;color=00D8D8&amp;autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+			$html .= '</div>';
+		}
+	}
+
+	return $html;
+
+
+}
+
+function get_case_detail_information($case_detail_id){
+
+
+	$html = '';
+
+	$detailInformation = simple_fields_fieldgroup( 'case_detail_information', $case_detail_id );
+
+		if( simple_fields_fieldgroup( 'case_detail_information', $case_detail_id )){
+
+		$html .= '<div class="information_detail">';
+		$html .= simple_fields_fieldgroup( 'case_detail_information', $case_detail_id );
+		$html .= '</div>';
+	}
+
+	return $html;
+
+
+}
+
+
+// function get_contact_faces_information(){
+
+// 	$html = '';
+
+// }

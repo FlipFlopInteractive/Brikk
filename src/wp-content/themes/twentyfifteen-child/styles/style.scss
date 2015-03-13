@@ -32,6 +32,7 @@
 @import '_detailcase.scss';
 @import '_directors.scss';
 @import '_responsive.scss';
+@import '_blog.scss';
 
 /* Core CSS */
 @import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss';
@@ -53,6 +54,7 @@ body{
 	font-family: 'brandon_grotesque_regularRg';
 	width: 100%;
 	background-color: $background-color;
+
 
 }
 
@@ -76,6 +78,35 @@ body{
 
 	opacity: 1;
 
+}
+
+.text_single{
+	margin-top: 70px;
+	text-align: center;
+	font-family: 'brandon_grotesquebold';
+	text-transform: uppercase;
+	font-size: 1.3em;
+	margin-bottom: 50px;
+	color: $font-color;
+}
+
+p{
+	text-align: center;
+	font-family: 'brandon_grotesquelight';
+	font-size: 1.6em;
+	margin-bottom: 50px;
+	color: $font-color;
+}
+
+.information_detail p{
+	font-family:'brandon_grotesquelight';
+	color: $font-color;
+}
+
+.information_detail strong{
+			
+	font-family: 'brandon_grotesquebold';
+	color: $font-color;
 }
 
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
@@ -225,7 +256,7 @@ body{
 
 		.work{
 
-		.workHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 300px;
@@ -322,7 +353,7 @@ body{
 
 	.work{
 
-		.workHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 300px;
@@ -337,7 +368,7 @@ body{
 
 	.contact{
 
-		.contactHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 300px;
@@ -494,7 +525,7 @@ body{
 
 		.work{
 
-			.workHeader{
+			.ImageHeader{
 				
 				width: 100%;
 				height: 300px;
@@ -509,7 +540,7 @@ body{
 
 	.contact{
 
-		.contactHeader{
+		.ImageHeader{
 
 			h1{
 				padding-top: 60px;
@@ -661,7 +692,7 @@ body{
 
 	.contact{
 
-		.contactHeader{
+		.ImageHeader{
 
 			h1{
 				padding-top: 60px;
@@ -776,7 +807,7 @@ body{
 
 	.work{
 
-		.workHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 300px;
@@ -799,7 +830,7 @@ body{
 
 	.contact{
 
-		.contactHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 300px;
@@ -1140,7 +1171,7 @@ body{
 
 		.work{
 
-		.workHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1176,7 +1207,7 @@ body{
 
 	.contact{
 
-		.contactHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1276,6 +1307,7 @@ body{
 
 		#responsive_menu{
 			display: block;
+
 			
 
 			ul{
@@ -1285,6 +1317,7 @@ body{
 				background-color: $background-color;
 				display: none;
 				margin-left: 0;
+
 
 			}
 
@@ -1311,7 +1344,7 @@ body{
 				
 				float: right;
 				margin-right: 7%;
-				margin-top: -55px;
+				margin-top: -67px;
 				cursor:pointer;
 			}
 		}
@@ -1339,7 +1372,7 @@ body{
 
 		.work{
 
-		.workHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1375,7 +1408,7 @@ body{
 
 	.contact{
 
-		.contactHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1714,7 +1747,6 @@ body{
 				
 				float: right;
 				margin-right: 7%;
-				margin-top: -55px;
 				cursor:pointer;
 			}
 		}
@@ -1746,7 +1778,7 @@ body{
 
 	.work{
 
-		.workHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1782,7 +1814,7 @@ body{
 
 	.contact{
 
-		.contactHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;

@@ -39,6 +39,13 @@
 				$(".logo_static").css({"display":"none"}); 
 				$(".logo_animation").css({"display":"none"}); 
 
+				$("#header").css({
+						"-webkit-box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)",
+						"-moz-box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)",
+						"box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)"
+
+				});
+
 				console.log("bottom");
     		}
 
@@ -49,7 +56,13 @@
 				$(".logo_brikk_fixed").css({"display":"none"});
 				$("#header").css({"position":"inherit"});
 
-				console.log("top");
+				$("#header").css({
+						"-webkit-box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)",
+						"-moz-box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)",
+						"box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)"
+
+				});
+	
     		}
 			
 		});

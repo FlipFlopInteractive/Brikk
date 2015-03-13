@@ -11,16 +11,10 @@
 <?php get_header(); ?>
 
 <section class="contact">
-      
-      <article class="contactHeader">
-		
-        <h1>Looking to get started? Write us and lets</br>create some magic.</h1>
-        <!--<img class="headerImage" alt="headerImage" title="headerImage" src="../images/Screens/dupstep_cat.jpg"></img>-->
-      </article>  
 
-    <p class="text_contact">Brikk is a Stockholm-based animation & interactive production company.
-Our team of animators, designers, developers and directors work together with our clients
- world-class creative work brimming with character. Brikk is a Stockholm-based animation & interactive</p>
+ 
+ 	<?php echo get_page_heading( $post->ID ); ?>
+	<?php echo wpautop( $post->post_content ); ?>
 
 
 	<article id="members" class="clearfix">

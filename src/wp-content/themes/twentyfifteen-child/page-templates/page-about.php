@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * Template Name: about page
  *
@@ -26,13 +26,15 @@
 
       </article>  
 
-	<p class="about_text">Brikk is a Stockholm-based design driven Production company and animation studio. </br>
+<!-- 	<p class="about_text">Brikk is a Stockholm-based design driven Production company and animation studio. </br>
 	We have a versatile mix of directors, animators, designers, and illustrators from al over the world and</br>
 	together with our clients we always strive to create worldclass animations with alot of creativty and love.</br></br>
 
 	If you want to get in contact to start a production give our Creative Director <span class="bold_text">Samuel Fast</span> a call </br>
 	or if you are a shy you can just send us an email with your brief, and we get back to you as qucik as we can.
-	</p>
+	</p> -->
+
+	<?php echo wpautop( $post->post_content ); ?>
 	
 	<div id="map_wrapper">
 		<div class="map_overlay">
@@ -48,7 +50,7 @@
     	<div id="map-canvas"></div>
 	</div>
 
-    <p class="about_text">Brikk Is a social company, please follow us for updates: </p>
+    <h2 class="about_social">Brikk Is a social company, please follow us for updates: </h2>
 	
 	<div id="icons">
 
