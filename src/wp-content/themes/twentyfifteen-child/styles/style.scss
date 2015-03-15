@@ -54,7 +54,7 @@ body{
 	font-family: 'brandon_grotesque_regularRg';
 	width: 100%;
 	background-color: $background-color;
-
+	box-sizing:border-box;
 
 }
 
@@ -115,7 +115,7 @@ body{
 }
 
 .row img{
-	margin-bottom: 30px;
+	margin-bottom: 5px;
 }
 
 .row p{
@@ -124,10 +124,10 @@ body{
 	margin-bottom: 20px;
 
 }
-	iframe{
+iframe{
 		width: 1140px;
 		height: 640px;
-		margin-left: 15px;
+		/*margin-left: 15px;*/
 	}
 
 
@@ -140,7 +140,7 @@ body{
 
 	.directors{
 		
-		.directorsHeader{
+		.ImageHeader{
 
 			h1{
 				padding-top: 120px;
@@ -527,7 +527,7 @@ body{
 
 	.directors{
 
-		.directorsHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 300px;
@@ -673,7 +673,7 @@ body{
 
 	.directors{
 
-		.directorsHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 300px;
@@ -846,7 +846,22 @@ body{
 			width: 70%;
 			margin: auto;
 			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-bottom: 80px;
+		}
+
+		.workGrid{
+			box-sizing: border-box;
+			display: inline-block;
+			width: 33.3333%;
+			padding-right: 3px;
+			padding-left: 3px;
+		
+		}
+
+
+		.workGrid a img{
+			margin-bottom: 3px;
+			box-sizing: border-box;
 		}
 
 	}
@@ -987,7 +1002,7 @@ body{
 
 	.directors{
 
-		.directorsHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 300px;
@@ -1011,7 +1026,7 @@ body{
 
 
 
-		.ImageHeader{
+	.ImageHeader{
 
 		h1{
 		
@@ -1110,6 +1125,34 @@ body{
 	    	text-decoration: none;
 	    	color: white;
 	    }
+	}
+
+	.work{
+
+		p{
+			width: 70%;
+			margin: auto;
+			font-size: 1.2em;
+			margin-top: 40px;
+			margin-bottom: 80px;
+		}
+
+		.workGrid{
+			box-sizing: border-box;
+			display: inline-block;
+			width: 50%;
+			padding-right: 3px;
+			padding-left: 3px;
+		
+		}
+
+
+		.workGrid a img{
+			margin-bottom: 3px;
+			box-sizing: border-box;
+		}
+
+
 	}
 
 }
@@ -1212,8 +1255,24 @@ body{
 			margin: auto;
 			font-size: 1.2em;
 			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-bottom: 80px;
 		}
+
+		.workGrid{
+			box-sizing: border-box;
+			display: inline-block;
+			width: 50%;
+			padding-right: 3px;
+			padding-left: 3px;
+		
+		}
+
+
+		.workGrid a img{
+			margin-bottom: 3px;
+			box-sizing: border-box;
+		}
+
 
 	}
 
@@ -1291,7 +1350,7 @@ body{
 
 	.directors{
 
-		.directorsHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1413,8 +1472,24 @@ body{
 			margin: auto;
 			font-size: 1.2em;
 			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-bottom: 80px;
 		}
+
+		.workGrid{
+			box-sizing: border-box;
+			display: inline-block;
+			width: 100%;
+			padding-right: 3px;
+			padding-left: 3px;
+		
+		}
+
+
+		.workGrid a img{
+			margin-bottom: 3px;
+			box-sizing: border-box;
+		}
+
 
 	}
 
@@ -1594,7 +1669,7 @@ body{
 
 	.directors{
 
-		.directorsHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1819,7 +1894,22 @@ body{
 			margin: auto;
 			font-size: 1.2em;
 			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-bottom: 80px;
+		}
+
+		.workGrid{
+			box-sizing: border-box;
+			display: inline-block;
+			width: 100%;
+			padding-right: 3px;
+			padding-left: 3px;
+		
+		}
+
+
+		.workGrid a img{
+			margin-bottom: 3px;
+			box-sizing: border-box;
 		}
 
 	}
@@ -2023,7 +2113,7 @@ body{
 
 	.directors{
 
-		.directorsHeader{
+		.ImageHeader{
 			
 			width: 100%;
 			height: 150px;

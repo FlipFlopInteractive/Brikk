@@ -11,7 +11,7 @@
 	}
 	
 	.ImageHeader{
-		// background-image: url("images/Screens/western.gif");
+		 /*background-image: url("images/Screens/western.gif");*/
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -48,7 +48,37 @@
 
 }
 
-.width{
+.work_wrapper{
+	position: relative;
+	overflow: hidden;
+}
+
+.work_overlay{
+	position: absolute;
+	background-size: black;
+}
+
+.workGrid{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 25%;
+	padding-right: 3px;
+	
+}
+
+
+.workGrid a img{
+	margin-bottom: 3px;
+	box-sizing: border-box;
+}
+
+.workGrid:nth-child(4n+4){
+	box-sizing: border-box;
+	padding-right: 0px;
+}
+
+
+/*.width{
 	width: 100%;
 	height: 100%;
 }
@@ -67,4 +97,4 @@
 	.cases .row  div img {
 		
 		width: 100%;
-	}
+	}*/

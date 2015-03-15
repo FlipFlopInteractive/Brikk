@@ -33,7 +33,7 @@
 	If you want to get in contact to start a production give our Creative Director <span class="bold_text">Samuel Fast</span> a call </br>
 	or if you are a shy you can just send us an email with your brief, and we get back to you as qucik as we can.
 	</p> -->
-
+	
 	<?php echo wpautop( $post->post_content ); ?>
 	
 	<div id="map_wrapper">
