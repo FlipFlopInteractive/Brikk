@@ -306,8 +306,69 @@ function get_case_detail_information($case_detail_id){
 }
 
 
-// function get_contact_faces_information(){
+function get_contact_faces($post_id){
 
-// 	$html = '';
 
-// }
+	$html = '';
+
+	$contact_faces = simple_fields_fieldgroup( 'contact_faces', $post_id);
+
+	// print_r($contact_face);
+
+	if( $contact_faces ){
+
+		foreach( $contact_faces as $contact_face ){
+
+			// print_r($contact_face['contact_face_image_static']['image']['full']);
+			// print_r($contact_face);
+
+		$html .= '<!--';	
+		$html .= '--><div class="member">';	
+	      	$html .= '<div class="member__wrapper">';
+	      		$html .= '<div class="contact_overlay">';
+					$html .= '<div class="vertically-centered">';
+						$html .= '<div class="vertically-centered__content">';
+							$html .= '<div class="information">';
+								$html .= '<p class="name">'. $contact_face['contact_face_name'] .'</p><br />';
+								$html .= '<p class="job_function">'. $contact_face['job_function'] .'</p><br />';
+								$html .= '<p class="info_phone"><img src="'. get_child_template_directory_uri() .'/images/icons/iphone_icon.png">'. $contact_face['phone_number'] .'</p><br />';
+								$html .= '<p class="info_mail"><img src="'. get_child_template_directory_uri() .'/images/icons/mail_icon.png"/>';
+								$html .= '<a href="mailto:'.$contact_face['E_mail'] .'">'. $contact_face['E_mail'] .'</a></p>';
+							$html .= '</div>';
+						$html .= '</div>';
+					$html .= '</div>';
+				$html .= '</div>';
+	      		$html .= '<img class="info_icon" src="'. get_child_template_directory_uri() .'/images/buttons/info_btn.png" />';
+	      		$html .= '<img class="close_icon" src="'. get_child_template_directory_uri() .'/images/buttons/close_btn.png" />';	
+	      		
+		      	$html .= '<img class="Brikk_members"'. $contact_face['contact_face_image_dynamic']['image']['full'];
+		  	   $html .= '<img class="static_members"'. $contact_face['contact_face_image_static']['image']['full'];
+	      $html .= '</div>';
+	      	$html .= '<a href="mailto:'.$contact_face['E_mail'] .'" ><p class="name_lower">'. $contact_face['contact_face_name'] .'</p></a>';  	
+    	$html .= '</div><!--';
+			
+		}
+	}
+
+	return $html;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
