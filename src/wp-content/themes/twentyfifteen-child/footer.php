@@ -31,10 +31,10 @@
     </section>
 </div>
 
-<!--<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/vendor/jquery-1.8.1.min.js"></script>-->
-<script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script async tyoe="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKy45RzdHPBl29dsl1iAlWEeiImfBE_4"></script>
-<script async type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/vendor/isotope.js"></script>
+<script async type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/jquery.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKy45RzdHPBl29dsl1iAlWEeiImfBE_4"></script>
+<script async src="<?php echo get_child_template_directory_uri(); ?>/js/isotope.js"></script>
 <script async type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/app.js"></script>
 <script async type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/map.js"></script>
 

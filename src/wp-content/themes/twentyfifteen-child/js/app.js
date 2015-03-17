@@ -19,8 +19,7 @@
 
 	var $container = $('.row').isotope({
 
- 
-		});	
+	});	
 
 		$('.filters').on( 'click', 'a', function(e) {
 

@@ -23,7 +23,7 @@
 			<a href="" data-filter=".3"><li>stopmotion</li></a>
 			<a href="" data-filter=".4"><li>cel-animation</li></a>
 			<a href="" data-filter=".5"><li>live-action</li></a>
-			<a href="#" data-filter="*"><li>all</li></a>
+			<a href="" data-filter="*"><li>all</li></a>
 		</ul>
 	</div>
 
