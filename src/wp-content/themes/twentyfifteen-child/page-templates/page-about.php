@@ -14,7 +14,9 @@
       
       <article class="aboutHeader">
 		
-        <h1>We love new challenges,</br> and we love to make good motion.</h1>
+        <!-- <h1>We love new challenges,</br> and we love to make good motion.</h1> -->
+
+        
 
 		<ul class="cb-slideshow">
 			<li><span>Image 01</span></li>
