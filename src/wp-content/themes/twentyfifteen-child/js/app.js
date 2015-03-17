@@ -16,6 +16,23 @@
 		window.onload = function (){preloadCompleteHandler();};
 	}*/
 
+
+	var $container = $('.row').isotope({
+
+ 
+		});	
+
+		$('.filters').on( 'click', 'a', function(e) {
+
+			e.preventDefault();
+
+			console.log($(".workGrid"));
+
+		 	var filterValue = $(this).attr('data-filter');
+  			$container.isotope({ filter: filterValue });
+		});
+
+
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
 				console.log("mobile");
@@ -29,7 +46,7 @@
     		
     		var scroll = $(window).scrollTop();
 
-    		console.log(scroll);
+    		// console.log(scroll);
 
     		if(scroll > 0){		
     	
@@ -46,7 +63,7 @@
 
 				});
 
-				console.log("bottom");
+				// console.log("bottom");
     		}
 
     		else if(scroll <= 0){

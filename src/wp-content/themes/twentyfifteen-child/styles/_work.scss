@@ -82,6 +82,28 @@
 	margin-right: -18px;
 }
 
+.filters{
+
+		width: 500px;
+		display: block;
+		margin: auto;
+		padding-bottom:20px;
+
+		li{
+			list-style: none;
+			display: inline-block;
+			padding-left:20px;
+			font-family: 'brandon_grotesquebold';
+			color: $font-color;
+			font-size: 0.7em;
+
+		}
+
+		a{
+			color: $font-color !important;
+			text-transform: uppercase;
+		}
+}
 
 /*.width{
 	width: 100%;

@@ -16,12 +16,17 @@
 	<?php echo wpautop( $post->post_content ); ?>
 	<!--<?php echo get_all_cases( 'col-lg-3 col-md-3 col-sm-4 col-xs-1' ); ?>-->
 
-	<div class="work_wrapper">
-		<div class="work_overlay">
-			<p>test</p>
-		</div>
-		<?php echo get_all_cases( 'workGrid'); ?>
+	<div id="navigation">
+		<ul class="cl-effect-1 filters">
+			<a href="#" data-filter="*"><li>all</li></a>
+			<a href="" data-filter=".animation"><li>animation</li></a>
+			<a href="" data-filter=".stopmotion"><li>stopmotion</li></a>
+			<a href="" data-filter=".cel-animation"><li>cel-animation</li></a>
+			<a href="" data-filter=".live-action"><li>live-action</li></a>
+		</ul>
 	</div>
+
+		<?php echo get_all_cases( 'workGrid'); ?>
 
 </section> 
 

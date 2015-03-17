@@ -179,7 +179,7 @@ function get_all_cases( $classes ){
 		'category'         => '',
 		'category_name'    => '',
 		'orderby'          => 'post_date',
-		'order'            => 'DESC',
+		'order'            => 'ASC',
 		'include'          => '',
 		'exclude'          => '',
 		'meta_key'         => '',
@@ -197,7 +197,9 @@ function get_all_cases( $classes ){
 
 		if( has_post_thumbnail( $case->ID )){
 
-			$html .= '<div class="' . $classes . '">';
+			$category = simple_fields_fieldgroup( 'categories_choose',$case->ID );
+
+			$html .= '<div class="' . $classes .' '.$category.'">';
 			$html .= '<a href="' . get_permalink( $case->ID ) . '">';
 			$html .= get_the_post_thumbnail( $case->ID );
 			$html .= '</a>';
@@ -210,7 +212,6 @@ function get_all_cases( $classes ){
 
 	return $html;
 }
-
 
 function get_case_vimeo( $case_id ){
 
@@ -251,6 +252,7 @@ function get_case_stills( $case_id, $classes ){
 	if( $stills ){
 
 		foreach( $stills as $still ){
+
 
 			$html .= '<div class="' . $classes . '">';
 			$html .= $still[ 'image' ][ 'full' ];
