@@ -324,8 +324,9 @@ function get_contact_faces($post_id){
 			// print_r($contact_face['contact_face_image_static']['image']['full']);
 			// print_r($contact_face);
 
-		$html .= '<!--';	
-		$html .= '--><div class="member">';	
+		// $html .= '<!--';	
+		// $html .= '--><div class="member">';	
+		$html .= '<div class="member">';	
 	      	$html .= '<div class="member__wrapper">';
 	      		$html .= '<div class="contact_overlay">';
 					$html .= '<div class="vertically-centered">';
@@ -347,7 +348,8 @@ function get_contact_faces($post_id){
 		  	   $html .= '<img class="static_members"'. $contact_face['contact_face_image_static']['image']['full'];
 	      $html .= '</div>';
 	      	$html .= '<a href="mailto:'.$contact_face['E_mail'] .'" ><p class="name_lower">'. $contact_face['contact_face_name'] .'</p></a>';  	
-    	$html .= '</div><!--';
+    	$html .= '</div>';
+    	// $html .= '</div><!--';
 			
 		}
 	}

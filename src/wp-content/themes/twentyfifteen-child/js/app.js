@@ -10,13 +10,7 @@
 
 	function init(){
 
-
-	/*if($("#container")[0] != undefined) {
-
-		window.onload = function (){preloadCompleteHandler();};
-	}*/
-
-
+		
 	/*var $container = $('.row').isotope({
 
 	});	
@@ -32,64 +26,13 @@
 		});*/
 
 
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-
-				console.log("mobile");
-
-    			$("#header").css({"height":"80px"});
-				$(".logo").css({"top":"0"});
-				$("#header").css({"position":"static"});
-	}else{
-
-		$(window).scroll(function (event) {
-    		
-    		var scroll = $(window).scrollTop();
-
-    		// console.log(scroll);
-
-    		if(scroll > 0){		
-    	
-				$("#header").css({"height":"80px"});
-				$("#header").css({"position":"fixed"});
-				$(".logo_brikk_fixed").css({"display":"block"}); 
-				$(".logo_static").css({"display":"none"}); 
-				$(".logo_animation").css({"display":"none"}); 
-
-				$("#header").css({
-						"-webkit-box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)",
-						"-moz-box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)",
-						"box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)"
-
-				});
-
-				// console.log("bottom");
-    		}
-
-    		else if(scroll <= 0){
-
-    			$("#header").css({"height":"80px"});
-				$(".logo_static").css({"display":"block"}); 
-				$(".logo_brikk_fixed").css({"display":"none"});
-				$("#header").css({"position":"inherit"});
-
-				$("#header").css({
-						"-webkit-box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)",
-						"-moz-box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)",
-						"box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)"
-
-				});
-	
-    		}
-			
-		});
-		
-	}
 
 
 	$(".Brikk_members").on("click", info_clickHandler);
 	$(".info_icon").on("click", info_clickHandler);
 
-		$('#menu_icon').on("click",function(){
+
+	$('#menu_icon').on("click",function(){
 
 			if(menuClicked == false){
 
@@ -109,117 +52,10 @@
 				}
 			}
 
-		});
+	});
 
-
-		// if($(".homepage")[0] != undefined) {
-		// 	console.log('hello home');
-
-		// 	// $.ajax({
-		// 	// 	url: "https://api.twitter.com/1.1/search/tweets.json?src=typd&q=%40BRIKKSTUDIO?access_token=384791538-QPTr8cXMmHJS7AfABL386Z6ECp4IgBT2gaT019xr",
-		// 	// 	type:'GET',
-		// 	// 	dataType: 'json',
-		// 	// 	error: apiError
-
-		// 	// 	}).done(function(data){
-
-		// 	// 		console.log(data);
-
-		// 	// })
-		// }
-
-		$('#more').hide();
-		if($("#cases")[0] != undefined) {
-			console.log('hello world');
-
-			$.ajax({
-				url: apiurl + 'users/brikk/videos?access_token=c552e9eb6fd408122c1a11c21af5b30a',
-				headers: {
-					Accept: "application/vnd.vimeo.*+json;version=3.2"
-				},
-				type: 'GET',
-				dataType: 'json',
-				error: apiError
-			}).done(function(data){
-
-				totalitems = data.total;
-				$('#more').show();
-				$('#more').on('click', showMore);
-				currentPage = 1;
-				loadVideosOfPage(currentPage);
-			})
-		}
-
-	}
-
-	function loadVideosOfPage(page) {
-		$.ajax({
-				url: apiurl + 'users/brikk/videos?page=' + page + '&per_page=' + items_per_page + '&access_token=c552e9eb6fd408122c1a11c21af5b30a',
-				headers: {
-					Accept: "application/vnd.vimeo.*+json;version=3.2"
-				},
-				type: 'GET',
-				dataType: 'json',
-				error: apiError
-		}).done(loadVideosOfPageSuccesHandler);
-	}
-
-	function loadVideosOfPageSuccesHandler(data) {
-
-		var cases = $('#cases');
-		//cases.empty();
-
-		$.each(data.data, function(key,value) {
-
-			if(key%4 === 0)
-			{
-				cases.append("<div class='row clearfix'>");
-			}
-
-			var lastRow = cases.children('.row').last();
-			var biggestPicture = selectBiggestPicture(value);
-			//lastRow.append("<div><a href='http://local.brikk.se/detailCase&videolink=" +encodeURIComponent(value.link) + "'><img class='Brikk_cases' src='"+ biggestPicture +"' /></a></div>");
-			lastRow.append("<div><a href='./detailCase'><img class='Brikk_cases' src='"+ biggestPicture +"' /></a></div>");
-		}); 
-
-		currentPage++;
-		if(currentPage * items_per_page < totalitems)
-		{
-			$('#more').show();
-		}
-	}
-
-	function selectBiggestPicture(value) {
-		if(value.pictures.sizes[3]) return value.pictures.sizes[3].link;
-		if(value.pictures.sizes[2]) return value.pictures.sizes[2].link;
-		if(value.pictures.sizes[1]) return value.pictures.sizes[1].link;
-		if(value.pictures.sizes[0]) return value.pictures.sizes[0].link;
-	}
-
-	function showMore() {
-		$('#more').hide();
-
-		if(currentPage * items_per_page < totalitems) {
-			loadVideosOfPage(currentPage);
-		}
-		
-	}
-
-	function apiError(data) {
-		console.log('OW SHIT: ', data);
-	}
-
-	function preloadCompleteHandler(){
-		console.log("in complete");
-
-
-		$(".preloader").css({"opacity":"1"});
-		$("#preloaderAnimation").css({"display":"none"});
-
-	}
 
 	function info_clickHandler(){
-		console.log("in info_clickHandler");
 
 		var member = $( this ).parent().parent();
 
@@ -238,7 +74,65 @@
 	}
 
 
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
+				console.log("mobile");
+
+    			$("#header").css({"height":"80px"});
+				$(".logo").css({"top":"0"});
+				$("#header").css({"position":"static"});
+	}else{
+
+		$(window).scroll(function (event) {
+    		
+    		var scroll = $(window).scrollTop();
+
+    		if(scroll > 0){		
+    	
+				$("#header").css({"height":"60px"});
+				$("#header").css({"position":"fixed"});
+				$(".logo_brikk_fixed").css({"display":"block"}); 
+				$(".logo_static").css({"display":"none"}); 
+				$(".logo_animation").css({"display":"none"}); 
+				$("#wrapper_logo").css({"width":"100px"});
+				$("#wrapper_logo").css({"margin-top":"8px"});
+				$("#navigation ul").css({"margin-top":"-32px"});
+				$("#navigation li").css({"font-size":"0.6em"});
+
+				$("#header").css({
+						"-webkit-box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)",
+						"-moz-box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)",
+						"box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)"
+
+				});
+    		}
+
+    		else if(scroll <= 0){
+
+    			$("#header").css({"height":"80px"});
+				$(".logo_static").css({"display":"block"}); 
+				$(".logo_brikk_fixed").css({"display":"none"});
+				$("#header").css({"position":"inherit"});
+				$("#wrapper_logo").css({"width":"170px"});
+				$("#wrapper_logo").css({"margin-top":"0px"});
+				$("#navigation ul").css({"margin-top":"-45px"});
+				$("#navigation li").css({"font-size":"0.8em"});
+
+				$("#header").css({
+						"-webkit-box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)",
+						"-moz-box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)",
+						"box-shadow": "0px 0px 0px 0px rgba(110,110,109,0.58)"
+
+				});
+    		}
+			
+		});
+		
+	}
+
+
+
+	}
 
 init();
 
