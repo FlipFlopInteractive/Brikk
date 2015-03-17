@@ -21,6 +21,7 @@
 @import '_icons.scss';
 
 /* Overwrite and extend variables */
+
 @import '_variables.scss';
 @import '_header.scss';
 @import '_home.scss';
@@ -1709,7 +1710,6 @@ a{
 
 
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
-
 @media (max-width: 320px) {
 
 	header{
@@ -2074,3 +2074,15 @@ a{
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
