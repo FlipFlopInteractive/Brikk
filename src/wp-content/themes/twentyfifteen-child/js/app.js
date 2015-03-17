@@ -17,7 +17,7 @@
 	}*/
 
 
-	var $container = $('.row').isotope({
+	/*var $container = $('.row').isotope({
 
 	});	
 
@@ -29,7 +29,7 @@
 
 		 	var filterValue = $(this).attr('data-filter');
   			$container.isotope({ filter: filterValue });
-		});
+		});*/
 
 
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {

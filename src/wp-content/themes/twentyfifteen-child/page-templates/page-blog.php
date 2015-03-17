@@ -12,8 +12,7 @@
 
 <section class="blog">
 	
-	
-	<iframe allowtransparency="true" scrolling="yes" frameborder="0" src="http://brikkblog.tumblr.com/"></iframe>
+	<iframe id="blog_frame" allowtransparency="true" scrolling="yes" frameborder="0" src="http://brikkblog.tumblr.com/"></iframe>
 
 </section> 
 

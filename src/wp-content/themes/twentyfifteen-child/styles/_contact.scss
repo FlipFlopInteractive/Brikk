@@ -28,6 +28,43 @@
 		}
 	}
 
+	#information_contact{
+
+	margin-top: 100px;
+
+		p{
+			margin-left: 20px;
+			text-align: center;
+			color: $font-color;
+			font-size: 1.1em;
+			font-family: 'brandon_grotesquelight';
+			margin: auto;
+			margin-bottom: 20px;
+			width: 100%;
+
+		}
+
+		a{
+			text-decoration: none;
+			text-align: center;
+			color: $font-color;
+			margin: auto;
+		}
+
+		h2{
+			margin-left: 20px;
+			color: $font-color;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-family: 'brandon_grotesquebold';
+			margin-bottom: 3px;
+			margin-top: 15px;
+			width: 100%;
+			text-align: center;
+			margin: auto;
+		}
+	}
+
 	p{
 		text-align: center;
 		font-size: 1.6em;

@@ -12,11 +12,9 @@
 
 <section class="about">
       
-      <article class="aboutHeader">
+      <article class="ImageHeader">
 		
-        <!-- <h1>We love new challenges,</br> and we love to make good motion.</h1> -->
-
-        
+        <h1>We love new challenges, and we love to create original solutions.</h1>
 
 		<ul class="cb-slideshow">
 			<li><span>Image 01</span></li>
@@ -36,7 +34,7 @@
 			<article id="information_map">
 				<h2>Schedule an appointment</h2>
 				<p><a href="mailto:samuel@brikk.se">samuel@brikk.se</a></br>+46 (0)73 612 06 04</p>
-				<h2>Apply for our internship program,</br> or maybe you just want to show your portoflio?</h2>
+				<h2>Apply for internship program</h2>
 				<p><a href="mailto:post@brikk.se">post@brikk.se</a></p>
 				<h2>Stockholm office:</h2>
 				<p>Brikk Animation och Film AB</br>Pryssgränd 10B</br>118 20 Stockholm</p>
@@ -45,7 +43,7 @@
     	<div id="map-canvas"></div>
 	</div>
 
-    <h2 class="about_social">Brikk Is a social company, please follow us for updates: </h2>
+    <h2 class="about_social">Please follow us for updates: </h2>
 	
 	<div id="icons">
 
