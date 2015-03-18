@@ -69,6 +69,8 @@
 	display: inline-block;
 	width: 25%;
 	padding-right: 3px;
+	height:auto;
+	padding-bottom:5px;
 	
 }
 
@@ -78,16 +80,11 @@
 	box-sizing: border-box;
 	width: 100%;
 	min-height:100%;
-	display:block;
 }
 
 .workGrid:nth-child(4n+4){
 	box-sizing: border-box;
 	/*padding-right: 0px;*/
-}
-
-.work_wrapper .row{
-	margin-right: -18px;
 }
 
 .filters{
