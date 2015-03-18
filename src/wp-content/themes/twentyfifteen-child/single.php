@@ -37,12 +37,12 @@ get_header(); ?>
 
 			<div class="container">
 				<div class="row detailStills">
-					<?php echo get_case_stills( $post->ID, 'col-lg-6 col-md-6' ); ?>
+					<?php echo get_case_stills( $post->ID, 'detailGrid' ); ?>
 				</div>
 			</div>
 
 			<div class="container">
-				<div class="row">
+				<div class="row extra_movies">
 					<?php echo get_case_extra_movies( $post_id->ID ); ?>
 				</div>
 			</div>
