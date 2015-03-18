@@ -1652,15 +1652,36 @@ a{
 		}
 	}
 	
-	.homepage p{
-		font-size: 1.2em;
-		width: 80%;
-
-		margin: auto;
+	.text_titles{
+		text-align: center;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'brandon_grotesquebold';
+		text-transform: uppercase;
+		font-size: 1.5em;
+		color:$font-color;
+		padding-top: 100px;
+		padding-bottom: 5px;
 	}
 
-	.homepage h2{
-		width: 80%;
+	.text_titles:nth-last-child(2){
+
+		padding-top: 30px;
+	}
+
+	.p_content_wordpress p{
+		font-family: 'brandon_grotesquelight';
+		font-size: 1.2em;
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+
+	.p_content_wordpress p:nth-last-child(2){
+
+		padding-bottom: 50px;
 	}
 
 	.work{
@@ -1678,12 +1699,22 @@ a{
 			}
 		}
 
-		p{
-			width: 70%;
+		.filters{
+			width: 250px;
+			display: block;
 			margin: auto;
-			font-size: 1.2em;
-			margin-top: 40px;
-			margin-bottom: 80px;
+			padding-bottom:20px;
+			padding-top: 20px;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				font-size: 0.7em;
+				text-align: left;
+				padding-bottom: 30px;
+				
+
+			}
 		}
 
 		.workGrid{
@@ -1692,7 +1723,7 @@ a{
 			width: 100%;
 			padding-right: 3px;
 			padding-left: 3px;
-		
+			padding-bottom: 0;
 		}
 
 
@@ -1706,10 +1737,8 @@ a{
 	.showreel{
 
 		p{
-			width: 70%;
-			font-size: 1.2em;
-			margin: auto;
-			margin-top: 50px;
+
+			padding-top: 30px;
 		}
 
 	}
@@ -1728,18 +1757,29 @@ a{
 			}
 		}
 
-		.text_contact{
-			width: 70%;
-			font-size: 1.2em;
-			margin: auto;
-			margin-top: 50px;
+		#members {
+		width: 300px;
+		height: 100%;
+		margin: auto;
+		margin-top: 100px;
+		overflow: hidden;
+
+		}
+
+		.member{
+			width: 100%;
+			display: inline-block;
+			overflow: hidden;
+			margin-left: 1%;
+			box-sizing:border-box;
+			margin-top: 15px;
 		}
 	
 	}
 
 	.about{
 
-		.ImageHeader{
+		.AboutHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1762,8 +1802,6 @@ a{
 
 		#map-canvas{
 			margin-left: 0;
-			
-
 			height: 300px;
 			width: 375px; 
 		}
@@ -1842,40 +1880,20 @@ a{
 			}
 		}
 
-		p{
-			width: 70%;
-			font-size: 1.2em;
-			margin-top: -20px;
-		}
-
-	}
-
-	.detailCase{
-			
 		h2{
-			margin-top: 30px;
-			text-align: center;
-			font-family: 'brandon_grotesquebold';
-			text-transform: uppercase;
-			font-size: 1.2em;
-			margin-bottom: 20px;
-			color: $font-color;
+			padding-bottom: 20px;
 		}
 
-		p{
-			text-align: center;
-			font-family: 'brandon_grotesquelight';
-			font-size: 1.2em;
-			margin-bottom: 70px;
-			width: 80%;
-			margin: auto;
-			color: $font-color;
+		.academicInformation{
+			padding-top: 30px;
+			margin-bottom: 100px;
+			font-size: 1em;
+			line-height: 1.5em;
+			width: 100%;
+			padding-left:20px;
+			padding-right:20px;
 		}
 
-		.information{
-
-			margin-top: 30px;
-		}
 	}
 
 }
