@@ -170,7 +170,7 @@ function get_page_heading( $post_id ){
 function get_all_cases( $classes ){
 
 	$html  = '';
-	$html .= '<div class="container-fluid">';
+	// $html .= '<div class="container-fluid">';
 	$html .= '<div class="row">';
 		
 	$args = array(
@@ -199,7 +199,8 @@ function get_all_cases( $classes ){
 
 			$category = simple_fields_fieldgroup( 'categories_choose',$case->ID );
 
-			$html .= '<div class="' . $classes .' '.$category.'">';
+			// $html .= '<div class="' . $classes .' '.$category.'">';
+			$html .= '<div class="' . $classes .'">';
 			$html .= '<a href="' . get_permalink( $case->ID ) . '">';
 			$html .= get_the_post_thumbnail( $case->ID );
 			$html .= '</a>';
@@ -208,7 +209,7 @@ function get_all_cases( $classes ){
 	}
 
 	$html .= '</div>';
-	$html .= '</div>';
+	// $html .= '</div>';
 
 	return $html;
 }

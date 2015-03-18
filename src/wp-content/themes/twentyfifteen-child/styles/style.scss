@@ -195,7 +195,7 @@ a{
 
 		#navigation{
 			li:last-of-type{
-				margin-left: -260px;
+				/*margin-left: -260px;*/
 		}
 	}
 
@@ -214,13 +214,6 @@ a{
 		float: left;
 	}
 
-	p{
-		width:10px;
-		display: inline-block;
-		margin-left: 300px;
-		text-transform: uppercase;
-		font-size: 0.8em;
-	}
 	}
 
 
@@ -513,6 +506,17 @@ a{
 		}
 
 	}
+
+	.blog{
+
+		#blog_frame{
+			width: 100%;
+			margin: auto;
+			display: block;
+			height: 700px;
+
+		}
+	}
 }
 
 @media(min-width: 1500px) and (max-width: 2000px){
@@ -721,14 +725,14 @@ a{
 		.workGrid{
 			box-sizing: border-box;
 			display: inline-block;
-			width: 33.3%;
-			margin-bottom: -6px;
+			/*width: 33.3%;*/
+			margin-bottom: 0px;
 
 			
 		}
 
 		.row{
-			margin-left: 3px;
+			margin-left: 0px;
 		}
 
 		.workGrid:nth-child(3n+3){
@@ -1018,9 +1022,9 @@ a{
 		.workGrid{
 			box-sizing: border-box;
 			display: inline-block;
-			width: 33.3%;
-			margin-bottom: -3px;
-			padding-left: 4px;
+			/*width: 33.3%;*/
+			margin-bottom: -1px;
+			
 
 		}
 
@@ -1354,21 +1358,21 @@ a{
 			box-sizing: border-box;
 			display: inline-block;
 			width: 50%;
-			margin-bottom: -6px;
+			margin-bottom: 0px;
 			
 			
 		}
 
 		.row{
-			margin-left: 0px;
+			margin-left: -2px;
 		}
 
-		.workGrid:nth-child(2n+2){
+		/*.workGrid:nth-child(2n+2){
 			box-sizing: border-box;
 			padding-left: 1.5px;
 			padding-right: 0px;
 				
-		}
+		}*/
 
 
 		.workGrid a img{
@@ -1640,7 +1644,7 @@ a{
 			box-sizing: border-box;
 			display: inline-block;
 			width: 50%;
-			margin-bottom: -6px;
+			margin-bottom: -2px;
 			padding-right: 1.5px;
 			
 		}
@@ -1649,12 +1653,12 @@ a{
 			margin-left: 0px;
 		}
 
-		.workGrid:nth-child(2n+2){
+		/*.workGrid:nth-child(2n+2){
 			box-sizing: border-box;
 			padding-left: 1.5px;
 			padding-right: 3px;
 				
-		}
+		}*/
 
 
 		.workGrid a img{
@@ -1972,9 +1976,7 @@ a{
 			box-sizing: border-box;
 			display: inline-block;
 			width: 100%;
-			padding-right: 3px;
-			padding-left: 3px;
-			margin-bottom: -6px;
+			margin-bottom: 0	px;
 		}
 
 		.row{
@@ -2296,8 +2298,8 @@ a{
 			display: inline-block;
 			width: 100%;
 			padding-right: 3px;
-			padding-left: 3px;
-			padding-bottom: 0;
+			
+			margin-bottom: -1px;
 		}
 
 		.row{
@@ -2306,7 +2308,6 @@ a{
 
 
 		.workGrid a img{
-			margin-bottom: 3px;
 			box-sizing: border-box;
 		}
 
@@ -2610,10 +2611,9 @@ a{
 		.workGrid{
 			box-sizing: border-box;
 			display: inline-block;
-			width: 100%;
+		/*	width: 100%;*/
 			padding-right: 3px;
-			padding-left: 3px;
-			padding-bottom: 0;
+			margin-bottom: -1px;
 		}
 
 		.row{
@@ -2622,7 +2622,7 @@ a{
 
 
 		.workGrid a img{
-			margin-bottom: 3px;
+			
 			box-sizing: border-box;
 		}
 

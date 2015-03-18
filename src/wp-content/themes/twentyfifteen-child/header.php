@@ -71,8 +71,8 @@
 
             <?php wp_nav_menu( $args ); ?> 
 
-            <li class="language">SWE</li>
-            <li class="language">ENG</li>
+            <!-- <li class="language">SWE</li>
+            <li class="language">ENG</li> -->
         </ul>
       </div>
 
