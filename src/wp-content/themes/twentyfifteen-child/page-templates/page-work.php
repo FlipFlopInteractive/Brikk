@@ -13,10 +13,14 @@
 <section class="work">
       
 	<?php echo get_page_heading( $post->ID ); ?>
-	<?php echo wpautop( $post->post_content ); ?>
+
+
+	<article class="p_content_wordpress">
+		<?php echo wpautop( $post->post_content ); ?>
+	</article>
 	<!--<?php echo get_all_cases( 'col-lg-3 col-md-3 col-sm-4 col-xs-1' ); ?>-->
 
-	<div id="navigation">
+	<div id="categories">
 		<ul class="cl-effect-1 filters">
 			<a href="" data-filter=".1"><li>staff pick</li></a>
 			<a href="" data-filter=".2"><li>animation</li></a>

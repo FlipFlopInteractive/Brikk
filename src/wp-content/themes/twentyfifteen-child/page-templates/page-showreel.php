@@ -18,9 +18,11 @@
 				</div>
 		</div>
 
-		<?php echo wpautop( $post->post_content ); ?>
+		<article class="p_content_wordpress">
 
-	
+			<?php echo wpautop( $post->post_content ); ?>
+
+		</article>
 
 </section> 
 

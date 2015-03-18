@@ -14,8 +14,10 @@
 
  
  	<?php echo get_page_heading( $post->ID ); ?>
-	<?php echo wpautop( $post->post_content ); ?>
-	
+
+ 	<article class="p_content_wordpress">
+		<?php echo wpautop( $post->post_content ); ?>
+	</article>
 
 	<article id="members" class="clearfix">
 	

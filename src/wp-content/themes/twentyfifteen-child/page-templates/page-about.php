@@ -12,7 +12,7 @@
 
 <section class="about">
       
-      <article class="ImageHeader">
+      <article class="AboutHeader">
 		
         <h1>We love new challenges, and we love to create original solutions.</h1>
 
@@ -26,8 +26,9 @@
 
       </article>  
 
-	
-	<?php echo wpautop( $post->post_content ); ?>
+	<article class="p_content_wordpress">
+		<?php echo wpautop( $post->post_content ); ?>
+	</article>
 	
 	<div id="map_wrapper">
 		<div class="map_overlay">
