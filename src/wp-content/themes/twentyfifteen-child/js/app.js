@@ -11,7 +11,7 @@
 	function init(){
 
 		
-	/*var $container = $('.row').isotope({
+	var $container = $('.rowWorks').isotope({
 
 	});	
 
@@ -23,7 +23,7 @@
 
 		 	var filterValue = $(this).attr('data-filter');
   			$container.isotope({ filter: filterValue });
-		});*/
+		});
 
 
 

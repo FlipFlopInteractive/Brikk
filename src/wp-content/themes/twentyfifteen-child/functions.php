@@ -170,8 +170,8 @@ function get_page_heading( $post_id ){
 function get_all_cases( $classes ){
 
 	$html  = '';
-	$html .= '<div class="container-fluid">';
-	$html .= '<div class="row">';
+	$html .= '<div class="container-fluid-works">';
+	$html .= '<div class="rowWorks">';
 		
 	$args = array(
 		'posts_per_page'   => 1000,
