@@ -19,8 +19,6 @@
 
 			e.preventDefault();
 
-			console.log($(".workGrid"));
-
 		 	var filterValue = $(this).attr('data-filter');
   			$container.isotope({ filter: filterValue });
 		});
