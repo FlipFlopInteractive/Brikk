@@ -298,27 +298,6 @@ a{
 
 }
 
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-@media(max-width: 1254px){
-
-		.work{
-
-		.ImageHeader{
-			
-			width: 100%;
-			height: 300px;
-		}
-
-		h1{
-			font-size: 3em;
-			padding-top: 80px;
-		}
-
-	}
-
-}
-
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
 
 @media (max-width: 1024px) {
@@ -387,29 +366,127 @@ a{
 			margin-bottom: 40px;
 
 		h1{
-			font-size: 3em;
-			padding-top: 120px;
+			font-size: 4em;
+			padding-top:70px;
+			width: 100%;
+			padding-left: 40px;
+			padding-right: 40px;
 		}
 	}
 	
-	.homepage p{
-		font-size: 1.4em;
-		width: 80%;
-		margin: auto;
+	.text_titles{
+		text-align: center;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'brandon_grotesquebold';
+		text-transform: uppercase;
+		font-size: 1.5em;
+		color:$font-color;
+		padding-top: 100px;
+		padding-bottom: 5px;
 	}
-	
+
+	.text_titles:nth-last-child(2){
+
+		padding-top: 30px;
+	}
+
+	.p_content_wordpress p{
+		font-family: 'brandon_grotesquelight';
+		font-size: 1.2em;
+		width: 100%;
+		padding-left: 80px;
+		padding-right: 80px;
+		text-align: center;
+	}
+
+	.p_content_wordpress p:nth-last-child(2){
+
+		padding-bottom: 50px;
+	}
 
 	.work{
 
 		.ImageHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 250px;
+
+
+			h1{
+				font-size: 4em;
+				padding-top: 70px;
+				width: 100%;
+				padding-left: 40px;
+				padding-right: 40px;
+			}
 		}
 
-		h1{
-			font-size: 4em;
-			padding-top: 80px;
+		.filters{
+			width: 480px;
+			display: block;
+			margin: auto;
+			padding-bottom:20px;
+			padding-top: 70px;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				font-size: 0.7em;
+				text-align: left;
+				padding-bottom: 30px;
+				
+
+			}
+		}
+
+		.workGrid{
+			box-sizing: border-box;
+			display: inline-block;
+			width: 33.3%;
+			margin-bottom: -6px;
+
+			
+		}
+
+		.rowWorks{
+			margin-left: 3px;
+		}
+
+		.workGrid:nth-child(3n+3){
+			box-sizing: border-box;
+
+							
+		}
+
+		.workGrid:first-child{
+			box-sizing: border-box;
+			/*padding-left: 3px;	*/	
+		
+		}
+
+
+		.workGrid:nth-child(n+3){
+			box-sizing: border-box;
+			/*padding-left: 3px;*/
+		
+
+		}
+
+
+		.workGrid a img{
+			box-sizing: border-box;
+			margin-bottom: -2px;
+		}
+
+	}
+
+	.showreel{
+
+		p{
+
+			padding-top: 100px;
 		}
 
 	}
@@ -419,113 +496,43 @@ a{
 		.ImageHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 250px;
 
 			h1{
 				font-size: 4em;
-				padding-top: 80px;
+				padding-top: 70px;
+				width: 100%;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
 		}
-/*
-					#members {
-		width: 66%;
+
+		#members {
+		width: 80%;
 		height: 100%;
+		
+		overflow: hidden;
 		margin: auto;
-		margin-top: 100px;
-		overflow: hidden;
 
-		-webkit-transition: left 0.5s ease-in-out;
-		-moz-transition: left 0.5s ease-in-out;
-		 -ms-transition: left 0.5s ease-in-out;
-	 	  -o-transition: left 0.5s ease-in-out;
-	        transition: left 0.5s ease-in-out;
-	}
-
-	.member{
-		width: 30%;
-		display: inline-block;
-		position: relative;
-		overflow: hidden;
-		margin-left: 2%;
-		margin-bottom: 1%;
-		box-sizing:border-box;
-	}
-
-
-	.contact_overlay{
-
-	    p{
-			color: #ffffff;
-			width: 100%;
-			height: 100%;
-			font-size: 1em;
-			position: absolute;
-			z-index: 99999999;
-			text-align: left;
-			font-family: 'brandon_grotesquelight';
-			width: 80%;
-	    }
-
-	   .information{
-			
-			margin-top: 30%;
-			margin-left: 20%;
-			width: 80%;
 		}
 
-	    .name{
-	    	text-align: left;
-
-	    }
-
-	    .job_function{
-	    	font-size: 1.1em;
-	    	font-family: 'brandon_grotesquebold';
-	    	
-	    }
-
-	    .job_2functions{
-	    	font-size: 1.2em;
-	    	font-family: 'brandon_grotesquebold';
-	    }
-
-	    .info_phone{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.9em;
-	    	text-align: left;
-	    	
-	  
-	    }
-
-	    .info_mail{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.9em;
-	    	text-align: left;
-	    	
-	    	
-	    }
-
-	    img{
-	    	width: 4%;
-	    	margin-right: 5%;
-	    	
-	    }
-
-
-	    a{
-	    	text-decoration: none;
-	    	color: white;
-	    }
-	}*/
-
+		.member{
+			width: 32%;
+			display: inline-block;
+			overflow: hidden;
+			margin-left: 1%;
+			box-sizing:border-box;
+			margin-top: 15px;
+		}
+	
 	}
 
 	.about{
 
-	.aboutHeader{
+		.AboutHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 240px;
 			background-image: url("images/Screens/about_1.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -533,9 +540,11 @@ a{
 
 			h1{
 				font-size: 4em;
-				padding-top: 75px;
+				padding-top: 60px;
 				width: 100%;
 				margin: auto;
+				padding-left: 30px;
+				padding-right: 30px;
 			}
 		}
 
@@ -543,9 +552,69 @@ a{
 			display: none;
 		}
 
-		.about_text{
-			width: 80%;
+		#map-canvas{
+			margin-left: 0;
+			height: 300px;
+			width: 100%; 
+		}
+
+		#map_wrapper {
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+
+			&:hover .map_overlay {
+
+				left:0;
+			}
+			
+		}
+
+		#information_map{
+
+			margin-top: 100px;
+			margin-left: 170px;
+
+		p{
+			
+			text-align: center;
+			color: $font-color;
+			font-size: 1.1em;
+			font-family: 'brandon_grotesquelight';
 			margin: auto;
+			margin-bottom: 20px;
+			width: 70%;
+			margin-left: 30px;
+
+		}
+
+		a{
+			text-decoration: none;
+			text-align: center;
+			color: $font-color;
+			margin: auto;
+			width: 80%;
+		}
+
+		h2{
+			
+			color: $font-color;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-family: 'brandon_grotesquebold';
+			margin-bottom: 3px;
+			margin-top: 15px;
+			width: 70%;
+			text-align: center;
+			margin: auto;
+			margin-left: 30px;
+		}
+	}
+
+
+		.about_text{
+			font-size: 1.2em;
 		}
 
 	}
@@ -555,12 +624,29 @@ a{
 		.ImageHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 250px;
 
 			h1{
 				font-size: 4em;
-				padding-top: 45px;
+				padding-top: 30px;
+				width: 100%;
+				padding-right: 30px;
+				padding-left: 30px;
 			}
+		}
+
+		h2{
+			padding-bottom: 20px;
+		}
+
+		.academicInformation{
+			padding-top: 30px;
+			margin-bottom: 100px;
+			font-size: 1em;
+			line-height: 1.5em;
+			width: 100%;
+			padding-left:20px;
+			padding-right:20px;
 		}
 
 	}
@@ -570,207 +656,277 @@ a{
 
 @media(max-width: 900px){
 
+.ImageHeader{
+			background-position: 30% 20%;
+			width: 100%;
+			height: 250px;
+			margin-bottom: 40px;
 
-		.work{
+		h1{
+			font-size: 4em;
+			padding-top:70px;
+			width: 100%;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+	}
+	
+	.text_titles{
+		text-align: center;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'brandon_grotesquebold';
+		text-transform: uppercase;
+		font-size: 1.5em;
+		color:$font-color;
+		padding-top: 100px;
+		padding-bottom: 5px;
+	}
 
-			.ImageHeader{
-				
-				width: 100%;
-				height: 300px;
-			}
+	.text_titles:nth-last-child(2){
+
+		padding-top: 30px;
+	}
+
+	.p_content_wordpress p{
+		font-family: 'brandon_grotesquelight';
+		font-size: 1.2em;
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+
+	.p_content_wordpress p:nth-last-child(2){
+
+		padding-bottom: 50px;
+	}
+
+	.work{
+
+		.ImageHeader{
+			
+			width: 100%;
+			height: 250px;
+
 
 			h1{
-				font-size: 2.7em;
-				padding-top: 100px;
+				font-size: 4em;
+				padding-top: 70px;
+				width: 100%;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
+		}
+
+		.filters{
+			width: 480px;
+			display: block;
+			margin: auto;
+			padding-bottom:20px;
+			padding-top: 70px;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				font-size: 0.7em;
+				text-align: left;
+				padding-bottom: 30px;
+				
+
+			}
+		}
+
+		.workGrid{
+			box-sizing: border-box;
+			display: inline-block;
+			width: 33.3%;
+			margin-bottom: -3px;
+			padding-left: 4px;
 
 		}
+
+		.workGrid:nth-child(3n+3){
+			box-sizing: border-box;
+			
+				
+		}
+
+
+		.workGrid a img{
+			box-sizing: border-box;
+			margin-bottom: -2px;
+		}
+
+	}
+
+	.showreel{
+
+		p{
+
+			padding-top: 100px;
+		}
+
+	}
 
 	.contact{
 
 		.ImageHeader{
+			
+			width: 100%;
+			height: 250px;
 
 			h1{
-				padding-top: 60px;
-				width: 60%;
-
+				font-size: 4em;
+				padding-top: 70px;
+				width: 100%;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
-
 		}
 
-		.text_contact{
-			width: 82%;
-			margin: auto;
-			
-		}
-
-	/*#members {
-		width: 66%;
+		#members {
+		width: 80%;
 		height: 100%;
+		
+		overflow: hidden;
 		margin: auto;
-		margin-top: 100px;
-		overflow: hidden;
 
-		-webkit-transition: left 0.5s ease-in-out;
-		-moz-transition: left 0.5s ease-in-out;
-		 -ms-transition: left 0.5s ease-in-out;
-	 	  -o-transition: left 0.5s ease-in-out;
-	        transition: left 0.5s ease-in-out;
+		}
+
+		.member{
+			width: 32%;
+			display: inline-block;
+			overflow: hidden;
+			margin-left: 1%;
+			box-sizing:border-box;
+			margin-top: 15px;
+		}
+	
 	}
 
-	.member{
-		width: 30%;
-		display: inline-block;
-		position: relative;
-		overflow: hidden;
-		margin-left: 2%;
-		margin-bottom: 1%;
-		box-sizing:border-box;
-	}
+	.about{
 
-
-	.contact_overlay{
-
-	    p{
-			color: #ffffff;
-			width: 100%;
-			height: 100%;
-			font-size: 0.8em;
-			position: absolute;
-			z-index: 99999999;
-			text-align: left;
-			font-family: 'brandon_grotesquelight';
-			width: 80%;
-	    }
-
-	   .information{
+		.AboutHeader{
 			
-			margin-top: 30%;
-			margin-left: 20%;
+			width: 100%;
+			height: 240px;
+			background-image: url("images/Screens/about_1.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 30% 60%;
+
+			h1{
+				font-size: 4em;
+				padding-top: 60px;
+				width: 100%;
+				margin: auto;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+
+		li{
+			display: none;
+		}
+
+		#map-canvas{
+			margin-left: 0;
+			height: 300px;
+			width: 100%; 
+		}
+
+		#map_wrapper {
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+
+			&:hover .map_overlay {
+
+				left:0;
+			}
+			
+		}
+
+		#information_map{
+
+			margin-top: 100px;
+			margin-left: 170px;
+
+		p{
+			
+			text-align: center;
+			color: $font-color;
+			font-size: 1.1em;
+			font-family: 'brandon_grotesquelight';
+			margin: auto;
+			margin-bottom: 20px;
+			width: 70%;
+			margin-left: 30px;
+
+		}
+
+		a{
+			text-decoration: none;
+			text-align: center;
+			color: $font-color;
+			margin: auto;
 			width: 80%;
 		}
 
-	    .name{
-	    	text-align: left;
-
-	    }
-
-	    .job_function{
-	    	font-size: 0.9em;
-	    	font-family: 'brandon_grotesquebold';
-	    	
-	    }
-
-	    .job_2functions{
-	    	font-size: 0.9em;
-	    	font-family: 'brandon_grotesquebold';
-	    }
-
-	    .info_phone{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.6em;
-	    	text-align: left;
-	    	
-	  
-	    }
-
-	    .info_mail{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.6em;
-	    	text-align: left;
-	    	
-	    	
-	    }
-
-	    img{
-	    	width: 4%;
-	    	margin-right: 5%;
-	    	
-	    }
+		h2{
+			
+			color: $font-color;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-family: 'brandon_grotesquebold';
+			margin-bottom: 3px;
+			margin-top: 15px;
+			width: 70%;
+			text-align: center;
+			margin: auto;
+			margin-left: 30px;
+		}
+	}
 
 
-	    a{
-	    	text-decoration: none;
-	    	color: white;
-	    }
-	}*/
-	}	
+		.about_text{
+			font-size: 1.2em;
+		}
+
+	}
 
 	.directors{
 
 		.ImageHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 250px;
 
 			h1{
-				font-size: 2.7em;
-				padding-top: 80px;
+				font-size: 4em;
+				padding-top: 30px;
+				width: 100%;
+				padding-right: 30px;
+				padding-left: 30px;
 			}
 		}
 
-		p{
-			width: 70%;
-		}
-
-	}
-
-
-	.detailCase{
-
 		h2{
-			margin-top: 50px;
+			padding-bottom: 20px;
 		}
 
-		p{
-			width: 80%;
-			margin: auto;
+		.academicInformation{
+			padding-top: 30px;
 			margin-bottom: 100px;
-			margin-top: -20px;
+			font-size: 1em;
+			line-height: 1.5em;
+			width: 100%;
+			padding-left:20px;
+			padding-right:20px;
 		}
-
-
-	}
-
-}
-
-@media (max-width: 768px) {
-
-
-
-	.contact{
-
-		.ImageHeader{
-
-			h1{
-				padding-top: 60px;
-				width: 80%;
-			}
-
-		}
-
-		.text_contact{
-			width: 80%;
-			margin: auto;
-			
-		}
-
-
-	}
-
-	.detailCase{
-
-		h2{
-			margin-top: 50px;
-		}
-
-		p{
-			width: 80%;
-			margin: auto;
-			margin-bottom: 100px;
-			margin-top: -20px;
-		}
-
 
 	}
 
@@ -843,14 +999,43 @@ a{
 
 		h1{
 			font-size: 3em;
-			padding-top: 90px;
+			padding-top:55px;
+			width: 100%;
+			padding-left: 50px;
+			padding-right: 50px;
 		}
 	}
 	
-	.homepage p{
+	.text_titles{
+		text-align: center;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'brandon_grotesquebold';
+		text-transform: uppercase;
+		font-size: 1.5em;
+		color:$font-color;
+		padding-top: 100px;
+		padding-bottom: 5px;
+	}
+
+	.text_titles:nth-last-child(2){
+
+		padding-top: 30px;
+	}
+
+	.p_content_wordpress p{
+		font-family: 'brandon_grotesquelight';
 		font-size: 1.2em;
-		width: 80%;
-		margin: auto;
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+
+	.p_content_wordpress p:nth-last-child(2){
+
+		padding-bottom: 50px;
 	}
 
 	.work{
@@ -858,35 +1043,69 @@ a{
 		.ImageHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 200px;
 
 
 			h1{
 				font-size: 3em;
-				padding-top: 90px;
+				padding-top: 55px;
+				width: 80%;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
 		}
 
-		p{
-			width: 70%;
+		.filters{
+			width: 480px;
+			display: block;
 			margin: auto;
-			margin-top: 40px;
-			margin-bottom: 80px;
+			padding-bottom:20px;
+			padding-top: 70px;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				font-size: 0.7em;
+				text-align: left;
+				padding-bottom: 30px;
+				
+
+			}
 		}
 
 		.workGrid{
 			box-sizing: border-box;
 			display: inline-block;
-			width: 33.3333%;
-			padding-right: 3px;
-			padding-left: 3px;
-		
+			width: 50%;
+			margin-bottom: -6px;
+			
+			
+		}
+
+		.rowWorks{
+			margin-left: 0px;
+		}
+
+		.workGrid:nth-child(2n+2){
+			box-sizing: border-box;
+			padding-left: 1.5px;
+			padding-right: 0px;
+				
 		}
 
 
 		.workGrid a img{
-			margin-bottom: 3px;
 			box-sizing: border-box;
+			margin-bottom: -2px;
+		}
+
+	}
+
+	.showreel{
+
+		p{
+
+			padding-top: 70px;
 		}
 
 	}
@@ -896,117 +1115,43 @@ a{
 		.ImageHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 200px;
 
 			h1{
 				font-size: 3em;
-				padding-top: 90px;
+				padding-top: 55px;
+				width: 100%;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
 		}
 
-		p{
-			width: 70%;
-			margin: auto;
-		}
-
-	/*	#members {
-		width: 66%;
+		#members {
+		width: 500px;
 		height: 100%;
 		margin: auto;
 		margin-top: 100px;
 		overflow: hidden;
 
-		-webkit-transition: left 0.5s ease-in-out;
-		-moz-transition: left 0.5s ease-in-out;
-		 -ms-transition: left 0.5s ease-in-out;
-	 	  -o-transition: left 0.5s ease-in-out;
-	        transition: left 0.5s ease-in-out;
-	}
-
-	.member{
-		width: 46%;
-		display: inline-block;
-		position: relative;
-		overflow: hidden;
-		margin-left: 2%;
-		margin-bottom: 1%;
-		box-sizing:border-box;
-	}
-
-
-	.contact_overlay{
-
-	    p{
-			color: #ffffff;
-			width: 100%;
-			height: 100%;
-			font-size: 1em;
-			position: absolute;
-			z-index: 99999999;
-			text-align: left;
-			font-family: 'brandon_grotesquelight';
-			width: 80%;
-	    }
-
-	   .information{
-			
-			margin-top: 30%;
-			margin-left: 20%;
-			width: 80%;
 		}
 
-	    .name{
-	    	text-align: left;
-
-	    }
-
-	    .job_function{
-	    	font-size: 1em;
-	    	font-family: 'brandon_grotesquebold';
-	    	
-	    }
-
-	    .job_2functions{
-	    	font-size: 1em;
-	    	font-family: 'brandon_grotesquebold';
-	    }
-
-	    .info_phone{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.8em;
-	    	text-align: left;
-	    	
-	  
-	    }
-
-	    .info_mail{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.8em;
-	    	text-align: left;
-	    	
-	    	
-	    }
-
-	    img{
-	    	width: 4%;
-	    	margin-right: 5%;
-	    	
-	    }
-
-
-	    a{
-	    	text-decoration: none;
-	    	color: white;
-	    }
-	}
-*/
+		.member{
+			width: 49%;
+			display: inline-block;
+			overflow: hidden;
+			margin-left: 1%;
+			box-sizing:border-box;
+			margin-top: 15px;
+		}
+	
 	}
 
 	.about{
-.aboutHeader{
+
+		.AboutHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 200px;
 			background-image: url("images/Screens/about_1.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -1014,15 +1159,83 @@ a{
 
 			h1{
 				font-size: 3em;
-				padding-top: 100px;
+				padding-top: 55px;
 				width: 100%;
 				margin: auto;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
 		}
 
 		li{
 			display: none;
 		}
+
+		#map-canvas{
+			margin-left: 0;
+			height: 300px;
+			width: 100%; 
+		}
+
+		#map_wrapper {
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+
+			&:hover .map_overlay {
+
+				left:0;
+			}
+			
+		}
+
+		#information_map{
+
+			margin-top: 100px;
+			margin-left: 110px;
+
+		p{
+			
+			text-align: center;
+			color: $font-color;
+			font-size: 1.1em;
+			font-family: 'brandon_grotesquelight';
+			margin: auto;
+			margin-bottom: 20px;
+			width: 70%;
+			margin-left: 30px;
+
+		}
+
+		a{
+			text-decoration: none;
+			text-align: center;
+			color: $font-color;
+			margin: auto;
+			width: 80%;
+		}
+
+		h2{
+			
+			color: $font-color;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-family: 'brandon_grotesquebold';
+			margin-bottom: 3px;
+			margin-top: 15px;
+			width: 70%;
+			text-align: center;
+			margin: auto;
+			margin-left: 30px;
+		}
+	}
+
+
+		.about_text{
+			font-size: 1.2em;
+		}
+
 	}
 
 	.directors{
@@ -1030,16 +1243,29 @@ a{
 		.ImageHeader{
 			
 			width: 100%;
-			height: 300px;
+			height: 200px;
 
 			h1{
 				font-size: 3em;
-				padding-top: 60px;
+				padding-top: 30px;
+				width: 100%;
+				padding-right: 40px;
+				padding-left: 40px;
 			}
 		}
 
-		p{
-			width: 70%;
+		h2{
+			padding-bottom: 20px;
+		}
+
+		.academicInformation{
+			padding-top: 30px;
+			margin-bottom: 100px;
+			font-size: 1em;
+			line-height: 1.5em;
+			width: 100%;
+			padding-left:20px;
+			padding-right:20px;
 		}
 
 	}
@@ -1052,44 +1278,283 @@ a{
 
 
 	.ImageHeader{
+			background-position: 30% 20%;
+			width: 100%;
+			height: 200px;
+			margin-bottom: 40px;
 
 		h1{
-		
-			padding-top: 55px;
-			width: 80%;
+			font-size: 2em;
+			padding-top:70px;
+			width: 100%;
+			padding-left: 40px;
+			padding-right: 40px;
 		}
 	}
+	
+	.text_titles{
+		text-align: center;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'brandon_grotesquebold';
+		text-transform: uppercase;
+		font-size: 1.5em;
+		color:$font-color;
+		padding-top: 100px;
+		padding-bottom: 5px;
+	}
 
+	.text_titles:nth-last-child(2){
+
+		padding-top: 30px;
+	}
+
+	.p_content_wordpress p{
+		font-family: 'brandon_grotesquelight';
+		font-size: 1.2em;
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+
+	.p_content_wordpress p:nth-last-child(2){
+
+		padding-bottom: 50px;
+	}
 
 	.work{
 
-		p{
-			width: 70%;
+		.ImageHeader{
+			
+			width: 100%;
+			height: 200px;
+
+
+			h1{
+				font-size: 2em;
+				padding-top: 70px;
+				width: 80%;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+
+		.filters{
+			width: 480px;
+			display: block;
 			margin: auto;
-			font-size: 1.2em;
-			margin-top: 40px;
-			margin-bottom: 80px;
+			padding-bottom:20px;
+			padding-top: 20px;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				font-size: 0.7em;
+				text-align: left;
+				padding-bottom: 30px;
+				
+
+			}
 		}
 
 		.workGrid{
 			box-sizing: border-box;
 			display: inline-block;
 			width: 50%;
+			margin-bottom: -6px;
+			padding-right: 1.5px;
+			
+		}
+
+		.rowWorks{
+			margin-left: 0px;
+		}
+
+		.workGrid:nth-child(2n+2){
+			box-sizing: border-box;
+			padding-left: 1.5px;
 			padding-right: 3px;
-			padding-left: 3px;
-		
+				
 		}
 
 
 		.workGrid a img{
-			margin-bottom: 3px;
 			box-sizing: border-box;
+			margin-bottom: -2px;
 		}
-
 
 	}
 
+	.showreel{
 
+		p{
+
+			padding-top: 30px;
+		}
+
+	}
+
+	.contact{
+
+		.ImageHeader{
+			
+			width: 100%;
+			height: 200px;
+
+			h1{
+				font-size: 2em;
+				padding-top: 70px;
+				width: 100%;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+
+		#members {
+		width: 500px;
+		height: 100%;
+		margin: auto;
+		margin-top: 100px;
+		overflow: hidden;
+
+		}
+
+		.member{
+			width: 49%;
+			display: inline-block;
+			overflow: hidden;
+			margin-left: 1%;
+			box-sizing:border-box;
+			margin-top: 15px;
+		}
+	
+	}
+
+	.about{
+
+		.AboutHeader{
+			
+			width: 100%;
+			height: 200px;
+			background-image: url("images/Screens/about_1.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 30% 60%;
+
+			h1{
+				font-size: 2em;
+				padding-top: 70px;
+				width: 100%;
+				margin: auto;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+
+		li{
+			display: none;
+		}
+
+		#map-canvas{
+			margin-left: 0;
+			height: 300px;
+			width: 375px; 
+		}
+
+		#map_wrapper {
+			width: 375px;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+
+			&:hover .map_overlay {
+
+				left:0;
+			}
+			
+		}
+
+		#information_map{
+
+			margin-top: 100px;
+			margin-left: 50px;
+
+		p{
+			
+			text-align: center;
+			color: $font-color;
+			font-size: 1.1em;
+			font-family: 'brandon_grotesquelight';
+			margin: auto;
+			margin-bottom: 20px;
+			width: 70%;
+			margin-left: 30px;
+
+		}
+
+		a{
+			text-decoration: none;
+			text-align: center;
+			color: $font-color;
+			margin: auto;
+			width: 80%;
+		}
+
+		h2{
+			
+			color: $font-color;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-family: 'brandon_grotesquebold';
+			margin-bottom: 3px;
+			margin-top: 15px;
+			width: 70%;
+			text-align: center;
+			margin: auto;
+			margin-left: 30px;
+		}
+	}
+
+
+		.about_text{
+			font-size: 1.2em;
+		}
+
+	}
+
+	.directors{
+
+		.ImageHeader{
+			
+			width: 100%;
+			height: 200px;
+
+			h1{
+				font-size: 2em;
+				padding-top: 55px;
+				width: 100%;
+				padding-right: 30px;
+				padding-left: 30px;
+			}
+		}
+
+		h2{
+			padding-bottom: 20px;
+		}
+
+		.academicInformation{
+			padding-top: 30px;
+			margin-bottom: 100px;
+			font-size: 1em;
+			line-height: 1.5em;
+			width: 100%;
+			padding-left:20px;
+			padding-right:20px;
+		}
+
+	}
 }
 
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
@@ -1148,7 +1613,7 @@ a{
 		}
 	}
 
-	.ImageHeader{
+.ImageHeader{
 			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
@@ -1156,19 +1621,44 @@ a{
 
 		h1{
 			font-size: 1.7em;
-			padding-top: 70px;
-			width: 80%;
+			padding-top: 55px;
+			width: 100%;
 		}
 	}
 	
-	.homepage p{
-		font-size: 1.2em;
-		width: 80%;
-
-		margin: auto;
+	.text_titles{
+		text-align: center;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'brandon_grotesquebold';
+		text-transform: uppercase;
+		font-size: 1.5em;
+		color:$font-color;
+		padding-top: 100px;
+		padding-bottom: 5px;
 	}
 
-		.work{
+	.text_titles:nth-last-child(2){
+
+		padding-top: 30px;
+	}
+
+	.p_content_wordpress p{
+		font-family: 'brandon_grotesquelight';
+		font-size: 1.2em;
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+
+	.p_content_wordpress p:nth-last-child(2){
+
+		padding-bottom: 50px;
+	}
+
+	.work{
 
 		.ImageHeader{
 			
@@ -1177,45 +1667,56 @@ a{
 
 
 			h1{
-				font-size: 1.7em;
-				padding-top: 35px;
+				font-size: 1.5em;
+				padding-top: 55px;
 				width: 80%;
 			}
 		}
 
-		p{
-			width: 70%;
+		.filters{
+			width: 250px;
+			display: block;
 			margin: auto;
-			font-size: 1.2em;
-			margin-top: 40px;
-			margin-bottom: 80px;
+			padding-bottom:20px;
+			padding-top: 20px;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				font-size: 0.7em;
+				text-align: left;
+				padding-bottom: 30px;
+				
+
+			}
 		}
 
 		.workGrid{
 			box-sizing: border-box;
 			display: inline-block;
-			width: 50%;
+			width: 100%;
 			padding-right: 3px;
 			padding-left: 3px;
-		
+			margin-bottom: -6px;
+		}
+
+		.rowWorks{
+			margin-left: 0px;
 		}
 
 
 		.workGrid a img{
-			margin-bottom: 3px;
 			box-sizing: border-box;
+			margin-bottom: -2px;
 		}
-
 
 	}
 
 	.showreel{
-		
+
 		p{
-			width: 70%;
-			font-size: 1.2em;
-			margin: auto;
-			margin-top: 50px;
+
+			padding-top: 30px;
 		}
 
 	}
@@ -1234,21 +1735,29 @@ a{
 			}
 		}
 
-		p{
-			width: 70%;
-			font-size: 1.2em;
-			margin: auto;
+		#members {
+		width: 300px;
+		height: 100%;
+		margin: auto;
+		margin-top: 100px;
+		overflow: hidden;
 
 		}
 
-
-
-
+		.member{
+			width: 100%;
+			display: inline-block;
+			overflow: hidden;
+			margin-left: 1%;
+			box-sizing:border-box;
+			margin-top: 15px;
+		}
+	
 	}
 
 	.about{
 
-	.aboutHeader{
+		.AboutHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1258,7 +1767,7 @@ a{
 			background-position: 30% 60%;
 
 			h1{
-				font-size: 1.5em;
+				font-size: 1.7em;
 				padding-top: 50px;
 				width: 100%;
 				margin: auto;
@@ -1269,11 +1778,65 @@ a{
 			display: none;
 		}
 
-		p{
-			width: 70%;
-			font-size: 1.2em;
-			margin: auto;
+		#map-canvas{
+			margin-left: 0;
+			height: 300px;
+			width: 375px; 
 		}
+
+		#map_wrapper {
+			width: 375px;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+
+			&:hover .map_overlay {
+
+				left:0;
+			}
+			
+		}
+
+		#information_map{
+
+			margin-top: 100px;
+
+		p{
+			
+			text-align: center;
+			color: $font-color;
+			font-size: 1.1em;
+			font-family: 'brandon_grotesquelight';
+			margin: auto;
+			margin-bottom: 20px;
+			width: 70%;
+			margin-left: 30px;
+
+		}
+
+		a{
+			text-decoration: none;
+			text-align: center;
+			color: $font-color;
+			margin: auto;
+			width: 80%;
+		}
+
+		h2{
+			
+			color: $font-color;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-family: 'brandon_grotesquebold';
+			margin-bottom: 3px;
+			margin-top: 15px;
+			width: 70%;
+			text-align: center;
+			margin: auto;
+			margin-left: 30px;
+		}
+	}
+
 
 		.about_text{
 			font-size: 1.2em;
@@ -1290,14 +1853,23 @@ a{
 
 			h1{
 				font-size: 1.7em;
-				padding-top: 35px;
-				width: 80%;
+				padding-top: 40px;
+				width: 100%;
 			}
 		}
 
-		p{
-			width: 70%;
-			font-size: 1.2em;
+		h2{
+			padding-bottom: 20px;
+		}
+
+		.academicInformation{
+			padding-top: 30px;
+			margin-bottom: 100px;
+			font-size: 1em;
+			line-height: 1.5em;
+			width: 100%;
+			padding-left:20px;
+			padding-right:20px;
 		}
 
 	}
@@ -1364,8 +1936,7 @@ a{
 			}
 		}
 	}
-
-	.ImageHeader{
+.ImageHeader{
 			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
@@ -1373,19 +1944,44 @@ a{
 
 		h1{
 			font-size: 1.5em;
-			padding-top: 70px;
-			width: 80%;
+			padding-top: 55px;
+			width: 100%;
 		}
 	}
 	
-	.homepage p{
-		font-size: 1.2em;
-		width: 80%;
-
-		margin: auto;
+	.text_titles{
+		text-align: center;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'brandon_grotesquebold';
+		text-transform: uppercase;
+		font-size: 1.5em;
+		color:$font-color;
+		padding-top: 100px;
+		padding-bottom: 5px;
 	}
 
-		.work{
+	.text_titles:nth-last-child(2){
+
+		padding-top: 30px;
+	}
+
+	.p_content_wordpress p{
+		font-family: 'brandon_grotesquelight';
+		font-size: 1.2em;
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+
+	.p_content_wordpress p:nth-last-child(2){
+
+		padding-bottom: 50px;
+	}
+
+	.work{
 
 		.ImageHeader{
 			
@@ -1400,12 +1996,22 @@ a{
 			}
 		}
 
-		p{
-			width: 70%;
+		.filters{
+			width: 250px;
+			display: block;
 			margin: auto;
-			font-size: 1.2em;
-			margin-top: 40px;
-			margin-bottom: 80px;
+			padding-bottom:20px;
+			padding-top: 20px;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				font-size: 0.7em;
+				text-align: left;
+				padding-bottom: 30px;
+				
+
+			}
 		}
 
 		.workGrid{
@@ -1414,7 +2020,11 @@ a{
 			width: 100%;
 			padding-right: 3px;
 			padding-left: 3px;
-		
+			padding-bottom: 0;
+		}
+
+		.rowWorks{
+			margin-left: 0px;
 		}
 
 
@@ -1423,16 +2033,13 @@ a{
 			box-sizing: border-box;
 		}
 
-
 	}
 
 	.showreel{
 
 		p{
-			width: 70%;
-			font-size: 1.2em;
-			margin: auto;
-			margin-top: 50px;
+
+			padding-top: 30px;
 		}
 
 	}
@@ -1451,20 +2058,29 @@ a{
 			}
 		}
 
-		p{
-			width: 70%;
-			font-size: 1.2em;
-			margin-top: 50px;
-			margin: auto;
+		#members {
+		width: 300px;
+		height: 100%;
+		margin: auto;
+		margin-top: 100px;
+		overflow: hidden;
+
 		}
 
-/*
-
+		.member{
+			width: 100%;
+			display: inline-block;
+			overflow: hidden;
+			margin-left: 1%;
+			box-sizing:border-box;
+			margin-top: 15px;
+		}
+	
 	}
 
 	.about{
 
-		.aboutHeader{
+		.AboutHeader{
 			
 			width: 100%;
 			height: 150px;
@@ -1487,51 +2103,69 @@ a{
 
 		#map-canvas{
 			margin-left: 0;
-			margin-top: 50px;
-
 			height: 300px;
 			width: 375px; 
 		}
 
+		#map_wrapper {
+			width: 375px;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+
+			&:hover .map_overlay {
+
+				left:0;
+			}
+			
+		}
+
 		#information_map{
 
-				margin-top: 100px;
+			padding-top: 40px;
+			padding-left: 30px;
 
-			p{
-				
-				text-align: center;
-				color: $font-color;
-				font-size: 1.1em;
-				font-family: 'brandon_grotesquelight';
-				margin: auto;
-				margin-bottom: 20px;
-				width: 80%;
-				margin-left: 25px;
+		p{
+			
+			text-align: center;
+			color: $font-color;
+			font-size: 1.1em;
+			font-family: 'brandon_grotesquelight';
+			margin: auto;
+			margin-bottom: 20px;
+			width: 70%;
+			margin-left: 30px;
 
-			}
+		}
 
-			a{
-				text-decoration: none;
-				text-align: center;
-				color: $font-color;
-				margin: auto;
-				width: 80%;
-			}
+		a{
+			text-decoration: none;
+			text-align: center;
+			color: $font-color;
+			margin: auto;
+			width: 80%;
+		}
 
-			h2{
-				
-				color: $font-color;
-				font-size: 1.3em;
-				line-height: 1.3em;
-				font-family: 'brandon_grotesquebold';
-				margin-bottom: 3px;
-				margin-top: 15px;
-				width: 80%;
-				text-align: center;
-				margin: auto;
-				margin-left: 25px;
-			}
-		}*/
+		h2{
+			
+			color: $font-color;
+			font-size: 1.3em;
+			line-height: 1.3em;
+			font-family: 'brandon_grotesquebold';
+			margin-bottom: 3px;
+			margin-top: 15px;
+			width: 70%;
+			text-align: center;
+			margin: auto;
+			margin-left: 30px;
+		}
+	}
+
+
+		.about_text{
+			font-size: 1.2em;
+		}
+
 	}
 
 	.directors{
@@ -1543,47 +2177,26 @@ a{
 
 			h1{
 				font-size: 1.5em;
-				padding-top: 40px;
-				width: 80%;
+				padding-top: 30px;
+				width: 100%;
 			}
 		}
 
-		p{
-			width: 70%;
-			font-size: 1.2em;
-			margin-top: -20px;
-		}
-
-	}
-
-	.detailCase{
-			
 		h2{
-			margin-top: 30px;
-			text-align: center;
-			font-family: 'brandon_grotesquebold';
-			text-transform: uppercase;
-			font-size: 1.2em;
-			margin-bottom: 20px;
-			color: $font-color;
+			padding-bottom: 20px;
 		}
 
-		p{
-			text-align: center;
-			font-family: 'brandon_grotesquelight';
-			font-size: 1.2em;
-			margin-bottom: 70px;
-			width: 80%;
-			margin: auto;
-			color: $font-color;
+		.academicInformation{
+			padding-top: 30px;
+			margin-bottom: 100px;
+			font-size: 1em;
+			line-height: 1.5em;
+			width: 100%;
+			padding-left:20px;
+			padding-right:20px;
 		}
 
-		.information{
-
-			margin-top: 30px;
-		}
 	}
-
 }
 
 
@@ -1724,6 +2337,10 @@ a{
 			padding-right: 3px;
 			padding-left: 3px;
 			padding-bottom: 0;
+		}
+
+		.rowWorks{
+			margin-left: 0px;
 		}
 
 

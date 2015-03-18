@@ -11,17 +11,17 @@
 	function init(){
 
 		
-	var $container = $('.rowWorks').isotope({
+	// var $container = $('.rowWorks').isotope({
 
-	});	
+	// });	
 
-		$('.filters').on( 'click', 'a', function(e) {
+	// 	$('.filters').on( 'click', 'a', function(e) {
 
-			e.preventDefault();
+	// 		e.preventDefault();
 
-		 	var filterValue = $(this).attr('data-filter');
-  			$container.isotope({ filter: filterValue });
-		});
+	// 	 	var filterValue = $(this).attr('data-filter');
+ //  			$container.isotope({ filter: filterValue });
+	// 	});
 
 
 
