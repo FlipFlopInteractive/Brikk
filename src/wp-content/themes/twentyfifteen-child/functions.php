@@ -171,7 +171,7 @@ function get_all_cases( $classes ){
 
 	$html  = '';
 	// $html .= '<div class="container-fluid">';
-	$html .= '<div class="row">';
+	$html .= '<div class="rowWorks">';
 		
 	$args = array(
 		'posts_per_page'   => 1000,
@@ -199,8 +199,8 @@ function get_all_cases( $classes ){
 
 			$category = simple_fields_fieldgroup( 'categories_choose',$case->ID );
 
-			// $html .= '<div class="' . $classes .' '.$category.'">';
-			$html .= '<div class="' . $classes .'">';
+			$html .= '<div class="' . $classes .' '.$category.'">';
+			// $html .= '<div class="' . $classes .'">';
 			$html .= '<a href="' . get_permalink( $case->ID ) . '">';
 			$html .= get_the_post_thumbnail( $case->ID );
 			$html .= '</a>';

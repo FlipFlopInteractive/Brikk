@@ -30,7 +30,7 @@ get_header(); ?>
 
 							<?php echo get_case_detail_information($case_detail_id->ID); ?>
 
-							<h2 class="text_single">stills from project</h2>
+							<h2 class="stills_from_project">stills from project</h2>
 					</div>
 				</div>
 			</div>

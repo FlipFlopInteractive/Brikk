@@ -11,17 +11,17 @@
 	function init(){
 
 		
-	// var $container = $('.rowWorks').isotope({
+	var $container = $('.rowWorks').isotope({
 
-	// });	
+	});	
 
-	// 	$('.filters').on( 'click', 'a', function(e) {
+		$('.filters').on( 'click', 'a', function(e) {
 
-	// 		e.preventDefault();
+			e.preventDefault();
 
-	// 	 	var filterValue = $(this).attr('data-filter');
- //  			$container.isotope({ filter: filterValue });
-	// 	});
+		 	var filterValue = $(this).attr('data-filter');
+  			$container.isotope({ filter: filterValue });
+		});
 
 
 
@@ -110,7 +110,9 @@
     			$("#header").css({"height":"80px"});
 				$(".logo_static").css({"display":"block"}); 
 				$(".logo_brikk_fixed").css({"display":"none"});
+				$(".logo_animation").css({"display":"inherit"});
 				$("#header").css({"position":"inherit"});
+				$(".logo_animation").css({"display":"none"});
 				$("#wrapper_logo").css({"width":"170px"});
 				$("#wrapper_logo").css({"margin-top":"0px"});
 				$("#navigation ul").css({"margin-top":"-45px"});
