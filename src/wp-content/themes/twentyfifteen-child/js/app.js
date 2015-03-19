@@ -28,7 +28,6 @@
 
 	$(".Brikk_members").on("click", info_clickHandler);
 	$(".info_icon").on("click", info_clickHandler);
-
 	$(".staff").on("click", categoryHandler1);
 	$(".animation").on("click", categoryHandler2);
 	$(".stopmotion").on("click", categoryHandler3);
@@ -139,60 +138,95 @@
 
 	}
 
-	function categoryHandler1(){
+	function categoryHandler1(element){
 
-		$(".1").css({"display":"inline-block"});
-		$(".2").css({"display":"none"});
-		$(".3").css({"display":"none"});
-		$(".4").css({"display":"none"});
-		$(".5").css({"display":"none"});
-		$(".6").css({"display":"none"});
+		$('.workGrid').each(function() {
+
+    		var currentElement = $(this);
+
+    		 if(currentElement.hasClass("1")){
+    		 	currentElement.css({"display":"inline-block"});
+    		 }else{
+				currentElement.css({"display":"none"});
+    		 }
+
+		});
 
 	}
 
 	function categoryHandler2(){
-		$(".1").css({"display":"none"});
-		$(".2").css({"display":"inline-block"});
-		$(".3").css({"display":"none"});
-		$(".4").css({"display":"none"});
-		$(".5").css({"display":"none"});
-		$(".6").css({"display":"none"});
+		
+		$('.workGrid').each(function() {
+
+    		var currentElement = $(this);
+
+    		 if(currentElement.hasClass("2")){
+    		 	currentElement.css({"display":"inline-block"});
+    		 }else{
+				currentElement.css({"display":"none"});
+    		 }
+
+		});
 	}
 
 	function categoryHandler3(){
-		$(".1").css({"display":"none"});
-		$(".2").css({"display":"none"});
-		$(".3").css({"display":"inline-block"});
-		$(".4").css({"display":"none"});
-		$(".5").css({"display":"none"});
-		$(".6").css({"display":"none"});
+		
+		$('.workGrid').each(function() {
+
+    		var currentElement = $(this);
+
+    		 if(currentElement.hasClass("3")){
+    		 	currentElement.css({"display":"inline-block"});
+    		 }else{
+				currentElement.css({"display":"none"});
+    		 }
+
+		});
 	}
 
 	function categoryHandler4(){
-		$(".1").css({"display":"none"});
-		$(".2").css({"display":"none"});
-		$(".3").css({"display":"none"});
-		$(".4").css({"display":"inline-block"});
-		$(".5").css({"display":"none"});
-		$(".6").css({"display":"none"});
+		
+		$('.workGrid').each(function() {
+
+    		var currentElement = $(this);
+
+    		 if(currentElement.hasClass("4")){
+    		 	currentElement.css({"display":"inline-block"});
+    		 }else{
+				currentElement.css({"display":"none"});
+    		 }
+
+		});
 	}
 
 	function categoryHandler5(){
-		$(".1").css({"display":"none"});
-		$(".2").css({"display":"none"});
-		$(".3").css({"display":"none"});
-		$(".4").css({"display":"none"});
-		$(".5").css({"display":"inline-block"});
-		$(".6").css({"display":"none"});
+		
+		$('.workGrid').each(function() {
+
+    		var currentElement = $(this);
+
+    		 if(currentElement.hasClass("5")){
+    		 	currentElement.css({"display":"inline-block"});
+    		 }else{
+				currentElement.css({"display":"none"});
+    		 }
+
+		});
 	}
 
 	function categoryHandler6(){
-		$(".1").css({"display":"inline-block"});
-		$(".2").css({"display":"inline-block"});
-		$(".3").css({"display":"inline-block"});
-		$(".4").css({"display":"inline-block"});
-		$(".5").css({"display":"inline-block"});
-		$(".6").css({"display":"inline-block"});
+		
+		$('.workGrid').each(function() {
+
+    		var currentElement = $(this);
+
+    		 if(currentElement.hasClass("6")){
+    		 	currentElement.css({"display":"inline-block"});
+    		 }else{
+				currentElement.css({"display":"none"});
+    		 }
+
+		});
 	}
 
 init();
