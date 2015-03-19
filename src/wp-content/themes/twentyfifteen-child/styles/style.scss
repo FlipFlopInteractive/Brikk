@@ -2479,10 +2479,26 @@ a{
 		}
 	}
 .ImageHeader{
-			background-position: 30% 20%;
+			/*background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
-			margin-bottom: 40px;
+			margin-bottom: 40px;*/
+
+		.background_wrapper{
+			position: relative;
+			overflow: hidden;
+			height: 150px;
+			width: 100%;
+
+		}
+
+		.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video{
+
+			position:absolute;
+			z-index: 0;
+			/*margin-top: -10%;*/
+			
+		}	
 
 		h1{
 			font-size: 1.5em;
