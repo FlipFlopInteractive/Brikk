@@ -171,7 +171,7 @@ function get_all_cases( $classes ){
 
 	$html  = '';
 	// $html .= '<div class="container-fluid">';
-	$html .= '<div class="rowWorks">';
+	$html .= '<div class="row">';
 		
 	$args = array(
 		'posts_per_page'   => 1000,

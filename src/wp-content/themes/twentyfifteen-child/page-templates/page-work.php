@@ -22,12 +22,12 @@
 
 	<div id="categories">
 		<ul class="cl-effect-1 filters">
-			<a href="" data-filter=".1"><li>staff pick</li></a>
-			<a href="" data-filter=".2"><li>animation</li></a>
-			<a href="" data-filter=".3"><li>stopmotion</li></a>
-			<a href="" data-filter=".4"><li>cel-animation</li></a>
-			<a href="" data-filter=".5"><li>live-action</li></a>
-			<a href="" data-filter="*"><li>all</li></a>
+			<li class="staff">staff pick</li>
+			<li class="animation">animation</li>
+			<li class="stopmotion">stopmotion</li>
+			<li class="cel">cel-animation</li>
+			<li class="live">live-action</li>
+			<li class="all">all</li>
 		</ul>
 	</div>
 

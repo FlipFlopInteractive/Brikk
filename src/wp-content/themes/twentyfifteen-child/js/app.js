@@ -11,23 +11,30 @@
 	function init(){
 
 		
-	var $container = $('.rowWorks').isotope({
+	// var $container = $('.rowWorks').isotope({
 
-	});	
+	// });	
 
-		$('.filters').on( 'click', 'a', function(e) {
+	// 	$('.filters').on( 'click', 'a', function(e) {
 
-			e.preventDefault();
+	// 		e.preventDefault();
 
-		 	var filterValue = $(this).attr('data-filter');
-  			$container.isotope({ filter: filterValue });
-		});
+	// 	 	var filterValue = $(this).attr('data-filter');
+ //  			$container.isotope({ filter: filterValue });
+	// 	});
 
 
 
 
 	$(".Brikk_members").on("click", info_clickHandler);
 	$(".info_icon").on("click", info_clickHandler);
+
+	$(".staff").on("click", categoryHandler1);
+	$(".animation").on("click", categoryHandler2);
+	$(".stopmotion").on("click", categoryHandler3);
+	$(".cel").on("click", categoryHandler4);
+	$(".live").on("click", categoryHandler5);
+	$(".all").on("click", categoryHandler6);
 
 
 	$('#menu_icon').on("click",function(){
@@ -130,8 +137,62 @@
 		
 	}
 
+	}
 
+	function categoryHandler1(){
 
+		$(".1").css({"display":"inline-block"});
+		$(".2").css({"display":"none"});
+		$(".3").css({"display":"none"});
+		$(".4").css({"display":"none"});
+		$(".5").css({"display":"none"});
+		$(".6").css({"display":"none"});
+
+	}
+
+	function categoryHandler2(){
+		$(".1").css({"display":"none"});
+		$(".2").css({"display":"inline-block"});
+		$(".3").css({"display":"none"});
+		$(".4").css({"display":"none"});
+		$(".5").css({"display":"none"});
+		$(".6").css({"display":"none"});
+	}
+
+	function categoryHandler3(){
+		$(".1").css({"display":"none"});
+		$(".2").css({"display":"none"});
+		$(".3").css({"display":"inline-block"});
+		$(".4").css({"display":"none"});
+		$(".5").css({"display":"none"});
+		$(".6").css({"display":"none"});
+	}
+
+	function categoryHandler4(){
+		$(".1").css({"display":"none"});
+		$(".2").css({"display":"none"});
+		$(".3").css({"display":"none"});
+		$(".4").css({"display":"inline-block"});
+		$(".5").css({"display":"none"});
+		$(".6").css({"display":"none"});
+	}
+
+	function categoryHandler5(){
+		$(".1").css({"display":"none"});
+		$(".2").css({"display":"none"});
+		$(".3").css({"display":"none"});
+		$(".4").css({"display":"none"});
+		$(".5").css({"display":"inline-block"});
+		$(".6").css({"display":"none"});
+	}
+
+	function categoryHandler6(){
+		$(".1").css({"display":"inline-block"});
+		$(".2").css({"display":"inline-block"});
+		$(".3").css({"display":"inline-block"});
+		$(".4").css({"display":"inline-block"});
+		$(".5").css({"display":"inline-block"});
+		$(".6").css({"display":"inline-block"});
 	}
 
 init();

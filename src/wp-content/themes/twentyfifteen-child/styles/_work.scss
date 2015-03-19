@@ -103,12 +103,9 @@
 			color: $font-color;
 			font-size: 0.7em;
 			text-align: center;
-
-		}
-
-		a{
 			color: $font-color !important;
 			text-transform: uppercase;
+			cursor: pointer;
 		}
 }
 
