@@ -13,7 +13,6 @@
 <section class="homepage">
 
 	<?php echo get_page_heading( $post->ID ); ?>
-
 	<?php echo get_page_heading_title( $post->ID ); ?>
 
 <!-- 	<div class="VimeoHeader">

@@ -13,7 +13,7 @@
 <section class="contact">
 
  
- 	<?php echo get_page_heading( $post->ID ); ?>
+ 	<?php echo get_page_heading_contact( $post->ID ); ?>
 
  	<article class="p_content_wordpress">
 		<?php echo wpautop( $post->post_content ); ?>

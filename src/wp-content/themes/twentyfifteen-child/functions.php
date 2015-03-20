@@ -156,7 +156,9 @@ function get_page_heading_title( $post_id ){
 
 	if( simple_fields_fieldgroup( 'heading_title', $post_id )){
 
+		$html .= '<div class="header_text">';
 		$html .= '<h1>' . simple_fields_fieldgroup( 'heading_title', $post_id ) . '</h1>';
+		$html .= '</div>';
 	}
 
 
@@ -188,11 +190,45 @@ function get_page_heading( $post_id ){
 	}
 
 	if( simple_fields_fieldgroup( 'heading_title', $post_id )){
-
+		$html .= '<div class="header_text">';
 		$html .= '<h1>' . simple_fields_fieldgroup( 'heading_title', $post_id ) . '</h1>';
+		$html .= '</div>';
 	}
 
 	$html .= '</article>';
+
+	return $html;
+}
+
+function get_page_heading_contact( $post_id ){
+
+	$html = '<article class="ContactHeader">';
+
+	if( has_post_thumbnail( $post_id )){
+
+		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'single-post-thumbnail' );
+		$html = '<article class="ContactHeader" style="background-image: url(' . $image[ 0 ] . ');">';
+	}
+
+	if( simple_fields_fieldgroup( 'heading_title', $post_id )){
+		$html .= '<div class="header_text">';
+		$html .= '<h1>' . simple_fields_fieldgroup( 'heading_title', $post_id ) . '</h1>';
+		$html .= '</div>';
+	}
+
+	$html .= '</article>';
+
+	return $html;
+}
+
+function get_page_title( $post_id ){
+
+
+	if( simple_fields_fieldgroup( 'heading_title', $post_id )){
+		$html .= '<div class="header_text">';
+		$html .= '<h1>' . simple_fields_fieldgroup( 'heading_title', $post_id ) . '</h1>';
+		$html .= '</div>';
+	}
 
 	return $html;
 }

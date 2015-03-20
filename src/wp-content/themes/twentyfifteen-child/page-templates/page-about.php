@@ -14,7 +14,7 @@
       
       <article class="AboutHeader">
 		
-        <h1>We love new challenges, and we love to create original solutions.</h1>
+        <?php echo get_page_title( $post->ID ); ?>
 
 		<ul class="cb-slideshow">
 			<li><span>Image 01</span></li>
