@@ -142,7 +142,7 @@
 	position:absolute;
 	z-index:9999999;
 	opacity:0.8;
-	bottom:300px;
+	bottom:500px;
 
 		-webkit-transition: bottom 0.5s ease-in-out;
 		-moz-transition: bottom 0.5s ease-in-out;
@@ -184,7 +184,7 @@
 
 	a:hover{
 		text-decoration: none;
-		color:white;
+		color:#FFA65E;
 	}	
 
 
@@ -222,6 +222,10 @@
 			color: $font-color !important;
 			text-transform: uppercase;
 			cursor: pointer;
+
+			&:hover{
+				color:#FFA65E;
+			}
 		}
 }
 
