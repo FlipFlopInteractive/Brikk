@@ -12,7 +12,10 @@
 
 <section class="directors">
 
-	<?php echo get_page_heading( $post->ID ); ?>
+		<?php echo get_page_heading( $post->ID ); ?>
+		
+		<?php echo get_page_heading_title( $post->ID ); ?>
+
 
 	<article class="p_content_wordpress">
 		<?php echo wpautop( $post->post_content ); ?>
