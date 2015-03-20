@@ -231,7 +231,6 @@ function get_all_cases( $classes ){
 			$category = simple_fields_fieldgroup( 'categories_choose',$case->ID );
 
 			$html .= '<div class="' . $classes .' '.'6'.' '.$category.'">';
-			// $html .= '<div class="' . $classes .'">';
 			$html .= '<a href="' . get_permalink( $case->ID ) . '">';
 			$html .= get_the_post_thumbnail( $case->ID );
 			$html .= '</a>';
