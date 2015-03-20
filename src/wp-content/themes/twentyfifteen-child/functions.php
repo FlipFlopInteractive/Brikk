@@ -230,10 +230,18 @@ function get_all_cases( $classes ){
 
 			$category = simple_fields_fieldgroup( 'categories_choose',$case->ID );
 
+			// $case_title = simple_fields_fieldgroup( 'case_stills', $case->ID );
+
 			$html .= '<div class="' . $classes .' '.'6'.' '.$category.'">';
-			$html .= '<a href="' . get_permalink( $case->ID ) . '">';
+			$html .= '<div class="works_wrapper">';
+			$html .= '<div class="works_overlay">';
+			$html .= '<div class="information_works">';
+			$html .= '<h2>'. get_the_title( $case ) .'</h2>';
+			$html .= '<a href="' . get_permalink( $case->ID ) . '"><h3>full case</h3></a>';
+			$html .= '</div>';
+			$html .= '</div>';
 			$html .= get_the_post_thumbnail( $case->ID );
-			$html .= '</a>';
+			$html .= '</div>';
 			$html .= '</div>';
 		}
 	}

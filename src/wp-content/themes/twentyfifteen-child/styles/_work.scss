@@ -112,12 +112,76 @@
 	box-sizing: border-box;
 	display: inline-block;
 	width: 25%;
-	padding-right: 3px;
-	
-	margin-bottom: -6px;
+	padding-right: 3px;	
+	margin-bottom: -8px;
+	overflow:hidden;
+
+	.works_wrapper{
+		position:relative;
+
+	}
+
+	&:hover .works_overlay{
+		bottom:5px;
+	}	
 	
 }
 
+.works_overlay{
+	background-color:black;
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:9999999;
+	opacity:0.8;
+	bottom:300px;
+
+		-webkit-transition: bottom 0.5s ease-in-out;
+		-moz-transition: bottom 0.5s ease-in-out;
+		 -ms-transition: bottom  0.5s ease-in-out;
+		  -o-transition: bottom 0.5s ease-in-out;
+		     transition: bottom 0.5s ease-in-out;
+	
+}
+
+.information_works{
+	
+	margin-top:100px;
+
+	h2{
+		color: white;
+		width: 100%;
+		padding-left:20px;
+		padding-right:20px;
+		text-align: center;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		font-size: 1.3em;
+		font-family: 'brandon_grotesquebold';
+	}
+	
+	h3{
+		font-family: 'brandon_grotesquelight';
+		color: white;
+		width: 100%;
+		padding-left:20px;
+		padding-right:20px;
+		text-align: center;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		}
+
+	a{
+		text-decoration: none;
+
+	a:hover{
+		text-decoration: none;
+		color:white;
+	}	
+
+
+	}
+}
 
 .workGrid a img{
 	margin-bottom: 3px;
