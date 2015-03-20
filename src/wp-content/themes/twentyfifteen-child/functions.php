@@ -146,6 +146,37 @@ add_action( 'wp_enqueue_scripts', 'livereload' );
 
 
 
+function get_page_heading_title( $post_id ){
+
+
+	$html = '';
+
+	$html .='<div class="VimeoHeader">';
+
+
+	if( simple_fields_fieldgroup( 'heading_title', $post_id )){
+
+		$html .= '<h1>' . simple_fields_fieldgroup( 'heading_title', $post_id ) . '</h1>';
+	}
+
+
+	$html .='<div class="background_wrapper">';
+
+	if( simple_fields_fieldgroup( 'vimeo_heading', $post_id )){
+
+		$html .= '<div class="embed-responsive embed-responsive-16by9">';
+		$html .= '<iframe class="embed-responsive-item" src="//player.vimeo.com/video/' . substr( parse_url( simple_fields_fieldgroup( 'vimeo_heading', $post_id ), PHP_URL_PATH ), 1 ) . '?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autoplay=1&amp;loop=1&amp;color=00D8D8&amp;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+		$html .= '</div>';
+	}
+
+	$html .='</div>';
+	$html .='</div>';
+
+
+	return $html;
+}
+
+
 function get_page_heading( $post_id ){
 
 	$html = '<article class="ImageHeader">';
