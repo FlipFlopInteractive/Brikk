@@ -5,6 +5,10 @@
 	margin-top: 0px;
 }
 
+.row img{
+	margin-bottom: 0px;
+}
+
 .VimeoHeader{
 
 /*	// background-image: url("images/Screens/dubstep_cat.gif");
@@ -118,12 +122,11 @@
 }
 
 .workGrid{
-	box-sizing: border-box;
-	display: inline-block;
+	float:left;
 	width: 25%;
 	padding-right: 3px;	
-	margin-bottom: -8px;
 	overflow:hidden;
+	margin-bottom:3px;
 
 	.works_wrapper{
 		position:relative;
@@ -131,15 +134,13 @@
 	}
 
 	&:hover .works_overlay{
-		bottom:5px;
+		bottom:0px;
 	}	
 	
 }
 
 .works_overlay{
 	background-color:black;
-/*	// width:360px;
-	// height:230px;*/
 	width:100%;
 	height:100%;
 	position:absolute;
@@ -181,7 +182,6 @@
 }
 
 .workGrid a img{
-	margin-bottom: 3px;
 	box-sizing: border-box;
 	width: 100%;
 	display: block;
@@ -189,7 +189,6 @@
 
 .workGrid:nth-child(4n+4){
 	box-sizing: border-box;
-	/*padding-right: 0px;*/
 }
 
 .filters{
