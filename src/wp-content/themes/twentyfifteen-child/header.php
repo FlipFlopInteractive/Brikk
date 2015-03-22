@@ -16,6 +16,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <link rel="shortcut icon" href="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikk.ico" type="image/x-icon" />
+  <meta name="description" content="We are a design-driven production company, in the heart of Stockholm. Together with our customers we produce world" />
   
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
@@ -32,9 +33,9 @@
     <header id="header">
 
       <div id="wrapper_logo">
-          <a href="./home"><img class="logo_static" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animatie_logo_static.jpg"/></a>
-          <a href="./home"><img class="logo_animation" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animate_logo.gif"/></a>
-          <a href="./home"><img class="logo_brikk_fixed" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikk_logo_fixed.jpg"/></a>
+          <a href="./home"><img class="logo_static" alt="Brikk Produktionsbolag i stockholm" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animatie_logo_static.jpg"/></a>
+          <a href="./home"><img class="logo_animation" alt="Brikk Produktionsbolag i stockholm" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animate_logo.gif"/></a>
+          <a href="./home"><img class="logo_brikk_fixed" alt="Brikk Produktionsbolag i stockholm" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikk_logo_fixed.jpg"/></a>
           <!-- <a href="./home"><img class="logo_animate" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animation_home.gif"/></a> -->
       </div>
     

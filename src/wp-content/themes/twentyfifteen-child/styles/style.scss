@@ -384,7 +384,7 @@ a{
 			box-sizing: border-box;
 			display: inline-block;
 			width: 20%;
-			margin-bottom: 3px;
+			margin-bottom: px;
 		
 	.works_wrapper{
 		position:relative;
@@ -764,13 +764,28 @@ a{
 			height: 250px;
 			margin-bottom: 40px;
 
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
 		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
 			font-size: 4em;
-			padding-top:70px;
 			width: 100%;
-			padding-left: 40px;
-			padding-right: 40px;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
 	}
 	
 	.text_titles{
@@ -813,13 +828,28 @@ a{
 			height: 250px;
 
 
-			h1{
-				font-size: 4em;
-				padding-top: 70px;
-				width: 100%;
-				padding-left: 40px;
-				padding-right: 40px;
-			}
+			.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 4em;
+			width: 100%;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
+		}
+	}
 		}
 
 		.filters{
@@ -913,18 +943,34 @@ a{
 
 	.contact{
 
-		.ImageHeader{
+		.ContactHeader{
 			
 			width: 100%;
 			height: 250px;
+			position: relative;
 
-			h1{
-				font-size: 4em;
-				padding-top: 70px;
-				width: 100%;
-				padding-left: 40px;
-				padding-right: 40px;
-			}
+		.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 4em;
+			width: 100%;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
+		}
+	}
 		}
 
 		#members {
@@ -957,15 +1003,30 @@ a{
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 30% 60%;
+			position: relative;
 
-			h1{
-				font-size: 4em;
-				padding-top: 60px;
-				width: 100%;
-				margin: auto;
-				padding-left: 30px;
-				padding-right: 30px;
-			}
+		.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 4em;
+			width: 100%;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
+		}
+	}
 		}
 
 		li{
@@ -1045,14 +1106,30 @@ a{
 			
 			width: 100%;
 			height: 250px;
+			position: relative;
 
-			h1{
-				font-size: 4em;
-				padding-top: 30px;
-				width: 100%;
-				padding-right: 30px;
-				padding-left: 30px;
-			}
+		.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 4em;
+			width: 100%;
+			height: 250px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
+		}
+	}
 		}
 
 		h2{
@@ -1130,14 +1207,39 @@ a{
 			width: 100%;
 			height: 250px;
 			margin-bottom: 40px;
+			position: reltaive;
+
+			.ImageHeader{
+
+			display: block;
+			background-position: 30% 20%;
+			width: 100%;
+			height: 250px;
+			margin-bottom: 40px;
+
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
 		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
 			font-size: 4em;
-			padding-top:70px;
 			width: 100%;
-			padding-left: 40px;
-			padding-right: 40px;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 	}
 	
 	.text_titles{
@@ -1178,15 +1280,40 @@ a{
 			
 			width: 100%;
 			height: 250px;
+			position: relative;
 
 
-			h1{
-				font-size: 4em;
-				padding-top: 70px;
-				width: 100%;
-				padding-left: 40px;
-				padding-right: 40px;
-			}
+		.ImageHeader{
+
+			display: block;
+			background-position: 30% 20%;
+			width: 100%;
+			height: 250px;
+			margin-bottom: 40px;
+
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 4em;
+			width: 100%;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
+		}
+	}
+	}
 		}
 
 		.filters{
@@ -1242,18 +1369,37 @@ a{
 	.contact{
 
 		.ImageHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 250px;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 4em;
-				padding-top: 70px;
-				width: 100%;
-				padding-left: 40px;
-				padding-right: 40px;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 4em;
+			width: 100%;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		#members {
 		width: 80%;
@@ -1285,15 +1431,32 @@ a{
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 30% 60%;
+			position: relative;
 
-			h1{
-				font-size: 4em;
-				padding-top: 60px;
-				width: 100%;
-				margin: auto;
-				padding-left: 30px;
-				padding-right: 30px;
-			}
+
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 4em;
+			width: 100%;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
+		}
+	}
+	
 		}
 
 		li{
@@ -1369,19 +1532,38 @@ a{
 
 	.directors{
 
-		.ImageHeader{
-			
+	.ImageHeader{
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 250px;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 4em;
-				padding-top: 30px;
-				width: 100%;
-				padding-right: 30px;
-				padding-left: 30px;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 3em;
+			width: 100%;
+			height: 250px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		h2{
 			padding-bottom: 20px;
@@ -1508,19 +1690,37 @@ a{
 		}
 	}
 
-	.ImageHeader{
+		.ImageHeader{
+
+			display: block;
 			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
 			margin-bottom: 40px;
+			position: relative;
+
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
 		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
 			font-size: 3em;
-			padding-top:55px;
 			width: 100%;
-			padding-left: 50px;
-			padding-right: 50px;
+			height: 200px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
 	}
 	
 	.text_titles{
@@ -1558,19 +1758,37 @@ a{
 	.work{
 
 		.ImageHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
+			margin-bottom: 40px;
+			position: relative;
 
+	.header_text{
 
-			h1{
-				font-size: 3em;
-				padding-top: 55px;
-				width: 80%;
-				padding-left: 40px;
-				padding-right: 40px;
-			}
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 3em;
+			width: 100%;
+			height: 200px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		.filters{
 			width: 480px;
@@ -1630,22 +1848,37 @@ a{
 	.contact{
 
 		.ContactHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
+			margin-bottom: 40px;
+			position: relative;
 
-			.header_text{
+	.header_text{
 
-				h1{
-					font-size: 3em;
-					height: 200px;
-					padding-left: 40px;
-					padding-right: 40px;
-					text-align: center;
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
-				}
-			}
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 3em;
+			width: 100%;
+			height: 200px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		#members {
 		width: 500px;
@@ -1668,26 +1901,38 @@ a{
 	}
 
 	.about{
-
 		.AboutHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
-			background-image: url("images/Screens/about_1.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: 30% 60%;
-			
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 3em;
-				padding-top: 55px;
-				width: 100%;
-				margin: auto;
-				padding-left: 40px;
-				padding-right: 40px;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 3em;
+			width: 100%;
+			height: 200px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		li{
 			display: none;
@@ -1763,18 +2008,37 @@ a{
 	.directors{
 
 		.ImageHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 3em;
-				padding-top: 30px;
-				width: 100%;
-				padding-right: 40px;
-				padding-left: 40px;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 3em;
+			width: 100%;
+			height: 200px;
+			padding-left: 100px;
+			padding-right: 100px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		h2{
 			padding-bottom: 20px;
@@ -1848,18 +2112,36 @@ a{
 
 
 	.ImageHeader{
+
+			display: block;
 			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
 			margin-bottom: 40px;
+			position: relative;
+
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
 		h1{
-			font-size: 2em;
-			padding-top:70px;
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 2.5em;
 			width: 100%;
-			padding-left: 40px;
-			padding-right: 40px;
+			height: 200px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
 	}
 	
 	.text_titles{
@@ -1897,19 +2179,37 @@ a{
 	.work{
 
 		.ImageHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
+			margin-bottom: 40px;
+			position: relative;
 
+	.header_text{
 
-			h1{
-				font-size: 2em;
-				padding-top: 70px;
-				width: 80%;
-				padding-left: 30px;
-				padding-right: 30px;
-			}
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 2.5em;
+			width: 100%;
+			height: 200px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		.filters{
 			width: 480px;
@@ -1969,22 +2269,37 @@ a{
 	.contact{
 
 		.ContactHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
+			margin-bottom: 40px;
+			position: relative;
 
-			.header_text{
+	.header_text{
 
-				h1{
-					font-size: 2em;
-					height: 200px;
-					padding-left: 30px;
-					padding-right: 30px;
-					text-align: center;
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
-				}
-			}
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 2.5em;
+			width: 100%;
+			height: 200px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		#members {
 		width: 500px;
@@ -2009,23 +2324,37 @@ a{
 	.about{
 
 		.AboutHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
-			background-image: url("images/Screens/about_1.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: 30% 60%;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 2em;
-				padding-top: 70px;
-				width: 100%;
-				margin: auto;
-				padding-left: 30px;
-				padding-right: 30px;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 2.5em;
+			width: 100%;
+			height: 200px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		li{
 			display: none;
@@ -2101,18 +2430,37 @@ a{
 	.directors{
 
 		.ImageHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 200px;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 2em;
-				padding-top: 55px;
-				width: 100%;
-				padding-right: 30px;
-				padding-left: 30px;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 2.5em;
+			width: 100%;
+			height: 200px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		h2{
 			padding-bottom: 20px;
@@ -2236,16 +2584,36 @@ a{
 	}
 
 .ImageHeader{
+
+			display: block;
 			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
 			margin-bottom: 40px;
+			position: relative;
+
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
 		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
 			font-size: 1.7em;
-			padding-top: 55px;
 			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
 	}
 	
 	.text_titles{
@@ -2283,17 +2651,37 @@ a{
 	.work{
 
 		.ImageHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
+			margin-bottom: 40px;
+			position: relative;
 
+	.header_text{
 
-			h1{
-				font-size: 1.5em;
-				padding-top: 55px;
-				width: 80%;
-			}
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 1.7em;
+			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		.filters{
 			width: 250px;
@@ -2344,22 +2732,37 @@ a{
 	.contact{
 
 		.ContactHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
+			margin-bottom: 40px;
+			position: relative;
 
-			.header_text{
+	.header_text{
 
-				h1{
-					font-size: 1.7em;
-					height: 150px;
-					padding-left: 30px;
-					padding-right: 30px;
-					text-align: center;
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
-				}
-			}
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 1.7em;
+			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		#members {
 		width: 300px;
@@ -2384,21 +2787,37 @@ a{
 	.about{
 
 		.AboutHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
-			background-image: url("images/Screens/about_1.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: 30% 60%;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 1.7em;
-				padding-top: 50px;
-				width: 100%;
-				margin: auto;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 1.7em;
+			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		li{
 			display: none;
@@ -2473,16 +2892,37 @@ a{
 	.directors{
 
 		.ImageHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 1.7em;
-				padding-top: 40px;
-				width: 100%;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 1.7em;
+			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		h2{
 			padding-bottom: 20px;
@@ -2611,32 +3051,36 @@ a{
 		}
 	}
 .ImageHeader{
-			/*background-position: 30% 20%;
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
-			margin-bottom: 40px;*/
-
-		.background_wrapper{
+			margin-bottom: 40px;
 			position: relative;
-			overflow: hidden;
-			height: 150px;
-			width: 100%;
 
-		}
+	.header_text{
 
-		.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video{
-
-			position:absolute;
-			z-index: 0;
-			/*margin-top: -10%;*/
-			
-		}	
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
 		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
 			font-size: 1.5em;
-			padding-top: 55px;
 			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
 	}
 	
 	.text_titles{
@@ -2673,18 +3117,38 @@ a{
 
 	.work{
 
-		.ImageHeader{
-			
+	.ImageHeader{
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
+			margin-bottom: 40px;
+			position: relative;
 
+	.header_text{
 
-			h1{
-				font-size: 1.5em;
-				padding-top: 45px;
-				width: 80%;
-			}
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 1.5em;
+			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		.filters{
 			width: 250px;
@@ -2736,22 +3200,37 @@ a{
 	.contact{
 
 		.ContactHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
+			margin-bottom: 40px;
+			position: relative;
 
-			.header_text{
+	.header_text{
 
-				h1{
-					font-size: 1.5em;
-					height: 150px;
-					padding-left: 30px;
-					padding-right: 30px;
-					text-align: center;
+		position:absolute;
+		z-index: 99999999;
+		display: table;
 
-				}
-			}
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 1.5em;
+			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		#members {
 		width: 300px;
@@ -2776,21 +3255,37 @@ a{
 	.about{
 
 		.AboutHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
-			background-image: url("images/Screens/about_1.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: 30% 60%;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 1.5em;
-				padding-top: 50px;
-				width: 100%;
-				margin: auto;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 1.5em;
+			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		li{
 			display: none;
@@ -2866,16 +3361,37 @@ a{
 	.directors{
 
 		.ImageHeader{
-			
+
+			display: block;
+			background-position: 30% 20%;
 			width: 100%;
 			height: 150px;
+			margin-bottom: 40px;
+			position: relative;
 
-			h1{
-				font-size: 1.5em;
-				padding-top: 30px;
-				width: 100%;
-			}
+	.header_text{
+
+		position:absolute;
+		z-index: 99999999;
+		display: table;
+
+		h1{
+			
+			font-family: 'brandon_grotesqueblack_italic';
+			color: white;
+			font-size: 1.5em;
+			width: 100%;
+			height: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			display: table-cell; 
+ 			vertical-align: middle; 
+ 			margin: auto;
+ 
 		}
+	}
+	}
 
 		h2{
 			padding-bottom: 20px;
