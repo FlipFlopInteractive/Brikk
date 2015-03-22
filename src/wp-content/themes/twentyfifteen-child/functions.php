@@ -270,12 +270,14 @@ function get_all_cases( $classes ){
 
 			$html .= '<div class="' . $classes .' '.'6'.' '.$category.'">';
 			$html .= '<div class="works_wrapper">';
-			$html .= '<div class="works_overlay">';
+			$html .= '<a href="' . get_permalink( $case->ID ) . '"><div class="works_overlay">';
 			$html .= '<div class="information_works">';
+			$html .= '<div class="header_works_text">';
 			$html .= '<h2>'. get_the_title( $case ) .'</h2>';
-			$html .= '<a href="' . get_permalink( $case->ID ) . '"><h3>full case</h3></a>';
+			// $html .= '<a href="' . get_permalink( $case->ID ) . '"><h3>full case</h3></a>';
 			$html .= '</div>';
 			$html .= '</div>';
+			$html .= '</div></a>';
 			$html .= get_the_post_thumbnail( $case->ID );
 			$html .= '</div>';
 			$html .= '</div>';

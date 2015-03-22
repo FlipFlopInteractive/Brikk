@@ -10,22 +10,6 @@
 
 	function init(){
 
-		
-	// var $container = $('.rowWorks').isotope({
-
-	// });	
-
-	// 	$('.filters').on( 'click', 'a', function(e) {
-
-	// 		e.preventDefault();
-
-	// 	 	var filterValue = $(this).attr('data-filter');
- //  			$container.isotope({ filter: filterValue });
-	// 	});
-
-
-
-
 	$(".Brikk_members").on("click", info_clickHandler);
 	$(".info_icon").on("click", info_clickHandler);
 	$(".staff").on("click", categoryHandler1);
@@ -101,7 +85,7 @@
 				$("#wrapper_logo").css({"width":"100px"});
 				$("#wrapper_logo").css({"margin-top":"8px"});
 				$("#navigation ul").css({"margin-top":"-32px"});
-				$("#navigation li").css({"font-size":"0.6em"});
+				$("#navigation li").css({"font-size":"0.7em"});
 
 				$("#header").css({
 						"-webkit-box-shadow": "0px 1px 0px 0px rgba(110,110,109,0.58)",
