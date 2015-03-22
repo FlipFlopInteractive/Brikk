@@ -662,6 +662,7 @@ a{
 			text-shadow: 1px 1px 7px rgba(150, 150, 150, 0.55);
 			display: table-cell; 
  			vertical-align: middle; 
+ 			padding-top: 0px;
  
 				}
 			}
@@ -1127,7 +1128,7 @@ a{
 			display: table-cell; 
  			vertical-align: middle; 
  			margin: auto;
- 
+ 			padding-top: 0px;
 		}
 	}
 		}
@@ -1560,6 +1561,7 @@ a{
 			display: table-cell; 
  			vertical-align: middle; 
  			margin: auto;
+ 			padding-top: 0px;
  
 		}
 	}
@@ -2035,6 +2037,7 @@ a{
 			display: table-cell; 
  			vertical-align: middle; 
  			margin: auto;
+ 			padding-top: 0px;
  
 		}
 	}
@@ -2363,11 +2366,11 @@ a{
 		#map-canvas{
 			margin-left: 0;
 			height: 300px;
-			width: 375px; 
+			width: 100%; 
 		}
 
 		#map_wrapper {
-			width: 375px;
+			width: 100%;
 			margin: 0 auto;
 			position: relative;
 			overflow: hidden;
@@ -2382,7 +2385,7 @@ a{
 		#information_map{
 
 			margin-top: 100px;
-			margin-left: 50px;
+			margin-left: 0px;
 
 		p{
 			
@@ -2457,6 +2460,7 @@ a{
 			display: table-cell; 
  			vertical-align: middle; 
  			margin: auto;
+ 			padding-top: 0px;
  
 		}
 	}
@@ -2547,7 +2551,7 @@ a{
 
 			ul{
 				position: absolute;
-				z-index: 99999999;
+				z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
 				background-color: $background-color;
 				display: none;
 				margin-left: 0;
@@ -2919,6 +2923,7 @@ a{
 			display: table-cell; 
  			vertical-align: middle; 
  			margin: auto;
+ 			padding-top: 0px;
  
 		}
 	}
@@ -3013,7 +3018,7 @@ a{
 
 			ul{
 				position: absolute;
-				z-index: 99999999;
+				z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
 				width: 100%;
 				background-color: $background-color;
 				display: none;
@@ -3313,7 +3318,7 @@ a{
 		#information_map{
 
 			padding-top: 40px;
-			padding-left: 30px;
+			padding-left: 0px;
 
 		p{
 			
@@ -3384,6 +3389,7 @@ a{
 			height: 150px;
 			padding-left: 50px;
 			padding-right: 50px;
+			padding-top: 0px;
 			text-align: center;
 			display: table-cell; 
  			vertical-align: middle; 
@@ -3476,7 +3482,7 @@ a{
 
 			ul{
 				position: absolute;
-				z-index: 99999999;
+				z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
 				
 				background-color: $background-color;
 				display: none;
@@ -3828,29 +3834,28 @@ a{
 			margin-bottom: 40px;
 			position: relative;
 
-	.header_text{
+		.header_text{
 
-		position:absolute;
-		z-index: 99999999;
-		display: table;
+			position:absolute;
+			z-index: 99999999;
+			display: table;
 
-		h1{
-			
-			font-family: 'brandon_grotesqueblack_italic';
-			color: white;
-			font-size: 1.5em;
-			width: 100%;
-			height: 150px;
-			padding-left: 50px;
-			padding-right: 50px;
-			text-align: center;
-			display: table-cell; 
- 			vertical-align: middle; 
- 			margin: auto;
- 
+				h1{
+					
+					font-family: 'brandon_grotesqueblack_italic';
+					color: white;
+					font-size: 1.5em;
+					width: 100%;
+					height: 150px;
+					padding-left: 40px;
+					padding-right: 40px;
+					padding-top: 0px;
+					text-align: center;
+					display: table-cell; 
+		 			vertical-align: middle; 
+				}
+			}
 		}
-	}
-	}
 
 		h2{
 			padding-bottom: 20px;

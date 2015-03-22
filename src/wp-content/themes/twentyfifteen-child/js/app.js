@@ -79,9 +79,10 @@
     	
 				$("#header").css({"height":"60px"});
 				$("#header").css({"position":"fixed"});
-				$(".logo_brikk_fixed").css({"display":"block"}); 
-				$(".logo_static").css({"display":"none"}); 
-				$(".logo_animation").css({"display":"none"}); 
+				$(".logo_brikk_fixed").addClass("display_block");
+				$(".logo_static").addClass("display_none"); 
+				$(".logo_animation").addClass("display_none");
+				// $(".logo_animation").css({"display":"none"}); 
 				$("#wrapper_logo").css({"width":"100px"});
 				$("#wrapper_logo").css({"margin-top":"8px"});
 				$("#navigation ul").css({"margin-top":"-32px"});
@@ -98,11 +99,11 @@
     		else if(scroll <= 0){
 
     			$("#header").css({"height":"80px"});
-				$(".logo_static").css({"display":"block"}); 
-				$(".logo_brikk_fixed").css({"display":"none"});
-				$(".logo_animation").css({"display":"inherit"});
+				$(".logo_static").removeClass("display_none"); 
+				$(".logo_brikk_fixed").removeClass("display_block");
+				$(".logo_animation").removeClass("display_none");
+				// $(".logo_animation").css({"display":"none"});
 				$("#header").css({"position":"inherit"});
-				$(".logo_animation").css({"display":"none"});
 				$("#wrapper_logo").css({"width":"170px"});
 				$("#wrapper_logo").css({"margin-top":"0px"});
 				$("#navigation ul").css({"margin-top":"-45px"});
