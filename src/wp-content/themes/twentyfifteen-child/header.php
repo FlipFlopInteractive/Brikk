@@ -16,7 +16,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <link rel="shortcut icon" href="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikk.ico" type="image/x-icon" />
-  <meta name="description" content="We are a design-driven production company, in the heart of Stockholm. Together with our customers we produce world" />
+  <meta name="description" content="Vi är ett designdrivet produktionsbolag, i hjärtat av Stockholm. Tillsammans med våra kunder producerar vi animation i världsklass!" />
   
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
