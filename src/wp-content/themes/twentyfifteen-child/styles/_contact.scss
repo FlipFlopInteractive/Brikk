@@ -1,5 +1,17 @@
 .contact{
 
+		a{
+		color:#FFA65E;
+		font-family:"brandon_grotesquebold";
+		text-decoration: none;
+
+		&:hover{
+			color:#FFA65E;
+			font-family:"brandon_grotesquebold";
+			text-decoration: none;
+		}
+	}
+
 	.ContactHeader{
 	/*background-image: url("images/Screens/contact.jpg");*/
 	background-repeat: no-repeat;

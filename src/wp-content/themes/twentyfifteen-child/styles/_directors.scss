@@ -1,5 +1,17 @@
 .directors{
 
+		a{
+		color:#FFA65E;
+		font-family:"brandon_grotesquebold";
+		text-decoration: none;
+
+		&:hover{
+			color:#FFA65E;
+			font-family:"brandon_grotesquebold";
+			text-decoration: none;
+		}
+	}
+
 .VimeoHeader{
 
 	// background-image: url("images/Screens/dubstep_cat.gif");
