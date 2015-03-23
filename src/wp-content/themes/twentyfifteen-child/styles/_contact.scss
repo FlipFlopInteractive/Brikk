@@ -171,7 +171,7 @@
 	    	display: inline-block;
 	    	width: auto;
 			color: #ffffff;
-			font-size: 1em;
+			
 			text-align: left;
 			font-family: 'brandon_grotesquelight';
 	    }
@@ -185,6 +185,7 @@
 
 		.name{
 			margin: 0px;
+			font-size: 1em;
 		}
 
 
@@ -195,11 +196,11 @@
 	    }
 
 	    .info_phone{
-	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.7em;
-	    	text-align: left;
-	    	margin: 0px;
 
+	    	font-family: 'brandon_grotesquelight';
+	    	font-size: 0.75em;
+	    	text-align: left;
+	    	// margin: 0px;
 	    	img{
 
 				width: 7%;
@@ -208,8 +209,9 @@
 	    }
 
 	    .info_mail{
+
 	    	font-family: 'brandon_grotesquelight';
-	    	font-size: 0.7em;
+	    	font-size: 0.75em;
 	    	text-align: left;
 
 	    	img{

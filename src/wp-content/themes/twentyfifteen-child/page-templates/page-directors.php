@@ -20,7 +20,7 @@
 		<?php echo wpautop( $post->post_content ); ?>
 	</article>
 
-<img src="<?php echo get_child_template_directory_uri(); ?>/images/Academylog.png"/>
+<img src="<?php echo get_child_template_directory_uri(); ?>/images/Academylog.png" alt="directors_img" title="directors_img"/>
 <p class="academicInformation">For US clients contact Mike Holm - Executive Producer at The Academy.</br>mike@academycreative.com</br>
 501 E Pine - Suite 206</br>
 Seattle, WA 98122</br>
