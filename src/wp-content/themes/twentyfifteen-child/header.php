@@ -41,14 +41,6 @@
     
       <div id="navigation">
           <ul>
-            <!-- <li><a href="./home/">home</a></li> -->
-            <!-- <li><a href="./showreel/">showreel</a></li> -->
-            <!-- <li><a href="./work">work</a></li> -->
-            <!-- <li><a href="./contact/">contact</a></li> -->
-            <!-- <li><a href="./about/">about</a></li> -->
-            <!-- <li><a href="./directors/">directors</a></li> -->
-            <!-- <li><a href="http://brikkblog.tumblr.com/">blog</a></li> -->
-
             <?php
               $args = array(
                 'theme_location'  => '',
@@ -71,22 +63,12 @@
             ?>
 
             <?php wp_nav_menu( $args ); ?> 
-
-            <!-- <a href="./swe"><li class="language">SWE</li></a>
-            <a href="./"><li class="language">ENG</li></a> -->
         </ul>
       </div>
 
       <div id="responsive_menu">
-        <img id="menu_icon"src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/menuIcon.png"/>
+        <img id="menu_icon"src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/menuIcon.png" alt="Brikk producion company menu icon" title="Brikk producion company menu icon"/>
           <ul>
-            <!-- <li><a href="./home/">home</a></li> -->
-            <!-- <li><a href="./showreel/">showreel</a></li> -->
-            <!-- <li><a href="./work/">work</a></li> -->
-            <!-- <li><a href="./contact/">contact</a></li> -->
-            <!-- <li><a href="./about/">about</a></li> -->
-            <!-- <li><a href="http://brikkblog.tumblr.com/">blog</a></li> -->
-            <!-- <li><a href="./directors/">directors</a></li> -->
 
             <?php wp_nav_menu( $args ); ?> 
             

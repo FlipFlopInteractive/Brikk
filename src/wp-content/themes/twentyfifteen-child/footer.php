@@ -21,8 +21,6 @@
 		<a href="https://dribbble.com/BRIKK" target="_blank"><img class="social" alt="logo dribbble" title="logo dribbble" src="<?php echo get_child_template_directory_uri(); ?>/images/social/dribble.svg"/></a>
 		<a href="https://www.linkedin.com/company/2818774?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A2994728381425290837835%2CVSRPtargetId%3A2818774%2CVSRPcmpt%3Acompanies_cluster" target="_blank"><img class="social" alt="logo linkedin" title="logo linkedin" src="<?php echo get_child_template_directory_uri(); ?>/images/social/linkedin.svg"/></a>
 		<a href="https://www.behance.net/brikk" target="_blank"><img class="social" alt="logo behance" title="logo behance" src="<?php echo get_child_template_directory_uri(); ?>/images/social/behance.svg"/></a>
-		<!-- <a href="https://twitter.com/BRIKKSTUDIO" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/twitter.svg"/></a> -->
-		<!-- <a href="https://facebook.com" target="_blank"><img class="social" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/tumblr.svg"/></a> -->
 	</div>
 
       <a href="mailto:post@brikk.se"><p>post@brikk.se</p></a>

@@ -32,7 +32,7 @@ Thanks to the folks at Leo Burnett for letting us get our winter flavorscape on.
 
 		<h2>stills from project</h2>
 
-		<img class="logoCases" src="<?php echo get_child_template_directory_uri(); ?>/images/screens/stills.png"/>
+		<img class="logoCases" alt="detailCases" title="detailCases" src="<?php echo get_child_template_directory_uri(); ?>/images/screens/stills.png"/>
 
 </section> 
 
