@@ -212,16 +212,16 @@
 			list-style: none;
 			display: inline-block;
 			padding-left:20px;
-			font-family: 'brandon_grotesquebold';
-			color: $font-color;
+			// font-family: 'brandon_grotesquebold';
 			font-size: 0.7em;
 			text-align: center;
-			color: $font-color !important;
+			color: $font-color;
 			text-transform: uppercase;
 			cursor: pointer;
 
 			&:hover{
 				color:#FFA65E;
+				font-family: 'brandon_grotesquebold';
 			}
 		}
 }
