@@ -33,9 +33,8 @@
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKy45RzdHPBl29dsl1iAlWEeiImfBE_4"></script>
-<script src="<?php echo get_child_template_directory_uri(); ?>/js/isotope.js"></script>
-<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/app.js"></script>
-<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/map.js"></script>
+<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/app.min.js"></script>
+<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/map.min.js"></script>
 
 </body>
 </html>
