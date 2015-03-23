@@ -69,9 +69,7 @@
       <div id="responsive_menu">
         <img id="menu_icon"src="<?php echo get_child_template_directory_uri(); ?>/images/buttons/menuIcon.png" alt="Brikk producion company menu icon" title="Brikk producion company menu icon"/>
           <ul>
-
             <?php wp_nav_menu( $args ); ?> 
-            
         </ul>
       </div>
 
