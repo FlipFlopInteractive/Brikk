@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 			},
 			production: {
 				options: {
-					cleancss: true,
+					style: 'compressed',
 				},
 				files: {
 					'<%= package.dist %>/style.css': '<%= package.src %>/styles/style.scss'
@@ -103,8 +103,6 @@ module.exports = function(grunt) {
 
 		concat: {},
 
-		uglify: {},
-
 		jshint: {
 			options: {
 				jshintrc: '.jshintrc',
@@ -119,6 +117,16 @@ module.exports = function(grunt) {
 			development: {
 				dest: '<%= package.dist %>/js/libs.js',
 				dependencies: {},
+			}
+		},
+
+		uglify: {
+			production: {
+				files: {
+					'<%= package.dist %>/js/app.min.js': '<%= package.dist %>/js/app.js',
+					'<%= package.dist %>/js/libs.min.js': '<%= package.dist %>/js/libs.js',
+					'<%= package.dist %>/js/map.min.js': '<%= package.dist %>/js/map.js',
+				}
 			}
 		},
 
@@ -182,9 +190,21 @@ module.exports = function(grunt) {
 		'watch:development'
 	]);
 
+	grunt.registerTask( 'prepare:acceptance', [
+
+		'clean:development',
+		'copy:development',
+		'sass:production',
+		'autoprefixer:development',
+		'prepare:icons',
+		'jshint:development',
+		'bower_concat:development',
+		'uglify:production',
+	]);
+
 	grunt.registerTask( 'acceptance', [
 
-		'prepare:development',
+		'prepare:acceptance',
 		'ftp-deploy:acceptance',
 	]);
 };
