@@ -34,7 +34,7 @@
 
 	if($(".showreel")[0] != undefined) {
 
-			$("#menu-item-17 a,#menu-item-931 a,#menu-item-757 a").css({
+			$("#menu-item-17 a,#menu-item-931 a,#menu-item-857 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
@@ -45,7 +45,7 @@
 
 	if($(".work")[0] != undefined) {
 			
-			$("#menu-item-16 a,#menu-item-754 a,#menu-item-756 a").css({
+			$("#menu-item-16 a,#menu-item-754 a,#menu-item-856 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
@@ -56,7 +56,7 @@
 
 	if($(".contact")[0] != undefined) {
 
-			$("#menu-item-14 a,#menu-item-752 a,#menu-item-775 a").css({
+			$("#menu-item-14 a,#menu-item-752 a,#menu-item-875 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
