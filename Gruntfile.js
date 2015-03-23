@@ -205,6 +205,6 @@ module.exports = function(grunt) {
 	grunt.registerTask( 'acceptance', [
 
 		'prepare:acceptance',
-		'ftp-deploy:acceptance',
+		// 'ftp-deploy:acceptance',
 	]);
 };
