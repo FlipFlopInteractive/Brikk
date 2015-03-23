@@ -409,11 +409,11 @@ function get_contact_faces($post_id){
 					$html .= '<div class="vertically-centered">';
 						$html .= '<div class="vertically-centered__content">';
 							$html .= '<div class="information">';
-								$html .= '<p class="name">'. $contact_face['contact_face_name'] .'</p><br />';
-								$html .= '<p class="job_function">'. $contact_face['job_function'] .'</p><br />';
-								$html .= '<p class="info_phone"><img alt="phone icon" title="phone icon" src="'. get_child_template_directory_uri() .'/images/icons/iphoneIcon.png">'. $contact_face['phone_number'] .'</p><br />';
-								$html .= '<p class="info_mail"><img src="'. get_child_template_directory_uri() .'/images/icons/mail.png" alt="mail icon" title="mail icon"/>';
-								$html .= '<a href="mailto:'.$contact_face['E_mail'] .'">'. $contact_face['E_mail'] .'</a></p>';
+								$html .= '<p itemprop="name" class="name">'. $contact_face['contact_face_name'] .'</p><br />';
+								$html .= '<p itemprop="jobFunction" class="job_function">'. $contact_face['job_function'] .'</p><br />';
+								$html .= '<p itemprop="tel" class="info_phone"><img alt="phone icon" title="phone icon" src="'. get_child_template_directory_uri() .'/images/icons/iphoneIcon.png">'. $contact_face['phone_number'] .'</p><br />';
+								$html .= '<p itemprop="email" class="info_mail"><img src="'. get_child_template_directory_uri() .'/images/icons/mail.png" alt="mail icon" title="mail icon"/>';
+								$html .= '<a itemprop="email" href="mailto:'.$contact_face['E_mail'] .'">'. $contact_face['E_mail'] .'</a></p>';
 							$html .= '</div>';
 						$html .= '</div>';
 					$html .= '</div>';
@@ -424,7 +424,7 @@ function get_contact_faces($post_id){
 		      	$html .= '<img class="Brikk_members alt="Members of Brikk" title="Members of Brikk"'. $contact_face['contact_face_image_dynamic']['image']['full'];
 		  	   $html .= '<img class="static_members  alt="Members of Brikk" title="Members of Brikk""'. $contact_face['contact_face_image_static']['image']['full'];
 	      $html .= '</div>';
-	      	$html .= '<a href="mailto:'.$contact_face['E_mail'] .'" ><p class="name_lower">'. $contact_face['contact_face_name'] .'</p></a>';  	
+	      	$html .= '<a itemprop="email" href="mailto:'.$contact_face['E_mail'] .'" ><p class="name_lower">'. $contact_face['contact_face_name'] .'</p></a>';  	
     	$html .= '</div>';
     	// $html .= '</div><!--';
 			

@@ -23,8 +23,8 @@
 		<a href="https://www.behance.net/brikk" target="_blank"><img class="social" alt="logo behance" title="logo behance" src="<?php echo get_child_template_directory_uri(); ?>/images/social/behance.svg"/></a>
 	</div>
 
-      <a href="mailto:post@brikk.se"><p>post@brikk.se</p></a>
-      <p>Brikk Animation och Film AB   Pryssgränd 10B   118 20 Stockholm</p>
+      <a itemprop="email" href="mailto:post@brikk.se"><p>post@brikk.se</p></a>
+      <p itemprop="company">Brikk Animation och Film AB   Pryssgränd 10B   118 20 Stockholm</p>
       <p>Copyright © 2015 Brikk Animation och Film AB. All rights reserved.</p>
 
     </section>

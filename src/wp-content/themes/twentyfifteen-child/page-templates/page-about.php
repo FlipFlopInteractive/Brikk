@@ -33,10 +33,10 @@
 		<div class="map_overlay">
 			<article id="information_map">
 				<h2>Schedule an appointment</h2>
-				<p><a href="mailto:samuel@brikk.se">samuel@brikk.se</a></br>+46 (0)73 612 06 04</p>
+				<p><a itemprop="email" href="mailto:samuel@brikk.se">samuel@brikk.se</a></br>+46 (0)73 612 06 04</p>
 				<h2>Apply for internship program</h2>
-				<p><a href="mailto:post@brikk.se">post@brikk.se</a></p>
-				<h2>Stockholm office:</h2>
+				<p><a itemprop="email" href="mailto:post@brikk.se">post@brikk.se</a></p>
+				<h2 itemprop="company">Stockholm office:</h2>
 				<p>Brikk Animation och Film AB</br>Pryssgränd 10B</br>118 20 Stockholm</p>
 			</article>
 		</div>
