@@ -418,11 +418,11 @@ function get_contact_faces($post_id){
 						$html .= '</div>';
 					$html .= '</div>';
 				$html .= '</div>';
-	      		$html .= '<img class="info_icon" src="'. get_child_template_directory_uri() .'/images/buttons/info_btn.png" />';
-	      		$html .= '<img class="close_icon" src="'. get_child_template_directory_uri() .'/images/buttons/close_btn.png" />';	
+	      		$html .= '<img class="info_icon" alt="brikk members info button" title="brikk members info button" src="'. get_child_template_directory_uri() .'/images/buttons/info_btn.png" />';
+	      		$html .= '<img class="close_icon" alt="brikk members close button" title="brikk members close button" src="'. get_child_template_directory_uri() .'/images/buttons/close_btn.png" />';	
 	      		
-		      	$html .= '<img class="Brikk_members"'. $contact_face['contact_face_image_dynamic']['image']['full'];
-		  	   $html .= '<img class="static_members"'. $contact_face['contact_face_image_static']['image']['full'];
+		      	$html .= '<img class="Brikk_members alt="Members of Brikk" title="Members of Brikk"'. $contact_face['contact_face_image_dynamic']['image']['full'];
+		  	   $html .= '<img class="static_members  alt="Members of Brikk" title="Members of Brikk""'. $contact_face['contact_face_image_static']['image']['full'];
 	      $html .= '</div>';
 	      	$html .= '<a href="mailto:'.$contact_face['E_mail'] .'" ><p class="name_lower">'. $contact_face['contact_face_name'] .'</p></a>';  	
     	$html .= '</div>';

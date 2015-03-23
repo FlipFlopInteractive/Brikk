@@ -31,13 +31,13 @@
 		position:absolute;
 		z-index: 99999999;
 		display: table;
+		width: 100%;
 
 		h1{
 			
 			font-family: 'brandon_grotesqueblack_italic';
 			color: white;
 			font-size: 5em;
-			width: 100%;
 			height: 400px;
 			padding-left: 100px;
 			padding-right: 100px;
@@ -45,6 +45,7 @@
 			text-shadow: 1px 1px 7px rgba(150, 150, 150, 0.55);
 			display: table-cell; 
  			vertical-align: middle; 
+ 			margin: auto;
  
 		}
 	}

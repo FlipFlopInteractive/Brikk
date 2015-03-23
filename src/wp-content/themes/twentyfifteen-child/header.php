@@ -33,9 +33,9 @@
     <header id="header">
 
       <div id="wrapper_logo">
-          <a href="./home"><img class="logo_static" alt="Brikk Produktionsbolag i stockholm" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animatieLogoStatic.jpg"/></a>
-          <a href="./home"><img class="logo_animation" alt="Brikk Produktionsbolag i stockholm" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animateLogo.gif"/></a>
-          <a href="./home"><img class="logo_brikk_fixed" alt="Brikk Produktionsbolag i stockholm" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikkLogoFixed.jpg"/></a>
+          <a href="./home"><img class="logo_static" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animatieLogoStatic.jpg"/></a>
+          <a href="./home"><img class="logo_animation" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animateLogo.gif"/></a>
+          <a href="./home"><img class="logo_brikk_fixed" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikkLogoFixed.jpg"/></a>
           <!-- <a href="./home"><img class="logo_animate" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animation_home.gif"/></a> -->
       </div>
     
