@@ -590,20 +590,26 @@ a{
 	    	font-size: 1em;
 	    	text-align: left;
 	    	width: 150px;
+
+	    	img{
+	    		width: 7%;
+	    	}
 	    	
 	    }
 
-	    .info_mail p{
+	    .info_mail{
 	    	font-family: 'brandon_grotesquelight';
 	    	font-size: 1em;
 	    	text-align: left;
 	    	width: 150px;
 	    	
-	    	
+	    	img{
+				width: 10%;
+	    	}
 	    }
 
 	    img{
-	    	width: 7%;
+	    	/*width: 9%;*/
 	    	margin-right: 5%;
 	    	
 	    }
