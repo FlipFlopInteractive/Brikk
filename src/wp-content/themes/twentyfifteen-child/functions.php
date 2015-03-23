@@ -411,8 +411,8 @@ function get_contact_faces($post_id){
 							$html .= '<div class="information">';
 								$html .= '<p class="name">'. $contact_face['contact_face_name'] .'</p><br />';
 								$html .= '<p class="job_function">'. $contact_face['job_function'] .'</p><br />';
-								$html .= '<p class="info_phone"><img src="'. get_child_template_directory_uri() .'/images/icons/iphone_icon.png">'. $contact_face['phone_number'] .'</p><br />';
-								$html .= '<p class="info_mail"><img src="'. get_child_template_directory_uri() .'/images/icons/mail_icon.png"/>';
+								$html .= '<p class="info_phone"><img src="'. get_child_template_directory_uri() .'/images/icons/iphoneIcon.png">'. $contact_face['phone_number'] .'</p><br />';
+								$html .= '<p class="info_mail"><img src="'. get_child_template_directory_uri() .'/images/icons/mailIcon.png"/>';
 								$html .= '<a href="mailto:'.$contact_face['E_mail'] .'">'. $contact_face['E_mail'] .'</a></p>';
 							$html .= '</div>';
 						$html .= '</div>';

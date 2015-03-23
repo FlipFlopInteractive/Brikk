@@ -102,7 +102,7 @@ body{
 	padding-bottom: 50px;
 
 	a{
-		color:"#FFA65E";
+		color:"#FFA65E" !important;
 		font-family:"brandon_grotesquebold";
 	}
 }
@@ -597,6 +597,7 @@ a{
 	    	font-family: 'brandon_grotesquelight';
 	    	font-size: 1em;
 	    	text-align: left;
+	    	width: 150px;
 	    	
 	    	
 	    }
