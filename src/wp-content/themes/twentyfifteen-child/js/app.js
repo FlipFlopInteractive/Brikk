@@ -22,7 +22,9 @@
 
 	if($(".homepage")[0] != undefined) {
 
-			$("#menu-item-73 a,#menu-item-756 a,#menu-item-876 a").css({
+		console.log("homepage");
+
+			$("#menu-item-1091 a,#menu-item-756 a,#menu-item-876 a").css({
 				
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
@@ -34,7 +36,7 @@
 
 	if($(".showreel")[0] != undefined) {
 
-			$("#menu-item-17 a,#menu-item-931 a,#menu-item-857 a").css({
+			$("#menu-item-1095 a,#menu-item-931 a,#menu-item-857 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
@@ -45,7 +47,7 @@
 
 	if($(".work")[0] != undefined) {
 			
-			$("#menu-item-16 a,#menu-item-754 a,#menu-item-856 a").css({
+			$("#menu-item-1094 a,#menu-item-754 a,#menu-item-856 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
@@ -56,7 +58,7 @@
 
 	if($(".contact")[0] != undefined) {
 
-			$("#menu-item-14 a,#menu-item-752 a,#menu-item-875 a").css({
+			$("#menu-item-1092 a,#menu-item-752 a,#menu-item-875 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
@@ -67,7 +69,7 @@
 
 	if($(".about")[0] != undefined) {
 
-			$("#menu-item-15 a,#menu-item-716 a,#menu-item-880 a").css({
+			$("#menu-item-1093 a,#menu-item-716 a,#menu-item-880 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
@@ -78,7 +80,7 @@
 
 	if($(".directors")[0] != undefined) {
 
-			$("#menu-item-83 a,#menu-item-757 a,#menu-item-877 a").css({
+			$("#menu-item-1090 a,#menu-item-757 a,#menu-item-877 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"
@@ -89,7 +91,7 @@
 
 	if($(".blog")[0] != undefined) {
 
-			$("#menu-item-96 a,#menu-item-787 a,#menu-item-878 a").css({
+			$("#menu-item-1089 a,#menu-item-787 a,#menu-item-878 a").css({
 
 				"color":"#FFA65E",
 				"font-family":"brandon_grotesquebold"

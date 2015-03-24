@@ -1,16 +1,5 @@
 .contact{
 
-		a{
-		color:#FFA65E;
-		font-family:"brandon_grotesquebold";
-		text-decoration: none;
-
-		&:hover{
-			color:#FFA65E;
-			font-family:"brandon_grotesquebold";
-			text-decoration: none;
-		}
-	}
 
 	.ContactHeader{
 	/*background-image: url("images/Screens/contact.jpg");*/
@@ -248,6 +237,13 @@
 	.name_lower {
 		padding-top: 20px;
 		font-size: 1em;
+
+		&:hover{
+			cursor: pointer;
+			color:#FFA65E;
+			font-family:"brandon_grotesquebold";
+			text-decoration: none !important;
+		}
 	}
 
 }

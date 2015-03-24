@@ -100,11 +100,14 @@ body{
 	padding-right: 200px;
 	text-align: center;
 	padding-bottom: 50px;
+}
 
-	a{
-		color:"#FFA65E" !important;
-		font-family:"brandon_grotesquebold";
-	}
+.p_content_wordpress p a{
+
+		color:#FFA65E;
+		text-decoration: none;
+		font-family: 'brandon_grotesquebold';
+	
 }
 
 .text_single{
@@ -188,14 +191,15 @@ body{
 }
 
 a{
-	text-decoration: none;
+	text-decoration: none !important;
+
 }
 
 
 
 /*-----------------------------------------------------RESPONSIVE-----------------------------------------------------------------------*/
 
-@media(min-width: 1500px) and (max-width: 3000px){
+@media(min-width: 1450px) and (max-width: 3000px){
 
 	header{
 
@@ -429,7 +433,7 @@ a{
 
 .information_works{
 	
-	padding-top:27%;
+	padding-top:26%;
 	position:relative;
 
 	.header_works_text{

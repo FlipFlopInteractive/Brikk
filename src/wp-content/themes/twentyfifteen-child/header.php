@@ -12,16 +12,6 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-25551685-1', 'auto');
-ga('send', 'pageview');
-</script>
-
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -34,6 +24,18 @@ ga('send', 'pageview');
 	<![endif]-->
 	<!--<script>(function(){document.documentElement.className='js'})();</script>-->
 
+
+  <script> 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
+
+ga('create', 'UA-25551685-1', 'auto'); 
+ga('send', 'pageview'); 
+
+</script>
+
 	<?php wp_head(); ?>
 </head>
 
@@ -44,9 +46,11 @@ ga('send', 'pageview');
     <header id="header">
 
       <div id="wrapper_logo">
-          <a href="./home"><img class="logo_static" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animatieLogoStatic.jpg"/></a>
-          <a href="./home"><img class="logo_animation" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animateLogo.gif"/></a>
-          <a href="./home"><img class="logo_brikk_fixed" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikkLogoFixed.jpg"/></a>
+          <a href="<?php echo get_bloginfo('url'); ?>" target="_self">
+            <img class="logo_static" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animatieLogoStatic.jpg"/>
+            <img class="logo_animation" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/animateLogo.gif"/>
+            <img class="logo_brikk_fixed" alt="Brikk producion company" title="Brikk Produktionsbolag i stockholm" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/brikkLogoFixed.jpg"/>
+          </a>
           <!-- <a href="./home"><img class="logo_animate" alt="logo" title="logo" src="<?php echo get_child_template_directory_uri(); ?>/images/logo/logo_animation_home.gif"/></a> -->
       </div>
     

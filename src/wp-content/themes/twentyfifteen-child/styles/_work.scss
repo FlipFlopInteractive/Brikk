@@ -1,18 +1,5 @@
 .work{
 
-		a{
-		color:#FFA65E;
-		font-family:"brandon_grotesquebold";
-		text-decoration: none;
-
-		&:hover{
-			color:#FFA65E;
-			font-family:"brandon_grotesquebold";
-			text-decoration: none;
-		}
-	}
-
-
 .row h2{
 	margin-top: 0px;
 }
@@ -179,7 +166,7 @@
 
 .information_works{
 	
-	padding-top:27%;
+	padding-top:26%;
 	position:relative;
 
 	.header_works_text{
@@ -230,10 +217,10 @@
 			color: $font-color;
 			text-transform: uppercase;
 			cursor: pointer;
+		}
 
-			&:hover{
-				color:#FFA65E;
-				font-family: 'brandon_grotesquebold';
-			}
+		li:hover{
+				color:#FFA65E !important;
+				font-family: 'brandon_grotesquebold' !important;
 		}
 }
