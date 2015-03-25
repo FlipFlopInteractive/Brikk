@@ -232,8 +232,6 @@ function get_page_title( $post_id ){
 
 	return $html;
 }
-
-
 function get_all_cases( $classes ){
 
 	$html  = '';
@@ -289,7 +287,6 @@ function get_all_cases( $classes ){
 
 	return $html;
 }
-
 function get_case_vimeo( $case_id ){
 
 	$html = '';
@@ -303,7 +300,6 @@ function get_case_vimeo( $case_id ){
 
 	return $html;
 }
-
 function get_showreel_vimeo($showreel_id){
 
 	$html = '';
@@ -318,8 +314,6 @@ function get_showreel_vimeo($showreel_id){
 	return $html;
 
 }
-
-
 function get_case_stills( $case_id, $classes ){
 
 	$html = '';
@@ -339,10 +333,7 @@ function get_case_stills( $case_id, $classes ){
 
 	return $html;
 }
-
 function get_case_extra_movies($case_extra_movies_id){
-
-
 	$html = '';
 
 	$case_extra_movies = simple_fields_fieldgroup( 'case_extra_movies', $post_id);
@@ -361,10 +352,7 @@ function get_case_extra_movies($case_extra_movies_id){
 	}
 
 	return $html;
-
-
 }
-
 function get_case_detail_information($case_detail_id){
 
 
@@ -383,8 +371,6 @@ function get_case_detail_information($case_detail_id){
 
 
 }
-
-
 function get_contact_faces($post_id){
 
 
@@ -435,21 +421,3 @@ function get_contact_faces($post_id){
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
