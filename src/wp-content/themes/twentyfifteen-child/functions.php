@@ -91,16 +91,28 @@ function twentyfifteen_child_scripts() {
 		'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'twentyfifteen' ) . '</span>',
 	) );
 
-	// Load javascript libraries (i.e. jQuery, Headroom.js, etc.)
-
-	wp_enqueue_script('javascript-libraries', get_child_template_directory_uri() . '/js/vendor/jquery-1.8.1.min.js', array(), '1.0.0', TRUE);
-
-	// Load custom javascript scripts
-	wp_enqueue_script('custom-scripts', get_child_template_directory_uri() . '/js/app.min.js', array(), '1.0.0', TRUE);
-	wp_enqueue_script('custom-scripts', get_child_template_directory_uri() . '/js/map.min.js', array(), '1.0.0', TRUE);
-
+	// Load javascript libraries (i.e. vendor scripts, custom scripts, etc.)
+	wp_enqueue_script( 'vendor-scripts', get_child_template_directory_uri() . '/js/libs.min.js', array(), '20150715', true );
+	wp_enqueue_script( 'google-maps-scripts', 'https://maps.googleapis.com/maps/api/js', array(), '20150715', true );
+	wp_enqueue_script( 'custom-scripts', get_child_template_directory_uri() . '/js/scripts.min.js', array(), '20150715', true );
 }
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_child_scripts' );
+
+
+/**
+ * enable livereload on localhost
+ */
+function livereload() {
+
+	if( in_array( $_SERVER[ 'REMOTE_ADDR' ], array( '127.0.0.1', '::1' ))){
+
+		wp_enqueue_script( 'livereload', 'http://localhost:35729/livereload.js?snipver=1', NULL, FALSE, TRUE );
+		wp_enqueue_script( 'livereload' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'livereload' );
+
+
 
 
 function change_post_menu_label() {
@@ -112,6 +124,9 @@ function change_post_menu_label() {
 	$submenu[ 'edit.php' ][ 10 ][ 0 ] = 'Add cases';
 }
 add_action( 'admin_init', 'change_post_menu_label' );
+
+
+
 
 function change_post_object_label() {
 	
@@ -131,27 +146,13 @@ function change_post_object_label() {
 add_action( 'admin_init', 'change_post_object_label' );
 
 
-/**
- * enable livereload on localhost
- */
-function livereload() {
-
-	if( in_array( $_SERVER[ 'REMOTE_ADDR' ], array( '127.0.0.1', '::1' ))){
-
-		wp_register_script( 'livereload', 'http://localhost:35729/livereload.js?snipver=1', NULL, FALSE, TRUE );
-		wp_enqueue_script( 'livereload' );
-	}
-}
-add_action( 'wp_enqueue_scripts', 'livereload' );
-
-
 
 function get_page_heading_title( $post_id ){
 
 
 	$html = '';
 
-	$html .='<div class="VimeoHeader">';
+	$html .='<div class="VimeoHeader" data-ratio="8x3" data-baseline="20">';
 
 
 	if( simple_fields_fieldgroup( 'heading_title', $post_id )){
@@ -161,17 +162,11 @@ function get_page_heading_title( $post_id ){
 		$html .= '</div>';
 	}
 
-
-	$html .='<div class="background_wrapper">';
-
 	if( simple_fields_fieldgroup( 'vimeo_heading', $post_id )){
 
-		$html .= '<div class="embed-responsive embed-responsive-16by9">';
-		$html .= '<iframe class="embed-responsive-item" src="//player.vimeo.com/video/' . substr( parse_url( simple_fields_fieldgroup( 'vimeo_heading', $post_id ), PHP_URL_PATH ), 1 ) . '?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autoplay=1&amp;loop=1&amp;color=00D8D8&amp;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
-		$html .= '</div>';
+		$html .= sprintf( '<div class="background_wrapper" data-clip="%s"></div>', simple_fields_fieldgroup( 'vimeo_heading', $post_id ));
 	}
 
-	$html .='</div>';
 	$html .='</div>';
 
 

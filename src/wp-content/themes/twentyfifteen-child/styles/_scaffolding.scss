@@ -1,13 +1,12 @@
 body {
-	
-	background: #fafaf9;
 
+	background: #fafaf9;
+	-webkit-font-smoothing: subpixel-antialiased;
+	
 	&:before {
 
 		width: auto;
 	}
-
-
 }
 
 #post-21{

@@ -110,12 +110,16 @@ module.exports = function(grunt) {
 			},
 			development: [
 				'Gruntfile.js',
+				'<%= package.src %>/js/scripts.js'
 			]
 		},
 
 		bower_concat: {
 			development: {
 				dest: '<%= package.dist %>/js/libs.js',
+				exclude: [
+					'jquery'
+				],
 				dependencies: {},
 			}
 		},
@@ -123,9 +127,8 @@ module.exports = function(grunt) {
 		uglify: {
 			production: {
 				files: {
-					'<%= package.dist %>/js/app.min.js': '<%= package.dist %>/js/app.js',
 					'<%= package.dist %>/js/libs.min.js': '<%= package.dist %>/js/libs.js',
-					'<%= package.dist %>/js/map.min.js': '<%= package.dist %>/js/map.js',
+					'<%= package.dist %>/js/scripts.min.js': '<%= package.dist %>/js/scripts.js',
 				}
 			}
 		},
@@ -181,6 +184,7 @@ module.exports = function(grunt) {
 		'prepare:icons',
 		'jshint:development',
 		'bower_concat:development',
+		'uglify:production',
 	]);
 
 	grunt.registerTask( 'development', [

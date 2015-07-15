@@ -15,13 +15,13 @@
 
     <section class="footer">
 	
-	<div class="social_logos">
-		<a href="https://vimeo.com/brikk" target="_blank"><img class="social" alt="logo vimeo" title="logo vimeo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/vimeo.svg"/></a>
-		<a href="https://www.facebook.com/brikk.se" target="_blank"><img class="social" alt="logo facebook" title="logo facebook" src="<?php echo get_child_template_directory_uri(); ?>/images/social/facebook.svg"/></a>
-		<a href="https://dribbble.com/BRIKK" target="_blank"><img class="social" alt="logo dribbble" title="logo dribbble" src="<?php echo get_child_template_directory_uri(); ?>/images/social/dribble.svg"/></a>
-		<a href="https://www.linkedin.com/company/2818774?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A2994728381425290837835%2CVSRPtargetId%3A2818774%2CVSRPcmpt%3Acompanies_cluster" target="_blank"><img class="social" alt="logo linkedin" title="logo linkedin" src="<?php echo get_child_template_directory_uri(); ?>/images/social/linkedin.svg"/></a>
-		<a href="https://www.behance.net/brikk" target="_blank"><img class="social" alt="logo behance" title="logo behance" src="<?php echo get_child_template_directory_uri(); ?>/images/social/behance.svg"/></a>
-	</div>
+		<div class="social_logos">
+			<a href="https://vimeo.com/brikk" target="_blank"><img class="social" alt="logo vimeo" title="logo vimeo" src="<?php echo get_child_template_directory_uri(); ?>/images/social/vimeo.svg"/></a>
+			<a href="https://www.facebook.com/brikk.se" target="_blank"><img class="social" alt="logo facebook" title="logo facebook" src="<?php echo get_child_template_directory_uri(); ?>/images/social/facebook.svg"/></a>
+			<a href="https://dribbble.com/BRIKK" target="_blank"><img class="social" alt="logo dribbble" title="logo dribbble" src="<?php echo get_child_template_directory_uri(); ?>/images/social/dribble.svg"/></a>
+			<a href="https://www.linkedin.com/company/2818774?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A2994728381425290837835%2CVSRPtargetId%3A2818774%2CVSRPcmpt%3Acompanies_cluster" target="_blank"><img class="social" alt="logo linkedin" title="logo linkedin" src="<?php echo get_child_template_directory_uri(); ?>/images/social/linkedin.svg"/></a>
+			<a href="https://www.behance.net/brikk" target="_blank"><img class="social" alt="logo behance" title="logo behance" src="<?php echo get_child_template_directory_uri(); ?>/images/social/behance.svg"/></a>
+		</div>
 
       <a itemprop="email" href="mailto:post@brikk.se"><p>post@brikk.se</p></a>
       <p itemprop="company">Brikk Animation och Film AB   Pryssgränd 10B   118 20 Stockholm</p>
@@ -29,12 +29,8 @@
 
     </section>
 </div>
-
 	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKy45RzdHPBl29dsl1iAlWEeiImfBE_4"></script>
-<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/app.min.js"></script>
-<script type="text/javascript" src="<?php echo get_child_template_directory_uri(); ?>/js/map.min.js"></script>
+<?php wp_footer(); ?>
 
 </body>
 </html>
