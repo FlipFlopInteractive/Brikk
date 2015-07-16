@@ -164,7 +164,11 @@ module.exports = function(grunt) {
 				},
 				src: '<%= package.dist %>',
 				dest: './acceptance/wp-content/themes/twentyfifteen-child/',
-				exclusions: [ '<%= package.dist %>/**/.DS_Store' ]
+				exclusions: [ 
+					'<%= package.dist %>/**/.DS_Store',
+					'<%= package.dist %>/fonts/**/*.*',
+					'<%= package.dist %>/images/**/*.*',
+				]
 			},
 		}
 	});
@@ -209,6 +213,6 @@ module.exports = function(grunt) {
 	grunt.registerTask( 'acceptance', [
 
 		'prepare:acceptance',
-		// 'ftp-deploy:acceptance',
+		'ftp-deploy:acceptance',
 	]);
 };

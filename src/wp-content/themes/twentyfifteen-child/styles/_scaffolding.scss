@@ -1,7 +1,6 @@
 body {
 
 	background: #fafaf9;
-	-webkit-font-smoothing: subpixel-antialiased;
 	
 	&:before {
 
@@ -30,4 +29,149 @@ body {
 
 .site-main {
 	padding: 0;
+}
+
+
+body{
+	
+	font-family: 'brandon_grotesque_regularRg';
+	width: 100%;
+	background-color: $background-color;
+	box-sizing:border-box;
+
+	::selection {
+  	background: #FFA65E; /* WebKit/Blink Browsers */
+}
+
+}
+
+#container{
+	
+	margin: auto;
+	width: 100%;
+	overflow-x:hidden;
+	position: relative;
+}
+
+
+.text_titles{
+	text-align: center;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: 'brandon_grotesquebold';
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color:$font-color;	
+}
+
+.text_titles:first-child{
+	padding-top: 50px;
+}
+
+.p_content_wordpress{
+	margin: 0px;
+	padding: 0px;
+}
+
+.p_content_wordpress p{
+	font-family: 'brandon_grotesquelight';
+	font-size: 1.3em;
+	width: 100%;
+	padding-left: 200px;
+	padding-right: 200px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.p_content_wordpress p a{
+
+		color:#FFA65E;
+		text-decoration: none;
+		font-family: 'brandon_grotesquebold';
+	
+}
+
+.text_single{
+	
+	text-align: center;
+	font-family: 'brandon_grotesquebold';
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: $font-color;
+	margin-top: 100px;
+}
+
+.row p{
+	text-align: center;
+	font-family: 'brandon_grotesquelight';
+	font-size: 1.6em;
+	margin-bottom: 50px;
+	color: $font-color;
+}
+
+.single_the_content{
+	margin-top: -30px;
+}
+
+.row h2{
+	margin-top: 50px;
+}
+
+.information_detail p{
+	font-family: 'brandon_grotesquelight';
+	color: $font-color;
+	font-size: 1.2em;
+}
+
+.information_detail strong{
+			
+	font-family: 'brandon_grotesquebold';
+	color: $font-color;
+	font-size: 1.2em;
+	font-weight: normal;
+
+}
+
+.detailGrid{
+	width: 50%;
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.stills_from_project{
+	margin-top: 70px;
+	text-align: center;
+	font-family: 'brandon_grotesquebold';
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: $font-color;
+
+	h2{
+		margin-bottom: -20px;
+	}
+}
+
+.row img{
+	margin-bottom: 5px;
+}
+
+.extra_movies iframe{
+		width: 1160px;
+		height: 647px;		
+}
+
+.extra_movies p{
+	font-family: 'brandon_grotesquebold';
+	color: $font-color;
+	font-size: 1.3em;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;	
+	margin-top: 50px;
+}
+
+a{
+	text-decoration: none !important;
 }

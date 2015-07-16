@@ -38,25 +38,26 @@
 
 	.header_text{
 
-		position:absolute;
+		position: absolute;
 		z-index: 80;
-		display: table;
 		width: 100%;
+		top: 50%;
+		left: 0;
+		transform: translateY( -50% );
+		text-align: center;
+		padding: 0 100px;
 
 		h1{
 			
 			font-family: 'brandon_grotesqueblack_italic';
 			color: white;
 			font-size: 5em;
-			height: 400px;
-			padding-left: 100px;
-			padding-right: 100px;
-			text-align: center;
-			text-shadow: 1px 1px 7px rgba(150, 150, 150, 0.55);
-			display: table-cell; 
- 			vertical-align: middle; 
- 			margin: auto;
- 
+			// height: 400px;
+			// padding-left: 100px;
+			// padding-right: 100px;
+			// text-align: center;
+			// display: table-cell; 
+ 			// vertical-align: middle;
 		}
 	}
 }
