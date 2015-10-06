@@ -24,13 +24,25 @@ get_header(); ?>
 
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 col-md-12">
-						<h2 class="text_single"><?php the_title(); ?></h2>
-								<?php the_content(); ?>
-
-							<?php echo get_case_detail_information($case_detail_id->ID); ?>
-
-							<h2 class="stills_from_project">stills from project</h2>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<?php the_title( '<h2 class="text_single">', '</h2>' ); ?>
+						<?php the_content(); ?>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<?php printf( '<h3>%s</h3>', __( 'CREDITS', 'twentyfifteen' )); ?>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1"></div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-11">
+						<div class="row">
+							<?php echo get_case_detail_information( $case_detail_id->ID ); ?>	
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<?php printf( '<h3>%s</h3>', __( 'STILLS FROM PROJECT', 'twentyfifteen' )); ?>
 					</div>
 				</div>
 			</div>

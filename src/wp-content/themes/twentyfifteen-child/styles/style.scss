@@ -12,43 +12,44 @@
 
 
 /* Core variables and mixins */
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss';
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations.scss';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations';
 
 /* Dependencies */
-@import '_fonts.scss';
-@import '_icons.scss';
+@import '_fonts';
+@import '_icons';
 
 /* Overwrite and extend variables */
-@import '_variables.scss';
+@import '_variables';
 
 /* Core CSS */
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss';
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss';
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss';
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms';
 
 /* Overwrite core CSS */
-@import '_scaffolding.scss';
+@import '_scaffolding';
 
 /* Custom CSS */
-@import '_header.scss';
-@import '_home.scss';
-@import '_showreel.scss';
-@import '_footer.scss';
-@import '_about.scss';
-@import '_work.scss';
-@import '_contact.scss';
-@import '_detailcase.scss';
-@import '_directors.scss';
-@import '_responsive.scss';
-@import '_blog.scss';
+@import '_header';
+@import '_home';
+@import '_showreel';
+@import '_footer';
+@import '_about';
+@import '_work';
+@import '_contact';
+@import '_detailcase';
+@import '_directors';
+@import '_responsive';
+@import '_blog';
+@import '_single';
 
 /* Components */
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs.scss';
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar.scss';
-@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed.scss';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar';
+@import './bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed';
 
 
 

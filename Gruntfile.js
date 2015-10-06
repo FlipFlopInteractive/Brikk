@@ -156,14 +156,28 @@ module.exports = function(grunt) {
 		},
 
 		'ftp-deploy': {
-			acceptance: {
+			// acceptance: {
+			// 	auth: {
+			// 		host: 'ftp.brikk.se',
+			// 		port: 21,
+			// 		authKey: 'credentials',
+			// 	},
+			// 	src: '<%= package.dist %>',
+			// 	dest: './acceptance/wp-content/themes/twentyfifteen-child/',
+			// 	exclusions: [ 
+			// 		'<%= package.dist %>/**/.DS_Store',
+			// 		'<%= package.dist %>/fonts/**/*.*',
+			// 		'<%= package.dist %>/images/**/*.*',
+			// 	]
+			// },
+			production: {
 				auth: {
-					host: 'ftp.brikk.se',
+					host: 'ftp.brikk.hemsida.eu',
 					port: 21,
-					authKey: 'acceptance',
+					authKey: 'credentials',
 				},
 				src: '<%= package.dist %>',
-				dest: './acceptance/wp-content/themes/twentyfifteen-child/',
+				dest: './public_html/wp-content/themes/twentyfifteen-child/',
 				exclusions: [ 
 					'<%= package.dist %>/**/.DS_Store',
 					'<%= package.dist %>/fonts/**/*.*',
@@ -214,5 +228,11 @@ module.exports = function(grunt) {
 
 		'prepare:acceptance',
 		'ftp-deploy:acceptance',
+	]);
+
+	grunt.registerTask( 'production', [
+
+		'prepare:acceptance',
+		'ftp-deploy:production',
 	]);
 };

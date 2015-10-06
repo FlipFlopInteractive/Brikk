@@ -348,24 +348,30 @@ function get_case_extra_movies($case_extra_movies_id){
 
 	return $html;
 }
-function get_case_detail_information($case_detail_id){
 
+
+function get_case_detail_information( $case_id ){
 
 	$html = '';
 
-	$detailInformation = simple_fields_fieldgroup( 'case_detail_information', $case_detail_id );
+	$details = simple_fields_fieldgroup( 'case_detail_information', $case_id );
 
-		if( simple_fields_fieldgroup( 'case_detail_information', $case_detail_id )){
+	if( $details ){
 
-		$html .= '<div class="information_detail">';
-		$html .= simple_fields_fieldgroup( 'case_detail_information', $case_detail_id );
-		$html .= '</div>';
+		foreach( $details as $detail ){
+
+			$html .= '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">';
+			$html .= '<div class="information_detail">';
+			$html .= $detail;
+			$html .= '</div>';
+			$html .= '</div>';
+		}
 	}
 
 	return $html;
-
-
 }
+
+
 function get_contact_faces($post_id){
 
 
